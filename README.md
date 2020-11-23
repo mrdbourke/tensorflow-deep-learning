@@ -17,6 +17,11 @@ This means we write code first then step through the concepts behind it.
 
 If you've got 6-months experience writing Python code, you'll be able to do the course.
 
+TODO: tailor this to DL course
+1. Create a framework for working through problems (6 step machine learning modelling framework)
+2. Find tools to fit the framework
+3. Targeted practice = use tools and framework steps to work on end-to-end machine learning modelling projects
+
 TODO: outcomes of the course (e.g. how does it benefit a student?... don't worry about the features, benefits are more important...)
 
 ## Course materials
