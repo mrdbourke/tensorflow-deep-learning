@@ -30,7 +30,11 @@ TODO: add course materials
 
 ### Data
 
+TODO: add links to data
+
 ### Slides
+
+TODO: add links/slides for each different section
 
 ## Exercises
 
