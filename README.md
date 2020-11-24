@@ -2,7 +2,8 @@
 
 # Status (24 Nov 2020):
 
-* Finished 09/10 notebook code (time series still to come)
+* Finished 09/10 of the notebooks (time series still to come)
+* Going to make slides/polish each notebook (00, 01, 02... etc) and record videos sequentially
 
 **TODO**
 * Make slides for lectures
