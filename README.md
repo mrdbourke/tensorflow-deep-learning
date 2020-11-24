@@ -43,9 +43,12 @@ TODO: outcomes of the course (e.g. how does it benefit a student?... don't worry
 
 TODO: add course materials
 
+* 00 - TensorFlow Basics
+
 ### Data
 
 TODO: add links to data
+* some of (most of) the data for the course is too big to host on GitHub, going to use Dropbox/Kaggle etc (Google Storage too expensive for transfer times)
 
 ### Slides
 
