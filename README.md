@@ -1,6 +1,6 @@
-NOTE: this readme is a work in progress & will be updated as more materials are built...
+**NOTE:** this readme is a work in progress & will be updated as more materials are built...
 
-# Zero to Mastery Deep Learning with TensorFlow
+# Zero to Mastery Deep Learning with TensorFlow (coming soon, stay tuned for updates) 
 All of the course materials for the Zero to Mastery Deep Learning with TensorFlow course.
 
 ## TODO - Course structure
@@ -44,7 +44,7 @@ TODO: link to exercises
 
 To prevent the course from being 100+ hours (deep learning is a broad field), various external resources for different sections are recommended to puruse under your own discrestion.
 
-TODO: link external
+TODO: link external resources & curriculum
 
 ## Get Help
 
