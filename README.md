@@ -1,5 +1,19 @@
-**NOTE:** this readme is a work in progress & will be updated as more materials are built...
+**NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
+# Status (24 Nov 2020):
+
+* Finished 09/10 notebook code (time series still to come)
+
+**TODO**
+* Make slides for lectures
+* Make videos of notebooks/code/concepts
+* Upload solutions for exercises (probably livestream the creation of these)
+* Polish GitHub readme (what you're reading now) with extra resources:
+  * data links used in course
+  * extra resources & curriculum
+  * what will someone leave with after going through this course?
+  
+---
 # Zero to Mastery Deep Learning with TensorFlow (coming soon, stay tuned for updates) 
 All of the course materials for the Zero to Mastery Deep Learning with TensorFlow course.
 
@@ -48,7 +62,4 @@ TODO: link external resources & curriculum
 
 ## Get Help
 
-TODO: contact Daniel Bourke or leave a pull request
-
-
-
+TODO: contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or leave a pull request
