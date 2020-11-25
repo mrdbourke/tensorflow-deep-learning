@@ -1,13 +1,16 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-# Status (24 Nov 2020):
+# Status (25 Nov 2020):
 
+* 95% done on slides for "00 Intro to TensorFlow & Deep Learning"... looks like I'll make one set of slides per notebook... easier to track
 * Finished 09/10 of the notebooks (time series still to come)
 * Going to make slides/polish each notebook (00, 01, 02... etc) and record videos sequentially
 
-**TODO**
+**TODO (geez... I forgot how much there was still to go... classic project planning**
+* What are the prerequisites for this bad body? (6 months Python... any beginner machine learning course)
 * Make slides for lectures
 * Make videos of notebooks/code/concepts
+* Make Colab overview video (Colab is the tool we'll be using for the whole course)
 * Upload solutions for exercises (probably livestream the creation of these)
 * Polish GitHub readme (what you're reading now) with extra resources:
   * data links used in course
