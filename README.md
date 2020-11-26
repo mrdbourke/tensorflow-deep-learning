@@ -4,7 +4,7 @@
 
 * Finished slides for notebok 00 (intro to tensorflow)
 * Polished notebook 00 for video recording (to come)
-* Onto slides/
+* Onto slides/notebook 01
 * Finished 09/10 of the notebooks (time series still to come)
 
 ## Next/TODO:
