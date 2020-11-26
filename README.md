@@ -1,12 +1,18 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-# Status (25 Nov 2020):
+# Status (26 Nov 2020):
 
-* 95% done on slides for "00 Intro to TensorFlow & Deep Learning"... looks like I'll make one set of slides per notebook... easier to track
+* Finished slides for notebok 00 (intro to tensorflow)
+* Polished notebook 00 for video recording (to come)
+* Onto slides/
 * Finished 09/10 of the notebooks (time series still to come)
+
+## Next/TODO:
 * Going to make slides/polish each notebook (00, 01, 02... etc) and record videos sequentially
 
 **TODO (geez... I forgot how much there was still to go... classic project planning**
+* Make a GitHub Project for course (see "Projects" tab)
+* Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt))
 * What are the prerequisites for this bad body? (6 months Python... any beginner machine learning course)
 * Make slides for lectures
 * Make videos of notebooks/code/concepts
@@ -67,6 +73,6 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 TODO: link external resources & curriculum
 
-## Get Help
+## Get Help/Offer Help
 
 TODO: contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or leave a pull request
