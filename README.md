@@ -1,6 +1,24 @@
-NOTE: this readme is a work in progress & will be updated as more materials are built...
+**NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-# Zero to Mastery Deep Learning with TensorFlow
+# Status (25 Nov 2020):
+
+* 95% done on slides for "00 Intro to TensorFlow & Deep Learning"... looks like I'll make one set of slides per notebook... easier to track
+* Finished 09/10 of the notebooks (time series still to come)
+* Going to make slides/polish each notebook (00, 01, 02... etc) and record videos sequentially
+
+**TODO (geez... I forgot how much there was still to go... classic project planning**
+* What are the prerequisites for this bad body? (6 months Python... any beginner machine learning course)
+* Make slides for lectures
+* Make videos of notebooks/code/concepts
+* Make Colab overview video (Colab is the tool we'll be using for the whole course)
+* Upload solutions for exercises (probably livestream the creation of these)
+* Polish GitHub readme (what you're reading now) with extra resources:
+  * data links used in course
+  * extra resources & curriculum
+  * what will someone leave with after going through this course?
+  
+---
+# Zero to Mastery Deep Learning with TensorFlow (coming soon, stay tuned for updates) 
 All of the course materials for the Zero to Mastery Deep Learning with TensorFlow course.
 
 ## TODO - Course structure
@@ -28,9 +46,16 @@ TODO: outcomes of the course (e.g. how does it benefit a student?... don't worry
 
 TODO: add course materials
 
+* 00 - TensorFlow Basics
+
 ### Data
 
+TODO: add links to data
+* some of (most of) the data for the course is too big to host on GitHub, going to use Dropbox/Kaggle etc (Google Storage too expensive for transfer times)
+
 ### Slides
+
+TODO: add links/slides for each different section
 
 ## Exercises
 
@@ -40,11 +65,8 @@ TODO: link to exercises
 
 To prevent the course from being 100+ hours (deep learning is a broad field), various external resources for different sections are recommended to puruse under your own discrestion.
 
-TODO: link external
+TODO: link external resources & curriculum
 
 ## Get Help
 
-TODO: contact Daniel Bourke or leave a pull request
-
-
-
+TODO: contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or leave a pull request
