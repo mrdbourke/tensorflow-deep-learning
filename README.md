@@ -1,7 +1,10 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
+the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
+
 # Status (26 Nov 2020):
 
+* Created GitHub Project Page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
 * Finished slides for notebok 00 (intro to tensorflow)
 * Polished notebook 00 for video recording (to come)
 * Onto slides/notebook 01
