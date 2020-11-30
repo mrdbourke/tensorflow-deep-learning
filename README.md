@@ -2,19 +2,18 @@
 
 the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
 
-# Status (26 Nov 2020):
+# Status (1 Dec 2020):
 
 * Created GitHub Project Page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
-* Finished slides for notebok 00 (intro to tensorflow)
-* Polished notebook 00 for video recording (to come)
-* Onto slides/notebook 01
-* Finished 09/10 of the notebooks (time series still to come)
+* Finished slides for notebooks: 00, 01
+* Polished (prepared them for external use) notebooks: 00, 01
+* Finished 09/10 of code notebooks (time series still to come)
 
 ## Next/TODO:
 * Going to make slides/polish each notebook (00, 01, 02... etc) and record videos sequentially
 
 **TODO (geez... I forgot how much there was still to go... classic project planning**
-* Make a GitHub Project for course (see "Projects" tab)
+* Make a GitHub Project for course (see "Projects" tab) ✅
 * Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt))
 * What are the prerequisites for this bad body? (6 months Python... any beginner machine learning course)
 * Make slides for lectures
@@ -25,6 +24,10 @@ the repo may look rough at the moment.. but give her a month or so (maybe a litt
   * data links used in course
   * extra resources & curriculum
   * what will someone leave with after going through this course?
+  
+**Log**
+* 27 Nov 2020 - polished notebook 01, made slides for notebook 01
+* 26 Nov 2020 - polished notebook 00, made slides for notebook 00
   
 ---
 # Zero to Mastery Deep Learning with TensorFlow (coming soon, stay tuned for updates) 
