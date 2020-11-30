@@ -15,7 +15,9 @@ the repo may look rough at the moment.. but give her a month or so (maybe a litt
 **TODO (geez... I forgot how much there was still to go... classic project planning**
 * Make a GitHub Project for course (see "Projects" tab) ✅
 * Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt))
-* What are the prerequisites for this bad body? (6 months Python... any beginner machine learning course)
+* What are the prerequisites for this bad body? 
+  * 6 months Python plus familiarity with data analysis libraries like NumPy, matplotlib, pandas, Scikit-Learn
+  * Any beginner machine learning course, [this one](https://dbourke.link/ZTMMLcourse) is pretty good though
 * Make slides for lectures
 * Make videos of notebooks/code/concepts
 * Make Colab overview video (Colab is the tool we'll be using for the whole course)
