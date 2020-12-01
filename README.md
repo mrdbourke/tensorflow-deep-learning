@@ -10,7 +10,7 @@ the repo may look rough at the moment.. but give her a month or so (maybe a litt
 * Finished 09/10 of code notebooks (time series still to come)
 
 ## Next/TODO:
-* Going to make slides/polish each notebook (00, 01, 02... etc) and record videos sequentially
+* Finish slides and notebooks for 00, 01, 02, then record videos for each 
 
 **TODO (geez... I forgot how much there was still to go... classic project planning**
 * Make a GitHub Project for course (see "Projects" tab) ✅
@@ -28,12 +28,13 @@ the repo may look rough at the moment.. but give her a month or so (maybe a litt
   * what will someone leave with after going through this course?
   
 **Log**
+* 01 Dec 2020 - added notebook 02 (90% polished), start preparing slides for 02
 * 27 Nov 2020 - polished notebook 01, made slides for notebook 01
 * 26 Nov 2020 - polished notebook 00, made slides for notebook 00
   
 ---
 # Zero to Mastery Deep Learning with TensorFlow (coming soon, stay tuned for updates) 
-All of the course materials for the Zero to Mastery Deep Learning with TensorFlow course.
+All of the course materials for the [Zero to Mastery](https://zerotomastery.io/) Deep Learning with TensorFlow course.
 
 ## TODO - Course structure
 
