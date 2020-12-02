@@ -2,17 +2,17 @@
 
 the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
 
-# Status (1 Dec 2020):
+# Status (2 Dec 2020):
 
+* Currently polishing/preparing slides for notebook 02, once 00, 01, 02 are done, I'll record videos for them
 * Created GitHub Project Page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
 * Finished slides for notebooks: 00, 01
 * Polished (prepared them for external use) notebooks: 00, 01
 * Finished 09/10 of code notebooks (time series still to come)
 
 ## Next/TODO:
-* Finish slides and notebooks for 00, 01, 02, then record videos for each 
+geez... I forgot how much there was still to go... classic project planning
 
-**TODO (geez... I forgot how much there was still to go... classic project planning**
 * Make a GitHub Project for course (see "Projects" tab) ✅
 * Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt))
 * What are the prerequisites for this bad body? 
@@ -28,6 +28,7 @@ the repo may look rough at the moment.. but give her a month or so (maybe a litt
   * what will someone leave with after going through this course?
   
 **Log**
+* 02 Dec 2020 - notebook 02 95% done, slides for 02 90% done
 * 01 Dec 2020 - added notebook 02 (90% polished), start preparing slides for 02
 * 27 Nov 2020 - polished notebook 01, made slides for notebook 01
 * 26 Nov 2020 - polished notebook 00, made slides for notebook 00
