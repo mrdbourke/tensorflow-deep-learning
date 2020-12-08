@@ -2,9 +2,11 @@
 
 the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
 
-# Status (3 Dec 2020):
+# Status (8 Dec 2020):
 
-* Currently: setting up recording studio for video recording
+* Currently: recording videos for 00 (90% done)
+* Video count: 20/~200, aiming to do ~10 videos per day during recording sessions
+* Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
 * Created GitHub Project Page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
 * Finished slides for notebooks: 00, 01, 02
 * Polished (prepared them for external use) notebooks: 00, 01, 02
@@ -28,6 +30,9 @@ geez... I forgot how much there was still to go... classic project planning
   * what will someone leave with after going through this course?
   
 **Log**
+* 08 Dec 2020 - recorded 90% of videos for 00
+* 05 Dec 2020 - trialled recording studio for ~6 videos with notebook 00 material
+* 04 Dec 2020 - setup [recording studio in closet](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg)
 * 03 Dec 2020 - finished notebook 02, finished slides for 02, time to setup recording studio
 * 02 Dec 2020 - notebook 02 95% done, slides for 02 90% done
 * 01 Dec 2020 - added notebook 02 (90% polished), start preparing slides for 02
@@ -35,6 +40,7 @@ geez... I forgot how much there was still to go... classic project planning
 * 26 Nov 2020 - polished notebook 00, made slides for notebook 00
   
 ---
+(below here will be filled out as the course develops)
 # Zero to Mastery Deep Learning with TensorFlow (coming soon, stay tuned for updates) 
 All of the course materials for the [Zero to Mastery](https://zerotomastery.io/) Deep Learning with TensorFlow course.
 
