@@ -2,10 +2,10 @@
 
 the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
 
-# Status (9 Dec 2020):
+# Status (15 Dec 2020):
 
-* Currently: about to start recording videos for 01
-* Video count: 27/200+, aiming to do ~10 videos per day during recording sessions
+* Currently: 90% done recording videos for 01, starting 02 tomorrow
+* Video count: 51/200+, aiming to do ~10 videos per day during recording sessions
 * Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
 * Finished videos for: 00
 * Finished slides for notebooks: 00, 01, 02
@@ -33,6 +33,7 @@ geez... I forgot how much there was still to go... classic project planning
   * what will someone leave with after going through this course?
   
 **Log**
+* 15 Dec 2020 - recorded 90% of videos for 01
 * 09 Dec 2020 - finished recording videos for 00
 * 08 Dec 2020 - recorded 90% of videos for 00
 * 05 Dec 2020 - trialled recording studio for ~6 videos with notebook 00 material
