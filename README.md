@@ -2,9 +2,9 @@
 
 the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
 
-# Status (9 Jan 2021):
+# Status (11 Jan 2021):
 
-* Currently: Making materials for 03, 04, 05! (slides & tidying notebooks)
+* Currently: Making materials for 03 (slides & tidying notebooks)... 04, 05 coming soon
 * Video count: 87/200+, aiming to do ~10 videos per day during recording sessions
 * Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
 * Finished videos for: 00, 01, 02
@@ -33,6 +33,7 @@ geez... I forgot how much there was still to go... classic project planning
   * what will someone leave with after going through this course?
   
 **Log**
+* 11 Jan 2021 - reviewed notebook 03, 95% ready for recording, onto slides for 03
 * 9 Jan 2021 - I'm back baby! Finished all videos for 02, now onto slides/materials for 03, 04, 05 (then I'll get back in the lab)
 * 19 Dec 2020 - ON HOLD (family holiday until Jan 02 2021) 
 * 18 Dec 2020 - recorded 75% of videos for 02
@@ -79,7 +80,25 @@ TODO: outcomes of the course (e.g. how does it benefit a student?... don't worry
 
 TODO: add course materials
 
-* 00 - TensorFlow Basics
+could this be in a table form?
+
+e.g.
+
+| Number | Contents | Link | Data | Exercises | Extra-curriculum |
+| ----- |  ----- |  ----- |  ----- |  ----- |  ----- | 
+| 00 | TensorFlow Basics | (insert link) | This points to exercises | And this points to extra-curriculum |
+
+then do the same as above for the rest...
+
+and each section has its own heading:
+
+### 00 - TensorFlow Basics
+
+* What this section contains
+* Exercises
+* Extra curriculum
+
+...obviously the above will be prettier closer to launch
 
 ### Data
 
@@ -100,6 +119,6 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 TODO: link external resources & curriculum
 
-## Get Help/Offer Help
+## Ask questions
 
-TODO: contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or leave a pull request
+TODO: contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) (preferred)
