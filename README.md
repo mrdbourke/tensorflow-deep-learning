@@ -171,7 +171,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ---
 
-### 🛠 03 - Computer vision & convolutional neural networks with TensorFlow Exercises
+### 🛠 03 - Computer vision & convolutional neural networks in TensorFlow Exercises
 
 1. Spend 20-minutes reading and interacting with the [CNN explainer website](https://poloclub.github.io/cnn-explainer/). 
  * What are the key terms? e.g. explain convolution in your own words, pooling in your own words
@@ -182,13 +182,32 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 3. Take 10 photos of two different things and build your own CNN image classifier using the techniques we've built here.
 4. Find an ideal learning rate for a simple convolutional neural network model on your the 10 class dataset.
 
-### 📖 03 - Computer vision & convolutional neural networks with TensorFlow Extra-curriculum
+### 📖 03 - Computer vision & convolutional neural networks in TensorFlow Extra-curriculum
 
 * **Watch:** [MIT's Introduction to Deep Computer Vision](https://www.youtube.com/watch?v=iaSUYvmCekI&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=3) lecture. This will give you a great intuition behind convolutional neural networks.
 * **Watch:** Deep dive on [mini-batch gradient descent](https://youtu.be/-_4Zi8fCZO4) by deeplearning.ai. If you're still curious about why we use **batches** to train models, this technical overview covers many of the reasons why.
 * **Read:** [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) class notes. This will give a very deep understanding of what's going on behind the scenes of the convolutional neural network architectures we're writing. 
 * **Read:** ["A guide to convolution arithmetic for deep learning"](https://arxiv.org/pdf/1603.07285.pdf). This paper goes through all of the mathematics running behind the scenes of our convolutional layers.
 * **Code practice:** [TensorFlow Data Augmentation Tutorial](https://www.tensorflow.org/tutorials/images/data_augmentation). For a more in-depth introduction on data augmentation with TensorFlow, spend an hour or two reading through this tutorial.
+
+---
+
+### 🛠 04 Transfer Learning in TensorFlow Part 1: Feature Extraction Exercises
+
+1. Build and fit a model using the same data we have here but with the MobileNetV2 architecture feature extraction ([`mobilenet_v2_100_224/feature_vector`](https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/4)) from TensorFlow Hub, how does it perform compared to our other models?
+2. Name 3 different image classification models on TensorFlow Hub that we haven't used.
+3. Build a model to classify images of two different things you've taken photos of.
+  * You can use any feature extraction layer from TensorFlow Hub you like for this.
+  * You should aim to have at least 10 images of each class, for example to build a fridge versus oven classifier, you'll want 10 images of fridges and 10 images of ovens.
+4. What is the current best performing model on ImageNet?
+  * Hint: you might want to check [sotabench.com](https://www.sotabench.com) for this.
+
+### 📖 04 Transfer Learning in TensorFlow Part 1: Feature Extraction Extra-curriculum
+
+* Read through the [TensorFlow Transfer Learning Guide](https://www.tensorflow.org/tutorials/images/transfer_learning) and define the main two types of transfer learning in your own words.
+* Go through the [Transfer Learning with TensorFlow Hub tutorial](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub) on the TensorFlow website and rewrite all of the code yourself into a new Google Colab notebook making comments about what each step does along the way.
+* We haven't covered fine-tuning with TensorFlow Hub in this notebook, but if you'd like to know more, go through the [fine-tuning a TensorFlow Hub model tutorial](https://www.tensorflow.org/hub/tf2_saved_model#fine-tuning) on the TensorFlow homepage.How to fine-tune a tensorflow hub model:  
+* Look into [experiment tracking with Weights & Biases](https://www.wandb.com/experiment-tracking), how could you integrate it with our existing TensorBoard logs?
 
 ---
 
