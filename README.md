@@ -2,14 +2,14 @@
 
 the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
 
-# Status (13 Jan 2021):
+# Status (21 Jan 2021):
 
-* **Currently:** Making materials for 04, 05, 06 (slides & tidying notebooks) + cleaning up/adding to the README (what you're reading)
+* **Currently:** Making materials for 06, 07 (slides & tidying notebook) + cleaning up/adding to the README (what you're reading)
 * Video count: 87/200+, aiming to do ~10 videos per day during recording sessions
 * Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
 * Finished videos for: 00, 01, 02
-* Finished slides for notebooks: 00, 01, 02, 03
-* Polished (prepared them for external use) notebooks: 00, 01, 02, 03
+* Finished slides for notebooks: 00, 01, 02, 03, 04, 05
+* Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05
 * Finished 09/10 of code notebooks (time series still to come)
 * Created GitHub Project page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
 * Created GitHub Discussion page! Going to use this for popular QA/course tidbits: https://github.com/mrdbourke/tensorflow-deep-learning/discussions
@@ -33,6 +33,12 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these)
   
 **Log**
+* 21 Jan 2021 - finished slides for 05 & started review of 06
+* 20 Jan 2021 - finished notebook 05 & 95% slides for 05
+* 19 Jan 2021 - found a storage idea for data during course (use Google Storage in same region as Colab Notebooks, cheapest/fastest)
+* 18 Jan 2021 - reviewed notebook 05 & slides for 05
+* 17 Jan 2021 - finished notebook 04 & slides for 04
+* 16 Jan 2021 - review notebook 04 & made slides for transfer learning
 * 13 Jan 2021 - review notebook 03 again & finished slides for 03, BIGGGGG updates to the README, notebook 03 99% done, just need to figure out optimum way to transfer data (e.g. when a student downloads it, where's best to store it in the meantime? Dropbox? S3? ~~GS~~ (too expensive)
 * 11 Jan 2021 - reviewed notebook 03, 95% ready for recording, onto slides for 03
 * 9 Jan 2021 - I'm back baby! Finished all videos for 02, now onto slides/materials for 03, 04, 05 (then I'll get back in the lab)
@@ -86,12 +92,12 @@ could this be in a table form?
 
 e.g.
 
-| Number | Contents | Link | Data | Exercises | Extra-curriculum |
+| Number | Contents | Data | Exercises | Extra-curriculum |
 | ----- |  ----- |  ----- |  ----- |  ----- |  ----- | 
-| 00 | TensorFlow Basics | (insert link) | This points to exercises | And this points to extra-curriculum |
-| 01 | TensorFlow Basics | (insert link) | This points to exercises | And this points to extra-curriculum |
-| 02 | TensorFlow Basics | (insert link) | This points to exercises | And this points to extra-curriculum |
-| 03 | TensorFlow Basics | (insert link) | This points to exercises | And this points to extra-curriculum |
+| 00 | TensorFlow Fundamentals | (insert link) | This points to exercises | And this points to extra-curriculum |
+| 01 | TensorFlow Regression | (insert link) | This points to exercises | And this points to extra-curriculum |
+| 02 | TensorFlow Classification | (insert link) | This points to exercises | And this points to extra-curriculum |
+| 03 | TensorFlow Computer Vision | (insert link) | This points to exercises | And this points to extra-curriculum |
 
 then do the same as above for the rest...
 
