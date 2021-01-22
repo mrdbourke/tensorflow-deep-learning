@@ -92,8 +92,8 @@ could this be in a table form?
 
 e.g.
 
-| Number | Contents | Data | Exercises | Extra-curriculum |
-| ----- |  ----- |  ----- |  ----- |  ----- |  ----- | 
+| Number | Contents | Data/Model | Exercises | Extra-curriculum |
+| ----- |  ----- |  ----- |  ----- |  ----- |
 | 00 | TensorFlow Fundamentals | (insert link) | This points to exercises | And this points to extra-curriculum |
 | 01 | TensorFlow Regression | (insert link) | This points to exercises | And this points to extra-curriculum |
 | 02 | TensorFlow Classification | (insert link) | This points to exercises | And this points to extra-curriculum |
@@ -215,6 +215,22 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 * We haven't covered fine-tuning with TensorFlow Hub in this notebook, but if you'd like to know more, go through the [fine-tuning a TensorFlow Hub model tutorial](https://www.tensorflow.org/hub/tf2_saved_model#fine-tuning) on the TensorFlow homepage.How to fine-tune a tensorflow hub model:  
 * Look into [experiment tracking with Weights & Biases](https://www.wandb.com/experiment-tracking), how could you integrate it with our existing TensorBoard logs?
 
+---
+
+### 🛠 05 Transfer Learning in TensorFlow Part 2: Fine-tuning Exercises
+
+1. Write a function to visualize an image from any dataset (train or test file) and any class (e.g. "steak", "pizza"... etc), visualize it and make a prediction on it using a trained model.
+2. Use feature-extraction to train a transfer learning model on 10% of the Food Vision data for 10 epochs using [`tf.keras.applications.EfficientNetB0`](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetB0) as the base model. Use the [`ModelCheckpoint`](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/ModelCheckpoint) callback to save the weights to file.
+3. Fine-tune the last 20 layers of the base model you trained in 2 for another 10 epochs. How did it go?
+4. Fine-tune the last 30 layers of the base model you trained in 2 for another 10 epochs. How did it go?
+
+### 📖 05 Transfer Learning in TensorFlow Part 2: Fine-tuning Extra-curriculum
+
+* Read the [documentation on data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation) in TensorFlow.
+* Read the [ULMFit paper](https://arxiv.org/abs/1801.06146) (technical) for an introduction to the concept of freezing and unfreezing different layers.
+* Read up on learning rate scheduling (there's a [TensorFlow callback](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/LearningRateScheduler) for this), how could this influence our model training?
+  * If you're training for longer, you probably want to reduce the learning rate as you go... the closer you get to the bottom of the hill, the smaller steps you want to take. Imagine it like finding a coin at the bottom of your couch. In the beginning your arm movements are going to be large and the closer you get, the smaller your movements become.
+  
 ---
 
 ...obviously the above will be prettier closer to launch
