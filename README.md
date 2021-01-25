@@ -1,7 +1,5 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
-
 # Status (26 Jan 2021):
 
 * **Currently:** Making materials for 06, 07 (slides & tidying notebook) + cleaning up/adding to the README (what you're reading)
@@ -23,7 +21,7 @@ geez... I forgot how much there was still to go... classic project planning
   * data links used in course
   * extra resources & curriculum
   * what will someone leave with after going through this course?
-* What are the prerequisites for this bad body? 
+* What are the prerequisites for this bad boy? 
   * 6 months Python plus familiarity with data analysis libraries like NumPy, matplotlib, pandas, Scikit-Learn
   * Any beginner machine learning course, [this one](https://dbourke.link/ZTMMLcourse) is pretty good though
 * Make slides for lectures
@@ -62,8 +60,24 @@ geez... I forgot how much there was still to go... classic project planning
 ---
 
 (below here will be filled out as the course develops)
+
 # Zero to Mastery Deep Learning with TensorFlow (coming soon, stay tuned for updates) 
 All of the course materials for the [Zero to Mastery](https://zerotomastery.io/) Deep Learning with TensorFlow course.
+
+## Course materials
+
+| Number | Contents | Data/Model | Exercises | Extra-curriculum |
+| ----- |  ----- |  ----- |  ----- |  ----- |
+| 00 | [TensorFlow Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/00_tensorflow_fundamentals.ipynb) |  | [Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-extra-curriculum) |
+| 01 | [TensorFlow Regression](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/01_neural_network_regression_in_tensorflow.ipynb) |  | [Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-01-neural-network-regression-with-tensorflow-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-01-neural-network-regression-with-tensorflow-extra-curriculum) |
+| 02 | [TensorFlow Classification](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/02_neural_network_classification_in_tensorflow.ipynb) |  | [Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-02-neural-network-classification-with-tensorflow-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-02-neural-network-classification-with-tensorflow-extra-curriculum) |
+| 03 | [TensorFlow Computer Vision](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/03_convolutional_neural_networks_in_tensorflow.ipynb) | [`pizza_steak`](https://storage.googleapis.com/ztm_tf_course/food_vision/pizza_steak.zip), [`10_food_classes_all_data`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip) | [Go to exercises]([Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-01-neural-network-regression-with-tensorflow-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-03-computer-vision--convolutional-neural-networks-in-tensorflow-extra-curriculum) |
+| 04 | [Transfer Learning Part 1: Feature extraction](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb) | [`10_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip) | [Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-04-transfer-learning-in-tensorflow-part-1-feature-extraction-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-04-transfer-learning-in-tensorflow-part-1-feature-extraction-extra-curriculum) |
+| 05 | [Transfer Learning Part 2: Fine-tuning](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb) | [`10_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip), [`10_food_classes_1_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_1_percent.zip), [`10_food_classes_all_data`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip) | [Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-05-transfer-learning-in-tensorflow-part-2-fine-tuning-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-05-transfer-learning-in-tensorflow-part-2-fine-tuning-extra-curriculum) |
+| 06 | [Transfer Learning Part 3: Scaling up](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/06_transfer_learning_in_tensorflow_part_3_scaling_up.ipynb) | [`101_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/101_food_classes_10_percent.zip), [`custom_food_images`](https://storage.googleapis.com/ztm_tf_course/food_vision/custom_food_images.zip), [`fine_tuned_efficientnet_model`](https://storage.googleapis.com/ztm_tf_course/food_vision/06_101_food_class_10_percent_saved_big_dog_model.zip) | [Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-06-transfer-learning-in-tensorflow-part-3-scaling-up-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-06-transfer-learning-in-tensorflow-part-3-scaling-up-extra-curriculum) |
+| 07 | Milestone project 1 (coming soon) |  | |  |
+| 08 | TensorFlow NLP Fundamentals (coming soon) |  |  |  |
+| 09 | Milestone project 2 (coming soon) |  |  |  |
 
 ## TODO - Course structure
 
@@ -85,31 +99,6 @@ TODO: tailor this to DL course
 3. Targeted practice = use tools and framework steps to work on end-to-end machine learning modelling projects
 
 TODO: outcomes of the course (e.g. how does it benefit a student?... don't worry about the features, benefits are more important...)
-
-## Course materials
-
-TODO: add course materials
-
-could this be in a table form?
-
-e.g.
-
-| Number | Contents | Data/Model | Exercises | Extra-curriculum |
-| ----- |  ----- |  ----- |  ----- |  ----- |
-| 00 | [TensorFlow Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/00_tensorflow_fundamentals.ipynb) |  | [Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-extra-curriculum) |
-| 01 | [TensorFlow Regression](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/01_neural_network_regression_in_tensorflow.ipynb) |  | This points to exercises | And this points to extra-curriculum |
-| 02 | [TensorFlow Classification](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/02_neural_network_classification_in_tensorflow.ipynb) |  | This points to exercises | And this points to extra-curriculum |
-| 03 | [TensorFlow Computer Vision](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/03_convolutional_neural_networks_in_tensorflow.ipynb) | [`pizza_steak`](https://storage.googleapis.com/ztm_tf_course/food_vision/pizza_steak.zip), [`10_food_classes_all_data`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip) | This points to exercises | And this points to extra-curriculum |
-| 04 | [Transfer Learning Part 1: Feature extraction](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb) | [`10_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip) | This points to exercises | And this points to extra-curriculum |
-| 05 | [Transfer Learning Part 2: Fine-tuning](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb) | [`10_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip), [`10_food_classes_1_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_1_percent.zip), [`10_food_classes_all_data`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip) | This points to exercises | And this points to extra-curriculum |
-| 06 | [Transfer Learning Part 3: Scaling up](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/06_transfer_learning_in_tensorflow_part_3_scaling_up.ipynb) | [`101_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/101_food_classes_10_percent.zip), [`custom_food_images`](https://storage.googleapis.com/ztm_tf_course/food_vision/custom_food_images.zip), [fine_tuned_efficientnet_model](https://storage.googleapis.com/ztm_tf_course/food_vision/06_101_food_class_10_percent_saved_big_dog_model.zip) | This points to exercises | And this points to extra-curriculum |
-| 07 | Milestone project 1 (coming soon) | (insert link) | This points to exercises | And this points to extra-curriculum |
-| 08 | TensorFlow NLP Fundamentals (coming soon) | (insert link) | This points to exercises | And this points to extra-curriculum |
-| 09 | Milestone project 2 (coming soon) | (insert link) | This points to exercises | And this points to extra-curriculum |
-
-then do the same as above for the rest...
-
-and each section has its own heading:
 
 ## 🛠 Exercises & 📖 Extra-curriculum
 
