@@ -2,14 +2,14 @@
 
 the repo may look rough at the moment.. but give her a month or so (maybe a little longer, because a month is Christmas) and she'll be a work of art! - Daniel Bourke, 26 Nov 2020
 
-# Status (21 Jan 2021):
+# Status (26 Jan 2021):
 
 * **Currently:** Making materials for 06, 07 (slides & tidying notebook) + cleaning up/adding to the README (what you're reading)
 * Video count: 87/200+, aiming to do ~10 videos per day during recording sessions
 * Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
 * Finished videos for: 00, 01, 02
-* Finished slides for notebooks: 00, 01, 02, 03, 04, 05
-* Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05
+* Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
+* Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
 * Finished 09/10 of code notebooks (time series still to come)
 * Created GitHub Project page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
 * Created GitHub Discussion page! Going to use this for popular QA/course tidbits: https://github.com/mrdbourke/tensorflow-deep-learning/discussions
@@ -33,6 +33,8 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these)
   
 **Log**
+* 23 Jan 2021 - finished slides of 06
+* 22 Jan 2021 - finished review of notebook 06 & started slides of 06
 * 21 Jan 2021 - finished slides for 05 & started review of 06
 * 20 Jan 2021 - finished notebook 05 & 95% slides for 05
 * 19 Jan 2021 - found a storage idea for data during course (use Google Storage in same region as Colab Notebooks, cheapest/fastest)
@@ -94,10 +96,16 @@ e.g.
 
 | Number | Contents | Data/Model | Exercises | Extra-curriculum |
 | ----- |  ----- |  ----- |  ----- |  ----- |
-| 00 | TensorFlow Fundamentals | (insert link) | This points to exercises | And this points to extra-curriculum |
-| 01 | TensorFlow Regression | (insert link) | This points to exercises | And this points to extra-curriculum |
-| 02 | TensorFlow Classification | (insert link) | This points to exercises | And this points to extra-curriculum |
-| 03 | TensorFlow Computer Vision | (insert link) | This points to exercises | And this points to extra-curriculum |
+| 00 | [TensorFlow Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/00_tensorflow_fundamentals.ipynb) |  | [Go to exercises](https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-exercises) | [Go to extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-extra-curriculum) |
+| 01 | [TensorFlow Regression](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/01_neural_network_regression_in_tensorflow.ipynb) |  | This points to exercises | And this points to extra-curriculum |
+| 02 | [TensorFlow Classification](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/02_neural_network_classification_in_tensorflow.ipynb) |  | This points to exercises | And this points to extra-curriculum |
+| 03 | [TensorFlow Computer Vision](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/03_convolutional_neural_networks_in_tensorflow.ipynb) | [`pizza_steak`](https://storage.googleapis.com/ztm_tf_course/food_vision/pizza_steak.zip), [`10_food_classes_all_data`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip) | This points to exercises | And this points to extra-curriculum |
+| 04 | [Transfer Learning Part 1: Feature extraction](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb) | [`10_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip) | This points to exercises | And this points to extra-curriculum |
+| 05 | [Transfer Learning Part 2: Fine-tuning](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb) | [`10_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip), [`10_food_classes_1_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_1_percent.zip), [`10_food_classes_all_data`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip) | This points to exercises | And this points to extra-curriculum |
+| 06 | [Transfer Learning Part 3: Scaling up](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/06_transfer_learning_in_tensorflow_part_3_scaling_up.ipynb) | [`101_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/101_food_classes_10_percent.zip), [`custom_food_images`](https://storage.googleapis.com/ztm_tf_course/food_vision/custom_food_images.zip), [fine_tuned_efficientnet_model](https://storage.googleapis.com/ztm_tf_course/food_vision/06_101_food_class_10_percent_saved_big_dog_model.zip) | This points to exercises | And this points to extra-curriculum |
+| 07 | Milestone project 1 (coming soon) | (insert link) | This points to exercises | And this points to extra-curriculum |
+| 08 | TensorFlow NLP Fundamentals (coming soon) | (insert link) | This points to exercises | And this points to extra-curriculum |
+| 09 | Milestone project 2 (coming soon) | (insert link) | This points to exercises | And this points to extra-curriculum |
 
 then do the same as above for the rest...
 
@@ -111,7 +119,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ---
 
-### 🛠 00 - TensorFlow Fundamentals Exercises
+### 🛠 00 TensorFlow Fundamentals Exercises
 
 1. Create a vector, scalar, matrix and tensor with values of your choosing using `tf.constant()`.
 2. Find the shape, rank and size of the tensors you created in 1.
@@ -124,7 +132,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 9. Create a tensor with shape `[10]` using your own choice of values, then find the index which has the maximum value.
 10. One-hot encode the tensor you created in 9.
 
-### 📖 00 - TensorFlow Fundamentals Extra-curriculum 
+### 📖 00 TensorFlow Fundamentals Extra-curriculum 
 
 * Read through the [list of TensorFlow Python APIs](https://www.tensorflow.org/api_docs/python/), pick one we haven't gone through in this notebook, reverse engineer it (write out the documentation code for yourself) and figure out what it does.
 * Try to create a series of tensor functions to calculate your most recent grocery bill (it's okay if you don't use the names of the items, just the price in numerical form).
@@ -135,7 +143,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ---
 
-### 🛠 01 - Neural network regression with TensorFlow Exercises
+### 🛠 01 Neural network regression with TensorFlow Exercises
 
 1. Create your own regression dataset (or make the one we created in "Create data to view and fit" bigger) and build fit a model to it.
 2. Try building a neural network with 4 Dense layers and fitting it to your own regression dataset, how does it perform?
@@ -146,7 +154,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
   * What happens if you train for longer (say 300 epochs instead of 200)? 
 4. Import the [Boston pricing dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/boston_housing/load_data) from TensorFlow [`tf.keras.datasets`](https://www.tensorflow.org/api_docs/python/tf/keras/datasets) and model it.
 
-### 📖 01 - Neural network regression with TensorFlow Extra-curriculum
+### 📖 01 Neural network regression with TensorFlow Extra-curriculum
 
 * [MIT introduction deep learning lecture 1](https://youtu.be/njKP3FqW3Sk) - gives a great overview of what's happening behind all of the code we're running.
 * Reading: 1-hour of [Chapter 1 of Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap1.html) by Michael Nielson - a great in-depth and hands-on example of the intuition behind neural networks.
@@ -154,7 +162,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ---
 
-### 🛠 02 - Neural network classification with TensorFlow Exercises
+### 🛠 02 Neural network classification with TensorFlow Exercises
 
 1. Play with neural networks in the [TensorFlow Playground](https://playground.tensorflow.org/) for 10-minutes. Especially try different values of the learning, what happens when you decrease it? What happens when you increase it?
 2. Replicate the model pictured in the [TensorFlow Playground diagram](https://playground.tensorflow.org/#activation=relu&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.001&regularizationRate=0&noise=0&networkShape=6,6,6,6,6&seed=0.51287&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&regularization_hide=true&discretize_hide=true&regularizationRate_hide=true&percTrainData_hide=true&dataset_hide=true&problem_hide=true&noise_hide=true&batchSize_hide=true) below using TensorFlow code. Compile it using the Adam optimizer, binary crossentropy loss and accuracy metric. Once it's compiled check a summary of the model.
@@ -166,7 +174,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 6. Train a model to get 88%+ accuracy on the fashion MNIST test set. Plot a confusion matrix to see the results after.
 7. Make a function to show an image of a certain class of the fashion MNIST dataset and make a prediction on it. For example, plot 3 images of the `T-shirt` class with their predictions.
 
-### 📖 02 - Neural network classification with TensorFlow Extra-curriculum
+### 📖 02 Neural network classification with TensorFlow Extra-curriculum
 
 * Watch 3Blue1Brown's neural networks video 2: [*Gradient descent, how neural networks learn*](https://www.youtube.com/watch?v=IHZwWFHWa-w). After you're done, write 100 words about what you've learned.
   * If you haven't already, watch video 1: [*But what is a Neural Network?*](https://youtu.be/aircAruvnKk). Note the activation function they talk about at the end.
@@ -177,7 +185,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ---
 
-### 🛠 03 - Computer vision & convolutional neural networks in TensorFlow Exercises
+### 🛠 03 Computer vision & convolutional neural networks in TensorFlow Exercises
 
 1. Spend 20-minutes reading and interacting with the [CNN explainer website](https://poloclub.github.io/cnn-explainer/). 
  * What are the key terms? e.g. explain convolution in your own words, pooling in your own words
@@ -188,7 +196,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 3. Take 10 photos of two different things and build your own CNN image classifier using the techniques we've built here.
 4. Find an ideal learning rate for a simple convolutional neural network model on your the 10 class dataset.
 
-### 📖 03 - Computer vision & convolutional neural networks in TensorFlow Extra-curriculum
+### 📖 03 Computer vision & convolutional neural networks in TensorFlow Extra-curriculum
 
 * **Watch:** [MIT's Introduction to Deep Computer Vision](https://www.youtube.com/watch?v=iaSUYvmCekI&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=3) lecture. This will give you a great intuition behind convolutional neural networks.
 * **Watch:** Deep dive on [mini-batch gradient descent](https://youtu.be/-_4Zi8fCZO4) by deeplearning.ai. If you're still curious about why we use **batches** to train models, this technical overview covers many of the reasons why.
@@ -233,17 +241,25 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
   
 ---
 
-...obviously the above will be prettier closer to launch
+### 🛠 06 Transfer Learning in TensorFlow Part 3: Scaling-up Exercises
 
-### Data
+1. Take 3 of your own photos of food and use the trained model to make predictions on them, share your predictions with the other students in Discord and show off your Food Vision model 🍔👁.
+2. Train a feature-extraction transfer learning model for 10 epochs on the same data and compare its performance versus a model which used feature extraction for 5 epochs and fine-tuning for 5 epochs (like we've used in this notebook). Which method is better?
 
-TODO: add links to data
-* some of (most of) the data for the course is too big to host on GitHub, going to use Dropbox/Kaggle etc (Google Storage too expensive for transfer times)
+### 📖 06 Transfer Learning in TensorFlow Part 3: Scaling-up Extra-curriculum
+* Spend 15-minutes reading up on the [EarlyStopping callback](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping). What does it do? How could we use it in our model training?
+* Spend an hour reading about [Streamlit](https://www.streamlit.io/). What does it do? How might you integrate some of the things we've done in this notebook in a Streamlit app?
+
+---
 
 ### Slides
 
 TODO: add links/slides for each different section
 
+### What this course is missing
+
+TODO: add info for what the course is missing/where someone can find out more + next steps after the course
+
 ## Ask questions
 
-TODO: contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) (preferred)
+Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) (preferred)
