@@ -1,14 +1,14 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-# Status (26 Jan 2021):
+# Status (27 Jan 2021):
 
-* **Currently:** Making materials for 06, 07 (slides & tidying notebook) + cleaning up/adding to the README (what you're reading)
-* Video count: 87/200+, aiming to do ~10 videos per day during recording sessions
-* Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
+* **Currently:** Recording videos for 03 
+* Video count: 97/200+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
 * Finished 09/10 of code notebooks (time series still to come)
+* Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
 * Created GitHub Project page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
 * Created GitHub Discussion page! Going to use this for popular QA/course tidbits: https://github.com/mrdbourke/tensorflow-deep-learning/discussions
 
@@ -31,6 +31,8 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these)
   
 **Log**
+* 27 Jan 2021 - recorded 10 videos for section 03
+* 26 Jan 2021 - polished GitHub README (what you're looking at) with a [nice table](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials)
 * 23 Jan 2021 - finished slides of 06
 * 22 Jan 2021 - finished review of notebook 06 & started slides of 06
 * 21 Jan 2021 - finished slides for 05 & started review of 06
