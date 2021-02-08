@@ -1,10 +1,10 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-# Status (29 Jan 2021):
+# Status (08 Feb 2021):
 
-* **Currently:** Recording videos for 03 
-* Video count: 112/200+, aiming to do ~10 videos per day during recording sessions
-* Finished videos for: 00, 01, 02
+* **Currently:** Preparing to record videos for 04
+* Video count: 121/200+, aiming to do ~10 videos per day during recording sessions
+* Finished videos for: 00, 01, 02, 03
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
 * Finished 09/10 of code notebooks (time series still to come)
@@ -31,6 +31,8 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these)
   
 **Log**
+* 08 Feb 2021 - recorded 10 videos for section 03... and section 03 is done! 🚀 onto section 04
+* 30 Jan 2021 - 07 Feb 2021: NO PROGRESS (working on a ML deployment lecture for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html)... more on this later)
 * 29 Jan 2021 - recorded 9 videos for section 03... closer to 10 than yesterday but still not there
 * 28 Jan 2021 - recorded 7 videos for section 03... wanted 10 but we'll take 7
 * 27 Jan 2021 - recorded 10 videos for section 03
