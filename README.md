@@ -1,9 +1,9 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-# Status (08 Feb 2021):
+# Status (12 Feb 2021):
 
-* **Currently:** Preparing to record videos for 04
-* Video count: 121/200+, aiming to do ~10 videos per day during recording sessions
+* **Currently:** Recording videos for 04
+* **Video count:** 130/200+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
@@ -31,6 +31,8 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these)
   
 **Log**
+* 12 Feb 2021 - recored 7 videos for section 04... wanted 10 but we'll take 7 (🤔 this seems to have happened before)
+* 11 Feb 2021 - NO PROGRESS - gave a Machine Learning deployment tutorial for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html) (using the model code from this course!!!) - [see the full tutorial materials](https://github.com/mrdbourke/cs329s-ml-deployment-tutorial)
 * 08 Feb 2021 - recorded 10 videos for section 03... and section 03 is done! 🚀 onto section 04
 * 30 Jan 2021 - 07 Feb 2021: NO PROGRESS (working on a ML deployment lecture for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html)... more on this later)
 * 29 Jan 2021 - recorded 9 videos for section 03... closer to 10 than yesterday but still not there
