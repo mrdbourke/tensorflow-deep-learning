@@ -3,7 +3,7 @@
 # Status (16 Feb 2021):
 
 * **Currently:** Recording videos for 05
-* **Video count:** 140/200+, aiming to do ~10 videos per day during recording sessions
+* **Video count:** 142/200+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
