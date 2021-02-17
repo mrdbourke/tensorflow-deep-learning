@@ -1,9 +1,9 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-# Status (16 Feb 2021):
+# Status (17 Feb 2021):
 
 * **Currently:** Recording videos for 05
-* **Video count:** 142/200+, aiming to do ~10 videos per day during recording sessions
+* **Video count:** 152/~220+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
@@ -21,16 +21,17 @@ geez... I forgot how much there was still to go... classic project planning
   * data links used in course
   * extra resources & curriculum
   * what will someone leave with after going through this course?
-* What are the prerequisites for this bad boy? 
+* Upload slides for each section
+* Upload video notebooks for each section
+* What are the prerequisites? 
   * 6 months Python plus familiarity with data analysis libraries like NumPy, matplotlib, pandas, Scikit-Learn
-  * Any beginner machine learning course, [this one](https://dbourke.link/ZTMMLcourse) is pretty good though
-* Make slides for lectures
-* Make videos of notebooks/code/concepts
+  * Any beginner machine learning course, [this one](https://dbourke.link/ZTMMLcourse) is pretty good though=
 * Make Colab overview video (Colab is the tool we'll be using for the whole course)
 * Make course resource overview video (e.g. how to use this GitHub, Discussions page, exercises, extra-curriculum etc)
-* Upload solutions for exercises (probably livestream the creation of these)
+* Upload solutions for exercises (probably livestream the creation of these after course launch)
   
-**Log**
+## Log
+* 17 Feb 2021 - recorded 10 videos for 05! going to finish tomorrow 🚀
 * 16 Feb 2021 - polished slides for 05 and started recording videos, got 7 videos done for 05 
 * 15 Feb 2021 - finished videos for 04, now preparing to record for 05!
 * 12 Feb 2021 - recored 7 videos for section 04... wanted 10 but we'll take 7 (🤔 this seems to have happened before)
