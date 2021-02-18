@@ -2,7 +2,7 @@
 
 # Status (18 Feb 2021):
 
-* **Currently:** Recording videos for 05
+* **Currently:** Preparing to record videos for 06, adding resources/cleaning GitHub
 * **Video count:** 160/~220+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04, 05
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
