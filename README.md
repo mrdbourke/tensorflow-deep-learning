@@ -1,10 +1,10 @@
 **NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
 
-# Status (17 Feb 2021):
+# Status (18 Feb 2021):
 
 * **Currently:** Recording videos for 05
-* **Video count:** 152/~220+, aiming to do ~10 videos per day during recording sessions
-* Finished videos for: 00, 01, 02, 03, 04
+* **Video count:** 160/~220+, aiming to do ~10 videos per day during recording sessions
+* Finished videos for: 00, 01, 02, 03, 04, 05
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
 * Finished 09/10 of code notebooks (time series still to come)
@@ -31,6 +31,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 18 Feb 2021 - recorded 8 videos for 05 and... it's done! onto polishing the GitHub
 * 17 Feb 2021 - recorded 10 videos for 05! going to finish tomorrow 🚀
 * 16 Feb 2021 - polished slides for 05 and started recording videos, got 7 videos done for 05 
 * 15 Feb 2021 - finished videos for 04, now preparing to record for 05!
