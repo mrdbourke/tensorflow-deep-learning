@@ -22,7 +22,7 @@ geez... I forgot how much there was still to go... classic project planning
   * extra resources & curriculum
   * what will someone leave with after going through this course?
 * 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
-* Upload video notebooks for each section
+* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
 * What are the prerequisites? 
   * 6 months Python plus familiarity with data analysis libraries like NumPy, matplotlib, pandas, Scikit-Learn
   * Any beginner machine learning course, [this one](https://dbourke.link/ZTMMLcourse) is pretty good though
