@@ -3,6 +3,16 @@ All of the course materials for the [Zero to Mastery](https://zerotomastery.io/)
 
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
 
+Contents of this page:
+- [Course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials) (everything you'll need for completing the course)
+- [Course structure](https://github.com/mrdbourke/tensorflow-deep-learning#course-structure) (how this course is taught)
+- [Should you do this course?](https://github.com/mrdbourke/tensorflow-deep-learning#should-you-do-this-course) (decide by answering a couple simple questions)
+- [Prerequisites](https://github.com/mrdbourke/tensorflow-deep-learning#prerequsites) (what skills you'll need to do this course)
+- [Exercises & Extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-exercises---extra-curriculum) (challenges to practice what you've learned and resources to learn more)
+- [Ask a question](https://github.com/mrdbourke/tensorflow-deep-learning#ask-questions) (like to know more? go here)
+- [Status/TODO](https://github.com/mrdbourke/tensorflow-deep-learning#status) (there's still more to come!)
+- [Log](https://github.com/mrdbourke/tensorflow-deep-learning#log) (updates, changes and progress)
+
 ## Course materials
 
 This table is the ground truth for course materials. All the links you need for everything will be here.
@@ -46,13 +56,17 @@ If you've got 6-months experience writing Python code and a willingness to learn
 
 > Do you have 1+ years experience with deep learning and writing TensorFlow code?
 
-If yes, no you shouldn't, use your skills to build something.
+If yes, no you shouldn't, use your skills to build something. 
+
+If no, move onto the next question.
 
 > Have you done at least one beginner machine learning course and would like to learn about deep learning/pass the TensorFlow Developer Certification?
 
 If yes, this course is for you.
 
-## Prerequsites
+If no, go and do a beginner machine learning course and if you decide you want to learn TensorFlow, this page will still be here.
+
+## Prerequisites
 
 > What do I need to know to go through this course?
 
@@ -225,17 +239,17 @@ As of: 23 Feb 2021
 * Created GitHub Project page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
 * Created GitHub Discussion page! Going to use this for popular QA/course tidbits: https://github.com/mrdbourke/tensorflow-deep-learning/discussions
 
-## Next/TODO:
+## TODO
 geez... I forgot how much there was still to go... classic project planning
 
 * ✅ Make a GitHub Project for course (see "Projects" tab)
-* ✅ Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt)) ✅ 
-* 🔜 Polish GitHub readme (what you're reading now) with extra resources: 
+* ✅ Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt))
+* ✅ Polish GitHub readme (what you're reading now) with extra resources: 
   * data links used in course
   * extra resources & curriculum
-  * what will someone leave with after going through this course?
 * 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
 * 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
+* Add a section which contains "things taught in this course", like a table of contents kind of thing
 * Make Colab overview video (Colab is the tool we'll be using for the whole course)
 * Make course resource overview video (e.g. how to use this GitHub, Discussions page, exercises, extra-curriculum etc)
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
