@@ -1,84 +1,20 @@
-**NOTE:** this readme is a work in progress & will be updated as more materials are built... maybe we'll livestream some of the final stretch of development
-
-# Status (18 Feb 2021):
-
-* **Currently:** Preparing to record videos for 06, adding resources/cleaning GitHub
-* **Video count:** 160/~220+, aiming to do ~10 videos per day during recording sessions
-* Finished videos for: 00, 01, 02, 03, 04, 05
-* Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
-* Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
-* Finished 09/10 of code notebooks (time series still to come)
-* Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
-* Created GitHub Project page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
-* Created GitHub Discussion page! Going to use this for popular QA/course tidbits: https://github.com/mrdbourke/tensorflow-deep-learning/discussions
-
-## Next/TODO:
-geez... I forgot how much there was still to go... classic project planning
-
-* ✅ Make a GitHub Project for course (see "Projects" tab)
-* ✅ Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt)) ✅ 
-* 🔜 Polish GitHub readme (what you're reading now) with extra resources: 
-  * data links used in course
-  * extra resources & curriculum
-  * what will someone leave with after going through this course?
-* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
-* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
-* What are the prerequisites? 
-  * 6 months Python plus familiarity with data analysis libraries like NumPy, matplotlib, pandas, Scikit-Learn
-  * Any beginner machine learning course, [this one](https://dbourke.link/ZTMMLcourse) is pretty good though
-* Make Colab overview video (Colab is the tool we'll be using for the whole course)
-* Make course resource overview video (e.g. how to use this GitHub, Discussions page, exercises, extra-curriculum etc)
-* Upload solutions for exercises (probably livestream the creation of these after course launch)
-  
-## Log
-* 18 Feb 2021 - recorded 8 videos for 05 and... it's done! onto polishing the GitHub
-* 17 Feb 2021 - recorded 10 videos for 05! going to finish tomorrow 🚀
-* 16 Feb 2021 - polished slides for 05 and started recording videos, got 7 videos done for 05 
-* 15 Feb 2021 - finished videos for 04, now preparing to record for 05!
-* 12 Feb 2021 - recored 7 videos for section 04... wanted 10 but we'll take 7 (🤔 this seems to have happened before)
-* 11 Feb 2021 - NO PROGRESS - gave a Machine Learning deployment tutorial for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html) (using the model code from this course!!!) - [see the full tutorial materials](https://github.com/mrdbourke/cs329s-ml-deployment-tutorial)
-* 08 Feb 2021 - recorded 10 videos for section 03... and section 03 is done! 🚀 onto section 04
-* 30 Jan 2021 - 07 Feb 2021: NO PROGRESS (working on a ML deployment lecture for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html)... more on this later)
-* 29 Jan 2021 - recorded 9 videos for section 03... closer to 10 than yesterday but still not there
-* 28 Jan 2021 - recorded 7 videos for section 03... wanted 10 but we'll take 7
-* 27 Jan 2021 - recorded 10 videos for section 03
-* 26 Jan 2021 - polished GitHub README (what you're looking at) with a [nice table](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials)
-* 23 Jan 2021 - finished slides of 06
-* 22 Jan 2021 - finished review of notebook 06 & started slides of 06
-* 21 Jan 2021 - finished slides for 05 & started review of 06
-* 20 Jan 2021 - finished notebook 05 & 95% slides for 05
-* 19 Jan 2021 - found a storage idea for data during course (use Google Storage in same region as Colab Notebooks, cheapest/fastest)
-* 18 Jan 2021 - reviewed notebook 05 & slides for 05
-* 17 Jan 2021 - finished notebook 04 & slides for 04
-* 16 Jan 2021 - review notebook 04 & made slides for transfer learning
-* 13 Jan 2021 - review notebook 03 again & finished slides for 03, BIGGGGG updates to the README, notebook 03 99% done, just need to figure out optimum way to transfer data (e.g. when a student downloads it, where's best to store it in the meantime? Dropbox? S3? ~~GS~~ (too expensive)
-* 11 Jan 2021 - reviewed notebook 03, 95% ready for recording, onto slides for 03
-* 9 Jan 2021 - I'm back baby! Finished all videos for 02, now onto slides/materials for 03, 04, 05 (then I'll get back in the lab)
-* 19 Dec 2020 - ON HOLD (family holiday until Jan 02 2021) 
-* 18 Dec 2020 - recorded 75% of videos for 02
-* 17 Dec 2020 - recorded 50% of videos for 02
-* 16 Dec 2020 - recorded 100% of videos for 01
-* 15 Dec 2020 - recorded 90% of videos for 01
-* 09 Dec 2020 - finished recording videos for 00
-* 08 Dec 2020 - recorded 90% of videos for 00
-* 05 Dec 2020 - trialled recording studio for ~6 videos with notebook 00 material
-* 04 Dec 2020 - setup [recording studio in closet](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg)
-* 03 Dec 2020 - finished notebook 02, finished slides for 02, time to setup recording studio
-* 02 Dec 2020 - notebook 02 95% done, slides for 02 90% done
-* 01 Dec 2020 - added notebook 02 (90% polished), start preparing slides for 02
-* 27 Nov 2020 - polished notebook 01, made slides for notebook 01
-* 26 Nov 2020 - polished notebook 00, made slides for notebook 00
-  
----
-
-(below here will be filled out as the course develops)
-
-# Zero to Mastery Deep Learning with TensorFlow (coming soon, stay tuned for updates) 
+# Zero to Mastery Deep Learning with TensorFlow (coming VERY soon, stay tuned for updates) 
 All of the course materials for the [Zero to Mastery](https://zerotomastery.io/) Deep Learning with TensorFlow course.
+
+This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
 
 ## Course materials
 
-| Number | Contents | Data/Model | Exercises | Slides |
+This table is the ground truth for course materials. All the links you need for everything will be here.
+
+Key:
+* **Number:** The number of the target notebook (this may not match the video section of the course but it ties together all of the materials in the table)
+* **Notebook:** The notebook for a particular module with lots of code and text annotations (notebooks from the videos are based on these)
+* **Data/model:** Links to datasets/pre-trained models for the assosciated notebook
+* **Exercises & Extra-curriculum:** Each module comes with a set of exercises and extra-curriculum to help practice your skills and learn more, I suggest going through these **before** you move onto the next module
+* **Slides:** Although we focus on writing TensorFlow code, we sometimes use pretty slides to describe different concepts, you'll find them here
+
+| Number | Notebook | Data/Model | Exercises & Extra-curriculum | Slides |
 | ----- |  ----- |  ----- |  ----- |  ----- |
 | 00 | [TensorFlow Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/00_tensorflow_fundamentals.ipynb) |  | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/00_introduction_to_tensorflow_and_deep_learning.pdf) |
 | 01 | [TensorFlow Regression](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/01_neural_network_regression_in_tensorflow.ipynb) |  | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-01-neural-network-regression-with-tensorflow-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/01_neural_network_regression_with_tensorflow.pdf) |
@@ -92,26 +28,38 @@ All of the course materials for the [Zero to Mastery](https://zerotomastery.io/)
 | 09 | Milestone project 2 (coming soon) |  |  |  |
 | 10 | TensorFlow Time Series Fundamentals & Milestone project 3 (coming soon) | | | |
 
-## TODO - Course structure
+## Course structure
 
 This course is code first. The goal is to get you writing deep learning code as soon as possible.
 
 It is taught with the following mantra:
 
 ```
-Code -> Concept -> Code -> Concept -> Code -> Concept...
+Code -> Concept -> Code -> Concept -> Code -> Concept
 ```
 
 This means we write code first then step through the concepts behind it.
 
-If you've got 6-months experience writing Python code, you'll be able to do the course.
+If you've got 6-months experience writing Python code and a willingness to learn (most important), you'll be able to do the course.
 
-TODO: tailor this to DL course
-1. Create a framework for working through problems (6 step machine learning modelling framework)
-2. Find tools to fit the framework
-3. Targeted practice = use tools and framework steps to work on end-to-end machine learning modelling projects
+## Should you do this course?
 
-TODO: outcomes of the course (e.g. how does it benefit a student?... don't worry about the features, benefits are more important...)
+> Do you have 1+ years experience with deep learning and writing TensorFlow code?
+
+If yes, no you shouldn't, use your skills to build something.
+
+> Have you done at least one beginner machine learning course and would like to learn about deep learning/pass the TensorFlow Developer Certification?
+
+If yes, this course is for you.
+
+## Prerequsites
+
+> What do I need to know to go through this course?
+
+* **6+ months writing Python code.** Can you write a Python function which accepts and uses parameters? That’s good enough. If you don’t know what that means, spend another month or two writing Python code and then come back here.
+* **At least one beginner machine learning course.** Are you familiar with the idea of training, validation and test sets? Do you know what supervised learning is? Have you used pandas, NumPy or Matplotlib before? If no to any of these, I’d going through at least one machine learning course which teaches these first and then coming back. 
+* **Comfortable using Google Colab/Jupyter Notebooks.** This course uses Google Colab throughout. If you have never used Google Colab before, it works very similar to Jupyter Notebooks with a few extra features. If you’re not familiar with Google Colab notebooks, I’d suggest going through the Introduction to Google Colab notebook.
+* **Plug:** The [Zero to Mastery beginner-friendly machine learning course](https://dbourke.link/ZTMMLcourse) (I also teach this) teaches all of the above (and this course is designed as a follow on).
 
 ## 🛠 Exercises & 📖 Extra-curriculum
 
@@ -254,10 +202,80 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ---
 
-### What this course is missing
+## What this course is missing
 
-TODO: add info for what the course is missing/where someone can find out more + next steps after the course
+* Transformers
+* Multi-modal models
 
 ## Ask questions
 
-Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) (preferred)
+Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) (preferred).
+
+# Status
+
+As of: 23 Feb 2021
+
+* **Currently:** Preparing to record videos for 06, adding resources/cleaning GitHub
+* **Video count:** 160/~220+, aiming to do ~10 videos per day during recording sessions
+* Finished videos for: 00, 01, 02, 03, 04, 05
+* Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
+* Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
+* Finished 09/10 of code notebooks (time series still to come)
+* Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
+* Created GitHub Project page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
+* Created GitHub Discussion page! Going to use this for popular QA/course tidbits: https://github.com/mrdbourke/tensorflow-deep-learning/discussions
+
+## Next/TODO:
+geez... I forgot how much there was still to go... classic project planning
+
+* ✅ Make a GitHub Project for course (see "Projects" tab)
+* ✅ Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt)) ✅ 
+* 🔜 Polish GitHub readme (what you're reading now) with extra resources: 
+  * data links used in course
+  * extra resources & curriculum
+  * what will someone leave with after going through this course?
+* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
+* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
+* Make Colab overview video (Colab is the tool we'll be using for the whole course)
+* Make course resource overview video (e.g. how to use this GitHub, Discussions page, exercises, extra-curriculum etc)
+* Upload solutions for exercises (probably livestream the creation of these after course launch)
+  
+## Log
+* 23 Feb 2021 - rearranged GitHub in preparation for launch 🚀 
+* 18 Feb 2021 - recorded 8 videos for 05 and... it's done! onto polishing the GitHub
+* 17 Feb 2021 - recorded 10 videos for 05! going to finish tomorrow 🚀
+* 16 Feb 2021 - polished slides for 05 and started recording videos, got 7 videos done for 05 
+* 15 Feb 2021 - finished videos for 04, now preparing to record for 05!
+* 12 Feb 2021 - recored 7 videos for section 04... wanted 10 but we'll take 7 (🤔 this seems to have happened before)
+* 11 Feb 2021 - NO PROGRESS - gave a Machine Learning deployment tutorial for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html) (using the model code from this course!!!) - [see the full tutorial materials](https://github.com/mrdbourke/cs329s-ml-deployment-tutorial)
+* 08 Feb 2021 - recorded 10 videos for section 03... and section 03 is done! 🚀 onto section 04
+* 30 Jan 2021 - 07 Feb 2021: NO PROGRESS (working on a ML deployment lecture for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html)... more on this later)
+* 29 Jan 2021 - recorded 9 videos for section 03... closer to 10 than yesterday but still not there
+* 28 Jan 2021 - recorded 7 videos for section 03... wanted 10 but we'll take 7
+* 27 Jan 2021 - recorded 10 videos for section 03
+* 26 Jan 2021 - polished GitHub README (what you're looking at) with a [nice table](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials)
+* 23 Jan 2021 - finished slides of 06
+* 22 Jan 2021 - finished review of notebook 06 & started slides of 06
+* 21 Jan 2021 - finished slides for 05 & started review of 06
+* 20 Jan 2021 - finished notebook 05 & 95% slides for 05
+* 19 Jan 2021 - found a storage idea for data during course (use Google Storage in same region as Colab Notebooks, cheapest/fastest)
+* 18 Jan 2021 - reviewed notebook 05 & slides for 05
+* 17 Jan 2021 - finished notebook 04 & slides for 04
+* 16 Jan 2021 - review notebook 04 & made slides for transfer learning
+* 13 Jan 2021 - review notebook 03 again & finished slides for 03, BIGGGGG updates to the README, notebook 03 99% done, just need to figure out optimum way to transfer data (e.g. when a student downloads it, where's best to store it in the meantime? Dropbox? S3? ~~GS~~ (too expensive)
+* 11 Jan 2021 - reviewed notebook 03, 95% ready for recording, onto slides for 03
+* 9 Jan 2021 - I'm back baby! Finished all videos for 02, now onto slides/materials for 03, 04, 05 (then I'll get back in the lab)
+* 19 Dec 2020 - ON HOLD (family holiday until Jan 02 2021) 
+* 18 Dec 2020 - recorded 75% of videos for 02
+* 17 Dec 2020 - recorded 50% of videos for 02
+* 16 Dec 2020 - recorded 100% of videos for 01
+* 15 Dec 2020 - recorded 90% of videos for 01
+* 09 Dec 2020 - finished recording videos for 00
+* 08 Dec 2020 - recorded 90% of videos for 00
+* 05 Dec 2020 - trialled recording studio for ~6 videos with notebook 00 material
+* 04 Dec 2020 - setup [recording studio in closet](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg)
+* 03 Dec 2020 - finished notebook 02, finished slides for 02, time to setup recording studio
+* 02 Dec 2020 - notebook 02 95% done, slides for 02 90% done
+* 01 Dec 2020 - added notebook 02 (90% polished), start preparing slides for 02
+* 27 Nov 2020 - polished notebook 01, made slides for notebook 01
+* 26 Nov 2020 - polished notebook 00, made slides for notebook 00
