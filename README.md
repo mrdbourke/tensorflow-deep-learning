@@ -1,4 +1,4 @@
-# Zero to Mastery Deep Learning with TensorFlow (coming VERY soon, stay tuned for updates) 
+# ``` Zero to Mastery Deep Learning with TensorFlow (coming VERY soon, stay tuned for updates) ```
 All of the course materials for the [Zero to Mastery](https://zerotomastery.io/) Deep Learning with TensorFlow course.
 
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
@@ -13,7 +13,7 @@ Contents of this page:
 - [Status/TODO](https://github.com/mrdbourke/tensorflow-deep-learning#status) (there's still more to come!)
 - [Log](https://github.com/mrdbourke/tensorflow-deep-learning#log) (updates, changes and progress)
 
-## Course materials
+## ``` Course materials ``` 
 
 This table is the ground truth for course materials. All the links you need for everything will be here.
 
@@ -38,7 +38,7 @@ Key:
 | 09 | Milestone project 2 (coming soon) |  |  |  |
 | 10 | TensorFlow Time Series Fundamentals & Milestone project 3 (coming soon) | | | |
 
-## Course structure
+## ``` Course structure ``` 
 
 This course is code first. The goal is to get you writing deep learning code as soon as possible.
 
@@ -52,7 +52,7 @@ This means we write code first then step through the concepts behind it.
 
 If you've got 6-months experience writing Python code and a willingness to learn (most important), you'll be able to do the course.
 
-## Should you do this course?
+## ``` Should you do this course? ```
 
 > Do you have 1+ years experience with deep learning and writing TensorFlow code?
 
@@ -66,7 +66,7 @@ If yes, this course is for you.
 
 If no, go and do a beginner machine learning course and if you decide you want to learn TensorFlow, this page will still be here.
 
-## Prerequisites
+## ``` Prerequisites ``` 
 
 > What do I need to know to go through this course?
 
@@ -75,7 +75,7 @@ If no, go and do a beginner machine learning course and if you decide you want t
 * **Comfortable using Google Colab/Jupyter Notebooks.** This course uses Google Colab throughout. If you have never used Google Colab before, it works very similar to Jupyter Notebooks with a few extra features. If you’re not familiar with Google Colab notebooks, I’d suggest going through the Introduction to Google Colab notebook.
 * **Plug:** The [Zero to Mastery beginner-friendly machine learning course](https://dbourke.link/ZTMMLcourse) (I also teach this) teaches all of the above (and this course is designed as a follow on).
 
-## 🛠 Exercises & 📖 Extra-curriculum
+## ``` 🛠 Exercises & 📖 Extra-curriculum ``` 
 
 To prevent the course from being 100+ hours (deep learning is a broad field), various external resources for different sections are recommended to puruse under your own discrestion.
 
@@ -216,12 +216,12 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ---
 
-## What this course is missing
+## ``` What this course is missing ```
 
 * Transformers
 * Multi-modal models
 
-## Ask questions
+## ``` Ask questions ``` 
 
 Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) (preferred).
 
