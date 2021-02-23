@@ -1,4 +1,4 @@
-# ``` Zero to Mastery Deep Learning with TensorFlow (coming VERY soon, stay tuned for updates) ```
+#  Zero to Mastery Deep Learning with TensorFlow (coming VERY soon, stay tuned for updates) 
 All of the course materials for the [Zero to Mastery](https://zerotomastery.io/) Deep Learning with TensorFlow course.
 
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
