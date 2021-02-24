@@ -1,4 +1,4 @@
-# Zero to Mastery Deep Learning with TensorFlow (coming VERY soon, stay tuned for updates) 
+# Zero to Mastery Deep Learning with TensorFlow
 All of the course materials for the [Zero to Mastery](https://zerotomastery.io/) Deep Learning with TensorFlow course.
 
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
@@ -23,6 +23,8 @@ Key:
 * **Data/model:** Links to datasets/pre-trained models for the assosciated notebook
 * **Exercises & Extra-curriculum:** Each module comes with a set of exercises and extra-curriculum to help practice your skills and learn more, I suggest going through these **before** you move onto the next module
 * **Slides:** Although we focus on writing TensorFlow code, we sometimes use pretty slides to describe different concepts, you'll find them here
+
+**Note:** You can get all of the notebook code created during the videos in the [`video_notebooks`](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks) directory.
 
 | Number | Notebook | Data/Model | Exercises & Extra-curriculum | Slides |
 | ----- |  ----- |  ----- |  ----- |  ----- |
