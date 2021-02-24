@@ -233,10 +233,10 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 # Status
 
-As of: 23 Feb 2021
+As of: 24 Feb 2021
 
-* **Currently:** Preparing to record videos for 06, adding resources/cleaning GitHub
-* **Video count:** 160/~220+, aiming to do ~10 videos per day during recording sessions
+* **Currently:** Preparing to launch! + recording videos for 06
+* **Video count:** 169/~220+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04, 05
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
@@ -261,6 +261,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 24 Feb 2021 - recorded 9 videos for section 06, launch inbound!!!
 * 23 Feb 2021 - rearranged GitHub in preparation for launch 🚀 
 * 18 Feb 2021 - recorded 8 videos for 05 and... it's done! onto polishing the GitHub
 * 17 Feb 2021 - recorded 10 videos for 05! going to finish tomorrow 🚀
