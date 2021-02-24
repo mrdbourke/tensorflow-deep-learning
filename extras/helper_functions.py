@@ -199,8 +199,6 @@ def compare_historys(original_history, new_history, initial_epochs=5):
     acc = original_history.history["accuracy"]
     loss = original_history.history["loss"]
 
-    print(len(acc))
-
     val_acc = original_history.history["val_accuracy"]
     val_loss = original_history.history["val_loss"]
 
@@ -210,9 +208,6 @@ def compare_historys(original_history, new_history, initial_epochs=5):
 
     total_val_acc = val_acc + new_history.history["val_accuracy"]
     total_val_loss = val_loss + new_history.history["val_loss"]
-
-    print(len(total_acc))
-    print(total_acc)
 
     # Make plots
     plt.figure(figsize=(8, 8))
