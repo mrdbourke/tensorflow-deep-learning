@@ -209,6 +209,10 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 1. Take 3 of your own photos of food and use the trained model to make predictions on them, share your predictions with the other students in Discord and show off your Food Vision model 🍔👁.
 2. Train a feature-extraction transfer learning model for 10 epochs on the same data and compare its performance versus a model which used feature extraction for 5 epochs and fine-tuning for 5 epochs (like we've used in this notebook). Which method is better?
+3. Recreate the first model (the feature extraction model) with [`mixed_precision`](https://www.tensorflow.org/guide/mixed_precision) turned on. 
+  * Does it make the model train faster? 
+  * Does it effect the accuracy or performance of our model? 
+  * What's the advatanges of using `mixed_precision` training?
 
 ### 📖 06 Transfer Learning in TensorFlow Part 3: Scaling-up Extra-curriculum
 * Spend 15-minutes reading up on the [EarlyStopping callback](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping). What does it do? How could we use it in our model training?
