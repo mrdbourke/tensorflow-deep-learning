@@ -7,7 +7,7 @@ Contents of this page:
 - [Course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials) (everything you'll need for completing the course)
 - [Course structure](https://github.com/mrdbourke/tensorflow-deep-learning#course-structure) (how this course is taught)
 - [Should you do this course?](https://github.com/mrdbourke/tensorflow-deep-learning#should-you-do-this-course) (decide by answering a couple simple questions)
-- [Prerequisites](https://github.com/mrdbourke/tensorflow-deep-learning#prerequsites) (what skills you'll need to do this course)
+- [Prerequisites](https://github.com/mrdbourke/tensorflow-deep-learning#prerequisites) (what skills you'll need to do this course)
 - [Exercises & Extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-exercises---extra-curriculum) (challenges to practice what you've learned and resources to learn more)
 - [Ask a question](https://github.com/mrdbourke/tensorflow-deep-learning#ask-questions) (like to know more? go here)
 - [Status/TODO](https://github.com/mrdbourke/tensorflow-deep-learning#status) (there's still more to come!)
@@ -233,11 +233,11 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 # Status
 
-As of: 24 Feb 2021
+As of: 26 Feb 2021 - LAUNCHED! 
 
 * **Currently:** Preparing to launch! + recording videos for 06
-* **Video count:** 169/~220+, aiming to do ~10 videos per day during recording sessions
-* Finished videos for: 00, 01, 02, 03, 04, 05
+* **Video count:** 182/~220+, aiming to do ~10 videos per day during recording sessions
+* Finished videos for: 00, 01, 02, 03, 04, 05, 06
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
 * Finished 09/10 of code notebooks (time series still to come)
@@ -261,6 +261,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 26 Feb 2021 - 🚀 LAUNCHED!!!!! also finished recording videos for 06, onto 07, 08, 09 for next release 
 * 24 Feb 2021 - recorded 9 videos for section 06, launch inbound!!!
 * 23 Feb 2021 - rearranged GitHub in preparation for launch 🚀 
 * 18 Feb 2021 - recorded 8 videos for 05 and... it's done! onto polishing the GitHub
