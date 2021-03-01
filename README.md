@@ -34,10 +34,10 @@ Key:
 | 03 | [TensorFlow Computer Vision](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/03_convolutional_neural_networks_in_tensorflow.ipynb) | [`pizza_steak`](https://storage.googleapis.com/ztm_tf_course/food_vision/pizza_steak.zip), [`10_food_classes_all_data`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-03-computer-vision--convolutional-neural-networks-in-tensorflow-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/03_convolution_neural_networks_and_computer_vision_with_tensorflow.pdf) |
 | 04 | [Transfer Learning Part 1: Feature extraction](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb) | [`10_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-04-transfer-learning-in-tensorflow-part-1-feature-extraction-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/04_transfer_learning_with_tensorflow_part_1_feature_extraction.pdf) |
 | 05 | [Transfer Learning Part 2: Fine-tuning](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb) | [`10_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip), [`10_food_classes_1_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_1_percent.zip), [`10_food_classes_all_data`](https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-05-transfer-learning-in-tensorflow-part-2-fine-tuning-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/05_transfer_learning_with_tensorflow_part_2_fine_tuning.pdf) |
-| 06 | [Transfer Learning Part 3: Scaling up](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/06_transfer_learning_in_tensorflow_part_3_scaling_up.ipynb) | [`101_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/101_food_classes_10_percent.zip), [`custom_food_images`](https://storage.googleapis.com/ztm_tf_course/food_vision/custom_food_images.zip), [`fine_tuned_efficientnet_model`](https://storage.googleapis.com/ztm_tf_course/food_vision/06_101_food_class_10_percent_saved_big_dog_model.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-06-transfer-learning-in-tensorflow-part-3-scaling-up-exercises) | Coming soon |
-| 07 | Milestone project 1 (coming soon) |  | |  |
+| 06 | [Transfer Learning Part 3: Scaling up](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/06_transfer_learning_in_tensorflow_part_3_scaling_up.ipynb) | [`101_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/101_food_classes_10_percent.zip), [`custom_food_images`](https://storage.googleapis.com/ztm_tf_course/food_vision/custom_food_images.zip), [`fine_tuned_efficientnet_model`](https://storage.googleapis.com/ztm_tf_course/food_vision/06_101_food_class_10_percent_saved_big_dog_model.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-06-transfer-learning-in-tensorflow-part-3-scaling-up-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/06_transfer_learning_with_tensorflow_part_3_scaling_up.pdf) |
+| 07 | Milestone project 1: Food Vision (coming soon) |  | |  |
 | 08 | TensorFlow NLP Fundamentals (coming soon) |  |  |  |
-| 09 | Milestone project 2 (coming soon) |  |  |  |
+| 09 | Milestone project 2: SkimLit (coming soon) |  |  |  |
 | 10 | TensorFlow Time Series Fundamentals & Milestone project 3 (coming soon) | | | |
 
 ## Course structure
@@ -225,7 +225,7 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 ## What this course is missing
 
 * Transformers
-* Multi-modal models
+* Multi-modal models (models which use more than one data source such as text & images) 
 
 ## Ask questions
 
@@ -233,9 +233,9 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 # Status
 
-As of: 26 Feb 2021 - LAUNCHED! 
+As of: 01 Mar 2021 - LAUNCHED! 
 
-* **Currently:** Preparing to launch! + recording videos for 06
+* **Currently:** Preparing slides & notebooks for 07, 08, 09 then going to record 
 * **Video count:** 182/~220+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04, 05, 06
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
@@ -253,14 +253,14 @@ geez... I forgot how much there was still to go... classic project planning
 * ✅ Polish GitHub readme (what you're reading now) with extra resources: 
   * data links used in course
   * extra resources & curriculum
-* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
-* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
-* Add a section which contains "things taught in this course", like a table of contents kind of thing
+* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05, 06 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
+* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05, 06 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
 * Make Colab overview video (Colab is the tool we'll be using for the whole course)
 * Make course resource overview video (e.g. how to use this GitHub, Discussions page, exercises, extra-curriculum etc)
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 01 Mar 2021 - Added slides for 06 ([see them here](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/06_transfer_learning_with_tensorflow_part_3_scaling_up.pdf)) 
 * 26 Feb 2021 - 🚀 LAUNCHED!!!!! also finished recording videos for 06, onto 07, 08, 09 for next release 
 * 24 Feb 2021 - recorded 9 videos for section 06, launch inbound!!!
 * 23 Feb 2021 - rearranged GitHub in preparation for launch 🚀 
