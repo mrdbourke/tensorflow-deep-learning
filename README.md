@@ -233,9 +233,9 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 # Status
 
-As of: 01 Mar 2021 - LAUNCHED! 
+As of: 05 Mar 2021 - LAUNCHED! 
 
-* **Currently:** Preparing slides & notebooks for 07, 08, 09 then going to record 
+* **Currently:** Preparing slides & notebook for 07 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * **Video count:** 182/~220+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04, 05, 06
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
@@ -260,6 +260,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 05 Mar 2021 - added draft notebook 07 (heaps of data loading and model training improvements in this one!), gonna fix up over next few days
 * 01 Mar 2021 - Added slides for 06 ([see them here](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/06_transfer_learning_with_tensorflow_part_3_scaling_up.pdf)) 
 * 26 Feb 2021 - 🚀 LAUNCHED!!!!! also finished recording videos for 06, onto 07, 08, 09 for next release 
 * 24 Feb 2021 - recorded 9 videos for section 06, launch inbound!!!
