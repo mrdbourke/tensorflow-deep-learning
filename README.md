@@ -233,7 +233,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 # Status
 
-As of: 10 Mar 2021 - LAUNCHED! 
+As of: 11 Mar 2021 - LAUNCHED! 
 
 * **Currently:** Preparing slides & notebook for 07 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * **Video count:** 182/~220+, aiming to do ~10 videos per day during recording sessions
@@ -260,6 +260,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 11 Mar 2021 - added even more text annotations to notebook 07, finishing tomorrow, then slides
 * 10 Mar 2021 - Typed a whole bunch of explanations into notebook 07, continuing tomorrow
 * 09 Mar 2021 - fixed plenty of code in notebook 07, should run end to end very cleanly (though loading times are still a thing)
 * 05 Mar 2021 - added draft notebook 07 (heaps of data loading and model training improvements in this one!), gonna fix up over next few days
