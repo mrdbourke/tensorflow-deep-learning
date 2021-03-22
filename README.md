@@ -3,7 +3,11 @@ All of the course materials for the [Zero to Mastery Deep Learning with TensorFl
 
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
 
-Contents of this page:
+Before signing up to the full course, you can watch the first 14-hours of videos on YouTube in a two part series:
+* [Part 1](https://youtu.be/tpCFfeUEGs8) contains notebooks 00, 01 and some of 02 (see below)
+* [Part 2](https://youtu.be/ZUKz4125WNI) starts where part 1 left off and finishes the rest of 02
+
+Otherwise, enjoy the contents of this page:
 - [Course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials) (everything you'll need for completing the course)
 - [Course structure](https://github.com/mrdbourke/tensorflow-deep-learning#course-structure) (how this course is taught)
 - [Should you do this course?](https://github.com/mrdbourke/tensorflow-deep-learning#should-you-do-this-course) (decide by answering a couple simple questions)
@@ -224,8 +228,14 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ## What this course is missing
 
-* Transformers
-* Multi-modal models (models which use more than one data source such as text & images) 
+Deep learning is a broad topic. So this course doesn't cover it all. 
+
+Here are some of the main topics you might want to look into next:
+
+* Transformers (the neural network architecture taking the NLP world by storm)
+* Multi-modal models (models which use more than one data source such as text & images)
+* Reinforcement learning
+* Unsupervised learning
 
 ## Ask questions
 
@@ -233,7 +243,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 # Status
 
-As of: 10 Mar 2021 - LAUNCHED! 
+As of: 17 Mar 2021 - LAUNCHED! 
 
 * **Currently:** Preparing slides & notebook for 07 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * **Video count:** 182/~220+, aiming to do ~10 videos per day during recording sessions
@@ -260,6 +270,8 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 17 Mar 2021 - 99% finished notebook 07, added links to first 14 hours of the course on YouTube ([10 hours in part 1](https://youtu.be/tpCFfeUEGs8), [4 hours in part 2](https://youtu.be/ZUKz4125WNI))
+* 11 Mar 2021 - added even more text annotations to notebook 07, finishing tomorrow, then slides
 * 10 Mar 2021 - Typed a whole bunch of explanations into notebook 07, continuing tomorrow
 * 09 Mar 2021 - fixed plenty of code in notebook 07, should run end to end very cleanly (though loading times are still a thing)
 * 05 Mar 2021 - added draft notebook 07 (heaps of data loading and model training improvements in this one!), gonna fix up over next few days
