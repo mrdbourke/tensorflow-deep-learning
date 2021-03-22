@@ -262,13 +262,13 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 17 Mar 2021 - LAUNCHED! 
+As of: 22 Mar 2021 - LAUNCHED! 
 
-* **Currently:** Preparing slides & notebook for 07 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
+* **Currently:** About to start recording 07! 
 * **Video count:** 182/~220+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04, 05, 06
-* Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06
-* Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06
+* Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06, 07
+* Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06, 07 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * Finished 09/10 of code notebooks (time series still to come)
 * Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
 * Created GitHub Project page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
@@ -289,6 +289,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 22 Mar 2021 - Polished notebook 07 ready for recording, made slides for 07, added template for 07 (for a student to go through and practice), ready to record!
 * 17 Mar 2021 - 99% finished notebook 07, added links to first 14 hours of the course on YouTube ([10 hours in part 1](https://youtu.be/tpCFfeUEGs8), [4 hours in part 2](https://youtu.be/ZUKz4125WNI))
 * 11 Mar 2021 - added even more text annotations to notebook 07, finishing tomorrow, then slides
 * 10 Mar 2021 - Typed a whole bunch of explanations into notebook 07, continuing tomorrow
