@@ -262,10 +262,10 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 23 Mar 2021 - LAUNCHED! 
+As of: 24 Mar 2021 - LAUNCHED!
 
 * **Currently:** Recording videos for 07
-* **Video count:** 188/~220+, aiming to do ~10 videos per day during recording sessions
+* **Video count:** 196/~220+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04, 05, 06
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06, 07
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06, 07 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
@@ -289,6 +289,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 24 Mar 2021 - Recorded 8 videos for 07, finished! onto materials (slides/notebooks) for 08, 09
 * 23 Mar 2021 - Recorded 6 videos for 07 (finally), going to finish tomorrow
 * 22 Mar 2021 - Polished notebook 07 ready for recording, made slides for 07, added template for 07 (for a student to go through and practice), ready to record!
 * 17 Mar 2021 - 99% finished notebook 07, added links to first 14 hours of the course on YouTube ([10 hours in part 1](https://youtu.be/tpCFfeUEGs8), [4 hours in part 2](https://youtu.be/ZUKz4125WNI))
