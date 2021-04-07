@@ -262,9 +262,9 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 1 Apr 2021 - LAUNCHED!
+As of: 7 Apr 2021 - LAUNCHED!
 
-* **Currently:** Preparing materials for 08, 09 recording
+* **Currently:** About to start recording videos for 08!
 * **Video count:** 196/~220+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04, 05, 06, 07
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06, 07
@@ -289,6 +289,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 7 Apr 2021 - added a whole bunch of images to notebook 08, getting ready for recording tomorrow!
 * 1 Apr 2021 - added [notebook 09: SkimLit](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb), almost finished, a little cleaning and we'll be ready for slide making!
 * 31 Mar 2021 - added notebook 08, going to finish tomorrow, then onto 09! 
 * 24 Mar 2021 - Recorded 8 videos for 07, finished! onto materials (slides/notebooks) for 08, 09
