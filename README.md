@@ -262,10 +262,10 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 8 Apr 2021 - LAUNCHED!
+As of: 9 Apr 2021 - LAUNCHED on ZTM! Udemy version coming soon, see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/34
 
 * **Currently:** About to start recording videos for 08!
-* **Video count:** 206/~220+, aiming to do ~10 videos per day during recording sessions
+* **Video count:** 212/~240+, aiming to do ~10 videos per day during recording sessions
 * Finished videos for: 00, 01, 02, 03, 04, 05, 06, 07
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06, 07, 08
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06, 07, 08 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
@@ -289,6 +289,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 9 Apr 2021 - recorded 6 videos for notebook 08 
 * 8 Apr 2021 - recorded 10 videos for notebook 08! more coming tomorrow! home stretch baby!!!
 * 7 Apr 2021 - added a whole bunch of images to notebook 08, getting ready for recording tomorrow!
 * 1 Apr 2021 - added [notebook 09: SkimLit](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb), almost finished, a little cleaning and we'll be ready for slide making!
