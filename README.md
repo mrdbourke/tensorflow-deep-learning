@@ -262,11 +262,11 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 10 Apr 2021 - LAUNCHED on ZTM! Udemy version coming soon, see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/34
+As of: 14 Apr 2021 - LAUNCHED on ZTM! Udemy version coming soon, see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/34
 
 * **Currently:** About to start recording videos for 08!
-* **Video count:** 216/~240+, aiming to do ~10 videos per day during recording sessions
-* Finished videos for: 00, 01, 02, 03, 04, 05, 06, 07
+* **Video count:** 228/~250+, aiming to do ~10 videos per day during recording sessions
+* Finished videos for: 00, 01, 02, 03, 04, 05, 06, 07, 08
 * Finished slides for notebooks: 00, 01, 02, 03, 04, 05, 06, 07, 08
 * Polished (prepared them for external use) notebooks: 00, 01, 02, 03, 04, 05, 06, 07, 08 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * Finished 10/11 of code notebooks (time series still to come)
@@ -282,13 +282,14 @@ geez... I forgot how much there was still to go... classic project planning
 * ✅ Polish GitHub readme (what you're reading now) with extra resources: 
   * data links used in course
   * extra resources & curriculum
-* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05, 06 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
-* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05, 06 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
+* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05, 06, 07 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
+* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05, 06, 07 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
 * Make Colab overview video (Colab is the tool we'll be using for the whole course)
 * Make course resource overview video (e.g. how to use this GitHub, Discussions page, exercises, extra-curriculum etc)
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 14 Apr 2021 - recorded 12 videos for notebook 08, finished the section! time to make slides for 09 and get into it
 * 10 Apr 2021 - recorded 4 videos for notebook 08
 * 9 Apr 2021 - recorded 6 videos for notebook 08 
 * 8 Apr 2021 - recorded 10 videos for notebook 08! more coming tomorrow! home stretch baby!!!
