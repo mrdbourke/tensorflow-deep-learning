@@ -304,10 +304,10 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 16 Apr 2021 - LAUNCHED on ZTM! Udemy version coming soon, see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/34
+As of: 19 Apr 2021 - LAUNCHED on ZTM! Udemy version coming soon, see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/34
 
-* **Currently:** Editing videos for 08, making slides for 09, then recording videos for 09
-* **Video count:** 228/~250+, aiming to do ~10 videos per day during recording sessions
+* **Currently:** Editing videos for 08 (and preparing to upload them), recording videos for 09
+* **Video count:** 237/~260+, aiming to do ~10 videos per day during recording sessions
 * **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08
 * **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08
 * **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
@@ -331,6 +331,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 19 Apr 2021 - recorded 9 videos for 09
 * 16 Apr 2021 - slides done for 09, ready to start recording!
 * 15 Apr 2021 - added slides, extra-curriculum, exercises and video notebook for 08, started making slides for 09, will finish tomorrow
 * 14 Apr 2021 - recorded 12 videos for notebook 08, finished the section! time to make slides for 09 and get into it
