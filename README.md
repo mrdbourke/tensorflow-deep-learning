@@ -7,6 +7,8 @@ Before signing up to the full course, you can watch the first 14-hours of videos
 * [Part 1](https://youtu.be/tpCFfeUEGs8) contains notebooks 00, 01 and some of 02 (see below)
 * [Part 2](https://youtu.be/ZUKz4125WNI) starts where part 1 left off and finishes the rest of 02
 
+Videos going through the rest of the notebooks (03 - 10) are available in [the full course](https://dbourke.link/ZTMTFcourse).
+
 ## Contents of this page
 - [Course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials) (everything you'll need for completing the course)
 - [Course structure](https://github.com/mrdbourke/tensorflow-deep-learning#course-structure) (how this course is taught)
@@ -296,7 +298,13 @@ Here are some of the main topics you might want to look into next:
 * Reinforcement learning
 * Unsupervised learning
 
-## TODO Extensions (possible places to go after the course)
+## Extensions (possible places to go after the course)
+
+* Deeplearning.AI specializations - https://www.deeplearning.ai
+* Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow Book (especially the 2nd half) - https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
+* Full Stack Deep Learning (learn how to turn your models into machine learning-powered applications) - https://fullstackdeeplearning.com
+* fast.ai Curriculum - https://fullstackdeeplearning.com
+* [Getting Experience](https://www.mrdbourke.com/how-can-a-beginner-data-scientist-like-me-gain-experience/) (read this on how to get experience for a job)
 
 ## Ask questions
 
