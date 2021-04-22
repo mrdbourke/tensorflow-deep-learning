@@ -43,7 +43,7 @@ Key:
 | 06 | [Transfer Learning Part 3: Scaling up](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/06_transfer_learning_in_tensorflow_part_3_scaling_up.ipynb) | [`101_food_classes_10_percent`](https://storage.googleapis.com/ztm_tf_course/food_vision/101_food_classes_10_percent.zip), [`custom_food_images`](https://storage.googleapis.com/ztm_tf_course/food_vision/custom_food_images.zip), [`fine_tuned_efficientnet_model`](https://storage.googleapis.com/ztm_tf_course/food_vision/06_101_food_class_10_percent_saved_big_dog_model.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-06-transfer-learning-in-tensorflow-part-3-scaling-up-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/06_transfer_learning_with_tensorflow_part_3_scaling_up.pdf) |
 | 07 | [Milestone Project 1: Food Vision 🍔👁](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/07_food_vision_milestone_project_1.ipynb), [Template (your challenge)](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/TEMPLATE_07_food_vision_milestone_project_1.ipynb) | [`feature_extraction_mixed_precision_efficientnet_model`](https://storage.googleapis.com/ztm_tf_course/food_vision/07_efficientnetb0_feature_extract_model_mixed_precision.zip), [`fine_tuned_mixed_precision_efficientnet_model`](https://storage.googleapis.com/ztm_tf_course/food_vision/07_efficientnetb0_fine_tuned_101_classes_mixed_precision.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-07-milestone-project-1--food-vision-big-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/07_milestone_project_1_food_vision.pdf) |
 | 08 | [TensorFlow NLP Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/08_introduction_to_nlp_in_tensorflow.ipynb) | [`diaster_or_no_diaster_tweets`](https://storage.googleapis.com/ztm_tf_course/nlp_getting_started.zip), [`USE_feature_extractor_model`](https://storage.googleapis.com/ztm_tf_course/08_model_6_USE_feature_extractor.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-08-introduction-to-nlp-natural-language-processing-in-tensorflow-exercises)  | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/08_natural_language_processing_in_tensorflow.pdf) |
-| 09 | [Milestone Project 2: SkimLit 📄🔥](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) | [`pubmed_RCT_200k_dataset`](https://github.com/Franck-Dernoncourt/pubmed-rct.git), [`skimlit_tribrid_model`](https://storage.googleapis.com/ztm_tf_course/skimlit/skimlit_tribrid_model.zip) |  |  |
+| 09 | [Milestone Project 2: SkimLit 📄🔥](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) | [`pubmed_RCT_200k_dataset`](https://github.com/Franck-Dernoncourt/pubmed-rct.git), [`skimlit_tribrid_model`](https://storage.googleapis.com/ztm_tf_course/skimlit/skimlit_tribrid_model.zip) |  | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/09_milestone_project_2_skimlit.pdf) |
 | 10 | TensorFlow Time Series Fundamentals & Milestone Project 3 (coming soon) | | | |
 
 ## Course structure
@@ -287,6 +287,35 @@ To practice what you've learned, a good idea would be to spend an hour on 3 of t
   * [Attention mechanisms](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/). These are a foundational component of the transformer architecture and also often add improvments to deep NLP models.
   * [Transformer architectures](http://jalammar.github.io/illustrated-transformer/). This model architecture has recently taken the NLP world by storm, achieving state of the art on many benchmarks. However, it does take a little more processing to get off the ground, the [HuggingFace Models (formerly HuggingFace Transformers) library](https://huggingface.co/models/) is probably your best quick start.
 
+---
+
+### 🛠 09 Milestone Project 2: SkimLit 📄🔥 Exercises
+
+1. Train `model_5` on all of the data in the training dataset for as many epochs until it stops improving. Since this might take a while, you might want to use:
+  * [`tf.keras.callbacks.ModelCheckpoint`](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/ModelCheckpoint) to save the model's best weights only.
+  * [`tf.keras.callbacks.EarlyStopping`](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping) to stop the model from training once the validation loss has stopped improving for ~3 epochs.
+2. Checkout the [Keras guide on using pretrained GloVe embeddings](https://keras.io/examples/nlp/pretrained_word_embeddings/). Can you get this working with one of our models?
+  * Hint: You'll want to incorporate it with a custom token [Embedding](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Embedding) layer.
+  * It's up to you whether or not you fine-tune the GloVe embeddings or leave them frozen.
+3. Try replacing the TensorFlow Hub Universal Sentence Encoder pretrained  embedding for the [TensorFlow Hub BERT PubMed expert](https://tfhub.dev/google/experts/bert/pubmed/2) (a language model pretrained on PubMed texts) pretrained embedding. Does this effect results?
+  * Note: Using the BERT PubMed expert pretrained embedding requires an extra preprocessing step for sequences (as detailed in the [TensorFlow Hub guide](https://tfhub.dev/google/experts/bert/pubmed/2)).
+  * Does the BERT model beat the results mentioned in this paper? https://arxiv.org/pdf/1710.06071.pdf 
+4. What happens if you were to merge our `line_number` and `total_lines` features for each sequence? For example, created a `X_of_Y` feature instead? Does this effect model performance?
+  * Another example: `line_number=1` and `total_lines=11` turns into `line_of_X=1_of_11`.
+5. Write a function (or series of functions) to take a sample abstract string, preprocess it (in the same way our model has been trained), make a prediction on each sequence in the abstract and return the abstract in the format:
+  * `PREDICTED_LABEL`: `SEQUENCE`
+  * `PREDICTED_LABEL`: `SEQUENCE`
+  * `PREDICTED_LABEL`: `SEQUENCE`
+  * `PREDICTED_LABEL`: `SEQUENCE`
+  * ...
+    * You can find your own unstrcutured RCT abstract from PubMed or try this one from: [*Baclofen promotes alcohol abstinence in alcohol dependent cirrhotic patients with hepatitis C virus (HCV) infection*](https://pubmed.ncbi.nlm.nih.gov/22244707/).
+
+### 📖 09 Milestone Project 2: SkimLit 📄🔥 Extra-curriculum
+
+* For more on working with text/spaCy, see [spaCy's advanced NLP course](https://course.spacy.io/en/). If you're going to be working on production-level NLP problems, you'll probably end up using spaCy.
+* For another look at how to approach a text classification problem like the one we've just gone through, I'd suggest going through [Google's Machine Learning Course for text classification](https://developers.google.com/machine-learning/guides/text-classification). 
+* Since our dataset has imbalanced classes (as with many real-world datasets), so it might be worth looking into the [TensorFlow guide for different methods to training a model with imbalanced classes](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data).
+
 ## What this course is missing
 
 Deep learning is a broad topic. So this course doesn't cover it all. 
@@ -312,12 +341,12 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 21 Apr 2021 - LAUNCHED on ZTM! Udemy version coming soon, see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/34
+As of: 22 Apr 2021 - LAUNCHED on ZTM! Udemy version coming soon, see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/34
 
-* **Currently:** Editing videos for 08 (and preparing to upload them), recording videos for 09
-* **Video count:** 261/~270+, aiming to do ~10 videos per day during recording sessions
-* **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08
-* **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08
+* **Currently:** Editing videos for 08 + 09 (and preparing to upload them)
+* **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
+* **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
+* **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
 * **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * Finished 10/11 of code notebooks (time series still to come)
 * Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
@@ -332,13 +361,14 @@ geez... I forgot how much there was still to go... classic project planning
 * ✅ Polish GitHub readme (what you're reading now) with extra resources: 
   * data links used in course
   * extra resources & curriculum
-* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05, 06, 07, 08 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
-* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05, 06, 07, 08 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
+* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
+* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
 * Make Colab overview video (Colab is the tool we'll be using for the whole course)
 * Make course resource overview video (e.g. how to use this GitHub, Discussions page, exercises, extra-curriculum etc)
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 22 Apr 2021 - finished recording videos for 09! added slides and video notebook 09
 * 21 Apr 2021 - recorded 14 videos for 09! biggggg day of recording! getting closer to finishing 09
 * 20 Apr 2021 - recorded 10 videos for 09
 * 19 Apr 2021 - recorded 9 videos for 09
