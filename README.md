@@ -332,7 +332,7 @@ Here are some of the main topics you might want to look into next:
 * Deeplearning.AI specializations - https://www.deeplearning.ai
 * Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow Book (especially the 2nd half) - https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
 * Full Stack Deep Learning (learn how to turn your models into machine learning-powered applications) - https://fullstackdeeplearning.com
-* fast.ai Curriculum - https://fullstackdeeplearning.com
+* fast.ai Curriculum - https://www.fast.ai
 * [Getting Experience](https://www.mrdbourke.com/how-can-a-beginner-data-scientist-like-me-gain-experience/) (read this on how to get experience for a job)
 
 ## Ask questions
