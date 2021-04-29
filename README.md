@@ -1,4 +1,7 @@
 # Zero to Mastery Deep Learning with TensorFlow
+
+🚀 **Update (29 April 2021):** The [ZTM Deep Learning with TensorFlow course is now live on Udemy](https://dbourke.link/udemyTFlaunch)! There's a special deal going for the next ~5 days or so to celebrate the launch, sign up to lock in the best price!
+
 All of the course materials for the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
@@ -341,7 +344,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 22 Apr 2021 - LAUNCHED on ZTM! Udemy version coming soon, see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/34
+As of: 29 Apr 2021 - LAUNCHED ON ZTM & Udemy!!! Sign up for Udemy version here: https://dbourke.link/udemyTFlaunch
 
 * **Currently:** Editing videos for 08 + 09 (and preparing to upload them)
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
@@ -368,6 +371,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 29 Apr 2021 - 🚀🚀🚀 launched on Udemy!!! 🚀🚀🚀
 * 22 Apr 2021 - finished recording videos for 09! added slides and video notebook 09
 * 21 Apr 2021 - recorded 14 videos for 09! biggggg day of recording! getting closer to finishing 09
 * 20 Apr 2021 - recorded 10 videos for 09
