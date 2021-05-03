@@ -344,7 +344,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 29 Apr 2021 - LAUNCHED ON ZTM & Udemy!!! Sign up for Udemy version here: https://dbourke.link/udemyTFlaunch
+As of: 03 May 2021 - LAUNCHED ON ZTM & Udemy!!! Found an issue with videos in section 08 (no audio), rerecording them 
 
 * **Currently:** Editing videos for 08 + 09 (and preparing to upload them)
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
@@ -371,6 +371,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 03 May 2021 - found an issue with videos 09-20 of section 08 (no audio), going to rerecord them
 * 29 Apr 2021 - 🚀🚀🚀 launched on Udemy!!! 🚀🚀🚀
 * 22 Apr 2021 - finished recording videos for 09! added slides and video notebook 09
 * 21 Apr 2021 - recorded 14 videos for 09! biggggg day of recording! getting closer to finishing 09
