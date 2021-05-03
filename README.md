@@ -12,6 +12,12 @@ Before signing up to the full course, you can watch the first 14-hours of videos
 
 Videos going through the rest of the notebooks (03 - 10) are available in [the full course](https://dbourke.link/ZTMTFcourse).
 
+Got questions about the course?
+
+Check out the [livestream Q&A celebrating the course launch on YouTube](https://youtu.be/rqAqcFcfeK8).
+
+Otherwise, many of them might be answered below.
+
 ## Contents of this page
 - [Course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials) (everything you'll need for completing the course)
 - [Course structure](https://github.com/mrdbourke/tensorflow-deep-learning#course-structure) (how this course is taught)
@@ -344,7 +350,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 03 May 2021 - LAUNCHED ON ZTM & Udemy!!! Found an issue with videos in section 08 (no audio), rerecording them 
+As of: 04 May 2021 - LAUNCHED ON ZTM & Udemy!!! Found an issue with videos in section 08 (no audio), rerecording them 
 
 * **Currently:** Editing videos for 08 + 09 (and preparing to upload them)
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
@@ -371,6 +377,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 04 May 2021 - rerecorded 10 videos for 08 fixing the sound isse, these are going straight to editing and should be uploaded by end of week
 * 03 May 2021 - found an issue with videos 09-20 of section 08 (no audio), going to rerecord them
 * 29 Apr 2021 - 🚀🚀🚀 launched on Udemy!!! 🚀🚀🚀
 * 22 Apr 2021 - finished recording videos for 09! added slides and video notebook 09
