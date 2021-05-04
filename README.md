@@ -350,9 +350,9 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 04 May 2021 - LAUNCHED ON ZTM & Udemy!!! Found an issue with videos in section 08 (no audio), rerecording them 
+As of: 04 May 2021 - LAUNCHED ON ZTM & Udemy!!!
 
-* **Currently:** Editing videos for 08 + 09 (and preparing to upload them)
+* **Currently:** Editing videos for 08 + 09 (and preparing to upload them), making time series materials
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
 * **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
 * **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
@@ -377,8 +377,9 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
-* 04 May 2021 - rerecorded 10 videos for 08 fixing the sound isse, these are going straight to editing and should be uploaded by end of week
-* 03 May 2021 - found an issue with videos 09-20 of section 08 (no audio), going to rerecord them
+* 04 May 2021 - fixed the remaining videos for 08 (audio missing), now onto making time series materials!
+* 03 May 2021 - rerecorded 10 videos for 08 fixing the sound isse, these are going straight to editing and should be uploaded by end of week
+* 02 May 2021 - found an issue with videos 09-20 of section 08 (no audio), going to rerecord them
 * 29 Apr 2021 - 🚀🚀🚀 launched on Udemy!!! 🚀🚀🚀
 * 22 Apr 2021 - finished recording videos for 09! added slides and video notebook 09
 * 21 Apr 2021 - recorded 14 videos for 09! biggggg day of recording! getting closer to finishing 09
