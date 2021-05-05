@@ -12,7 +12,7 @@ Before signing up to the full course, you can watch the first 14-hours of videos
 
 Videos going through the rest of the notebooks (03 - 10) are available in [the full course](https://dbourke.link/ZTMTFcourse).
 
-Got questions about the course?
+### Got questions about the course?
 
 Check out the [livestream Q&A celebrating the course launch on YouTube](https://youtu.be/rqAqcFcfeK8).
 
@@ -350,7 +350,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 04 May 2021 - LAUNCHED ON ZTM & Udemy!!!
+As of: 05 May 2021 - LAUNCHED ON ZTM & Udemy!!!
 
 * **Currently:** Editing videos for 08 + 09 (and preparing to upload them), making time series materials
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
@@ -377,6 +377,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 05 May 2021 - ~20+ videos edited for 08, ~10+ videos edited for 09, time series materials in 1st draft mode
 * 04 May 2021 - fixed the remaining videos for 08 (audio missing), now onto making time series materials!
 * 03 May 2021 - rerecorded 10 videos for 08 fixing the sound isse, these are going straight to editing and should be uploaded by end of week
 * 02 May 2021 - found an issue with videos 09-20 of section 08 (no audio), going to rerecord them
