@@ -350,9 +350,9 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 05 May 2021 - LAUNCHED ON ZTM & Udemy!!!
+As of: 11 May 2021 - LAUNCHED ON ZTM & Udemy!!!
 
-* **Currently:** Editing videos for 08 + 09 (and preparing to upload them), making time series materials
+* **Currently:** making time series materials
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
 * **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
 * **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
@@ -377,6 +377,9 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 11 May 2021 - 40+ section 08 & 09 videos released on Udemy & ZTM!!!
+* 10 May 2021 - time series materials research + preparation
+* 08 May 2021 - time series materials research + preparation
 * 05 May 2021 - ~20+ videos edited for 08, ~10+ videos edited for 09, time series materials in 1st draft mode
 * 04 May 2021 - fixed the remaining videos for 08 (audio missing), now onto making time series materials!
 * 03 May 2021 - rerecorded 10 videos for 08 fixing the sound isse, these are going straight to editing and should be uploaded by end of week
