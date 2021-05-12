@@ -350,7 +350,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 11 May 2021 - LAUNCHED ON ZTM & Udemy!!!
+As of: 12 May 2021 - LAUNCHED ON ZTM & Udemy!!! All videos from 00 to 09 (see notebooks above) are live, 10 coming soon
 
 * **Currently:** making time series materials
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
@@ -377,6 +377,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 12 May 2021 - all videos for 09 have now been released on Udemy & ZTM!!! enjoy build SkimLit 📄🔥
 * 11 May 2021 - 40+ section 08 & 09 videos released on Udemy & ZTM!!!
 * 10 May 2021 - time series materials research + preparation
 * 08 May 2021 - time series materials research + preparation
