@@ -1,7 +1,5 @@
 # Zero to Mastery Deep Learning with TensorFlow
 
-🚀 **Update (29 April 2021):** The [ZTM Deep Learning with TensorFlow course is now live on Udemy](https://dbourke.link/udemyTFlaunch)! There's a special deal going for the next ~5 days or so to celebrate the launch, sign up to lock in the best price!
-
 All of the course materials for the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
