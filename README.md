@@ -348,9 +348,9 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 20 May 2021 - time series materials inbound!
+As of: 24 May 2021 - time series materials inbound!
 
-* **Currently:** making time series materials
+* **Currently:** making time series materials - https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
 * **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
 * **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
@@ -375,6 +375,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 24 May 2021 - fixed broken preprocessing function in time series notebook, LSTM model is broken, more material to come
 * 20 May 2021 - more time series material creation
 * 19 May 2021 - more time series material creation, streaming much of it live on Twitch - https://twitch.tv/mrdbourke
 * 18 May 2021 - added time series forecasting notebook outline ([notebook 10](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb)), going to really start ramping up the materials here
