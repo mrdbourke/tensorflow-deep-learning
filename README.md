@@ -348,7 +348,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 14 Jun 2021 - time series materials inbound!
+As of: 16 Jun 2021 - time series materials inbound!
 
 * **Currently:** making time series materials - https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
@@ -375,6 +375,7 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 16 Jun 2021 - add annotations for uncertainty and future predictions in time series notebook, next is turkey problem
 * 14 Jun 2021 - add annotations for ensembling, begin on prediction intervals
 * 10 Jun 2021 - finished annotations for N-BEATS algorithm, now onto ensembling/prediction intervals
 * 9 Jun 2021 - add annotations for N-BEATS algorithm implementation for time series notebook
