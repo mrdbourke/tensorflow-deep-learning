@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Welcome to the Zero to Mastery TensorFlow for Deep Learning Book
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is the online book version of the full course.
 
-## Commands
+For the full code see the [course GitHub](https://github.com/mrdbourke/tensorflow-deep-learning).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This website is made using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
