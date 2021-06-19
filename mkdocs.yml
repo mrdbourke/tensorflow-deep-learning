@@ -6,6 +6,8 @@ theme:
   logo: assets/misc-ztm-logo.png
   features:
     - navigation.instant
+  palette:
+    primary: black
 
 markdown_extensions:
   - pymdownx.highlight
