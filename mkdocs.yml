@@ -22,6 +22,25 @@ plugins:
 repo_url: https://github.com/mrdbourke/tensorflow-deep-learning/
 repo_name: mrdbourke/tensorflow_deep_learning
 
+nav:
+  - Home: 'index.md'
+  - Fundamentals:
+    - '00 Getting started with TensorFlow': '00_tensorflow_fundamentals.ipynb'
+    - '01 Neural Network Regression with TensorFlow': '01_neural_network_regression_in_tensorflow.ipynb'
+    - '02 Neural Network Classification with TensorFlow': '02_neural_network_classification_in_tensorflow.ipynb'
+  - Computer Vision:
+    - '03 Convolutional Neural Networks and Computer Vision with TensorFlow': '03_convolutional_neural_networks_in_tensorflow.ipynb'
+  - Transfer Learning:
+    - '04 Transfer Learning with TensorFlow Part 1: Feature Extraction' : '04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb'
+    - '05 Transfer Learning with TensorFlow Part 2: Fine-tuning' : '05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb'
+    - '06 Transfer Learning with TensorFlow Part 3: Scaling up' : '06_transfer_learning_in_tensorflow_part_3_scaling_up.ipynb'
+    - '07 Milestone Project 1: 🍔👁 Food Vision Big™': '07_food_vision_milestone_project_1.ipynb'
+  - Natural Language Processing:
+    - '08 Natural Language Processing with in TensorFlow' : '08_introduction_to_nlp_in_tensorflow.ipynb' 
+    - '09 Milestone Project 2: SkimLit 📄🔥' : '09_SkimLit_nlp_milestone_project_2.ipynb'
+  - Time Series:
+    - '(Work in Progress) 10 Time Series in TensorFlow + Milestone Project 3: BitPredict 💰📈' : '10_time_series_forecasting_in_tensorflow.ipynb'
+
 extra:
   social:
     - icon: fontawesome/brands/twitter
