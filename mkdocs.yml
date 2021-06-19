@@ -1,0 +1,13 @@
+site_name: My Docs
+site_url: https://example.com/
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+ - mkdocs-jupyter
+ - search
