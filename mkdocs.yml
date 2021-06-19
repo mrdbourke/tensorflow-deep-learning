@@ -10,6 +10,8 @@ theme:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
  - mkdocs-jupyter
