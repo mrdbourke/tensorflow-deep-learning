@@ -1,5 +1,5 @@
-site_name: My Docs
-site_url: https://example.com/
+site_name: Zero to Mastery TensorFlow for Deep Learning
+site_url: http://dev.mrdbourke.com/tensorflow-deep-learning/
 
 theme:
   name: material
@@ -11,3 +11,5 @@ markdown_extensions:
 plugins:
  - mkdocs-jupyter
  - search
+
+repo_url: https://github.com/mrdbourke/tensorflow-deep-learning/settings/pages
