@@ -21,11 +21,11 @@ Check out the [livestream Q&A celebrating the course launch on YouTube](https://
 
 TODO (things coming to this page):
 
- - course outline
- - what this course teaches you
- - short video on how to use this page (e.g. show the link to Colab & how it works)
- - links to YouTube videos of course
- - sign up button
+ - [] course outline
+ - [] what this course teaches you
+ - [] short video on how to use this page (e.g. show the link to Colab & how it works)
+ - [] links to YouTube videos of course
+ - [] sign up button
 
 | Number | Notebook | Data/Model | Exercises & Extra-curriculum | Slides |
 | ----- |  ----- |  ----- |  ----- |  ----- |

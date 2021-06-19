@@ -3,6 +3,9 @@ site_url: http://dev.mrdbourke.com/tensorflow-deep-learning/
 
 theme:
   name: material
+  logo: assets/misc-ztm-logo.png
+  features:
+    - navigation.instant
 
 markdown_extensions:
   - pymdownx.highlight
