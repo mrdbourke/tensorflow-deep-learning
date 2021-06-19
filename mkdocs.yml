@@ -10,17 +10,7 @@ theme:
   features:
     - navigation.instant
   palette:
-    - media: "(prefers-color-scheme: light)"
-      primary: black
-      #scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+    primary: black
 
 markdown_extensions:
   - pymdownx.highlight
