@@ -1,5 +1,7 @@
 # Welcome to the Zero to Mastery TensorFlow for Deep Learning Book
 
+![Zero to Mastery TensorFlow for Deep Learning cover](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-tensorflow-deep-learning-outline.png)
+
 This is the online book version of the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
 For the full code see the [course GitHub](https://github.com/mrdbourke/tensorflow-deep-learning).
