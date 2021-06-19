@@ -12,4 +12,14 @@ plugins:
  - mkdocs-jupyter
  - search
 
-repo_url: https://github.com/mrdbourke/tensorflow-deep-learning/settings/pages
+repo_url: https://github.com/mrdbourke/tensorflow-deep-learning/
+repo_name: mrdbourke/tensorflow_deep_learning
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mrdbourke
+    - icon: fontawesome/brands/github
+      link: https://github.com/mrdbourke
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCr8O8l5cCX85Oem1d18EezQ
