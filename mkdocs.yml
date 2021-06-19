@@ -1,6 +1,9 @@
 site_name: Zero to Mastery TensorFlow for Deep Learning
 site_url: http://dev.mrdbourke.com/tensorflow-deep-learning/
 
+repo_url: https://github.com/mrdbourke/tensorflow-deep-learning/
+repo_name: mrdbourke/tensorflow_deep_learning
+
 theme:
   name: material
   logo: assets/misc-ztm-logo.png
@@ -18,9 +21,6 @@ markdown_extensions:
 plugins:
  - mkdocs-jupyter
  - search
-
-repo_url: https://github.com/mrdbourke/tensorflow-deep-learning/
-repo_name: mrdbourke/tensorflow_deep_learning
 
 nav:
   - Home: 'index.md'
