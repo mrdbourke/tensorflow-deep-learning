@@ -10,6 +10,8 @@ Before signing up to the full course, you can watch the first 14-hours of videos
 
 Videos going through the rest of the notebooks (03 - 10) are available in [the full course](https://dbourke.link/ZTMTFcourse).
 
+📖 **New** You can now read the full course as an [online book](http://dev.mrdbourke.com/tensorflow-deep-learning/)! (note: this is a work in progress, but 95% of it should run fine)
+
 ### Got questions about the course?
 
 Check out the [livestream Q&A celebrating the course launch on YouTube](https://youtu.be/rqAqcFcfeK8).
