@@ -350,20 +350,16 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 17 Jun 2021 - time series materials inbound!
+As of: 21 Jun 2021 - [time series code done](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb), now making slides/images for notebook for recording
 
-* **Currently:** making time series materials - https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb
+* **Currently:** making images/slides for time series videos, see the [project page](https://github.com/mrdbourke/tensorflow-deep-learning/projects/1) for what's in progress
 * **Video count:** 263/~280+, aiming to do ~10 videos per day during recording sessions
 * **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
 * **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
 * **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
-* Finished 10/11 of code notebooks (time series still to come)
-* Video studio setup! ([see the makeshift closet studio](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg))
-* Created GitHub Project page! See a cool Kanban setup here: https://github.com/mrdbourke/tensorflow-deep-learning/projects/1
-* Created GitHub Discussion page! Going to use this for popular QA/course tidbits: https://github.com/mrdbourke/tensorflow-deep-learning/discussions
+* **Finished 11/11 of code notebooks**
 
 ## TODO
-geez... I forgot how much there was still to go... classic project planning
 
 * ✅ Make a GitHub Project for course (see "Projects" tab)
 * ✅ Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt))
@@ -377,6 +373,9 @@ geez... I forgot how much there was still to go... classic project planning
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 21 Jun 2021 - code for time series notebook is done, now creating slides/images to prepare for recording
+* 19 Jun 2021 - turned curriculum into an online book, you can read it here: https://dev.mrdbourke.com/tensorflow-deep-learning/ 
+* 18 Jun 2021 - add exercises/extra-curriculum/outline to time series notebook
 * 17 Jun 2021 - add annotations for turkey problem and model comparison in time series notebook, next is outline/images
 * 16 Jun 2021 - add annotations for uncertainty and future predictions in time series notebook, next is turkey problem
 * 14 Jun 2021 - add annotations for ensembling, begin on prediction intervals
