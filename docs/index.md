@@ -4,29 +4,23 @@
 
 This is the online book version of the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
-For the full code see the [course GitHub](https://github.com/mrdbourke/tensorflow-deep-learning).
+For full code and resources see the [course GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
 
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
 
-Before signing up to the full course, you can watch the first 14-hours of videos on YouTube in a two part series:
-
- - [Part 1](https://youtu.be/tpCFfeUEGs8) contains notebooks 00, 01 and some of 02 (see below)
- - [Part 2](https://youtu.be/ZUKz4125WNI) starts where part 1 left off and finishes the rest of 02
-
-Videos going through the rest of the notebooks (03 - 10) are available in [the full course](https://dbourke.link/ZTMTFcourse).
-
-### Got questions about the course?
-
-Check out the [livestream Q&A celebrating the course launch on YouTube](https://youtu.be/rqAqcFcfeK8).
+## Important links
+* 🎥 Watch the [first 14-hours of the course on YouTube](https://dbourke.link/tfpart1part2) (notebooks 00, 01, 02)
+* 💻 [Sign up](https://dbourke.link/ZTMTFcourse) to the full course on the Zero to Mastery Academy (videos for notebooks 03-10)
+* 🤔 Got questions about the course? Check out the [livestream Q&A for the course launch](https://youtu.be/rqAqcFcfeK8)
 
 --- 
 
 TODO (things coming to this page):
 
  - [ ] course outline
- - [ ] what this course teaches you
+ - [x] what this course teaches you
  - [ ] short video on how to use this page (e.g. show the link to Colab & how it works)
- - [ ] links to YouTube videos of course
+ - [x] links to YouTube videos of course
  - [ ] sign up button
 
 | Number | Notebook | Data/Model | Exercises & Extra-curriculum | Slides |
