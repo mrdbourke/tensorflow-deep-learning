@@ -53,7 +53,7 @@ Key:
 | 07 | [Milestone Project 1: Food Vision 🍔👁](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/07_food_vision_milestone_project_1.ipynb), [Template (your challenge)](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/TEMPLATE_07_food_vision_milestone_project_1.ipynb) | [`feature_extraction_mixed_precision_efficientnet_model`](https://storage.googleapis.com/ztm_tf_course/food_vision/07_efficientnetb0_feature_extract_model_mixed_precision.zip), [`fine_tuned_mixed_precision_efficientnet_model`](https://storage.googleapis.com/ztm_tf_course/food_vision/07_efficientnetb0_fine_tuned_101_classes_mixed_precision.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-07-milestone-project-1--food-vision-big-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/07_milestone_project_1_food_vision.pdf) |
 | 08 | [TensorFlow NLP Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/08_introduction_to_nlp_in_tensorflow.ipynb) | [`diaster_or_no_diaster_tweets`](https://storage.googleapis.com/ztm_tf_course/nlp_getting_started.zip), [`USE_feature_extractor_model`](https://storage.googleapis.com/ztm_tf_course/08_model_6_USE_feature_extractor.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-08-introduction-to-nlp-natural-language-processing-in-tensorflow-exercises)  | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/08_natural_language_processing_in_tensorflow.pdf) |
 | 09 | [Milestone Project 2: SkimLit 📄🔥](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) | [`pubmed_RCT_200k_dataset`](https://github.com/Franck-Dernoncourt/pubmed-rct.git), [`skimlit_tribrid_model`](https://storage.googleapis.com/ztm_tf_course/skimlit/skimlit_tribrid_model.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-09-milestone-project-2-skimlit--exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/09_milestone_project_2_skimlit.pdf) |
-| 10 | [TensorFlow Time Series Fundamentals & Milestone Project 3: BitPredict 💰📈 (videos coming soon)](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb) | [`bitcoin_price_data_USD_2013-10-01_2021-05-18.csv`](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/extras/BTC_USD_2013-10-01_2021-05-18-CoinDesk.csv) | [Go to exercises & extra-curriculum] | |
+| 10 | [TensorFlow Time Series Fundamentals & Milestone Project 3: BitPredict 💰📈 (videos coming soon)](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb) | [`bitcoin_price_data_USD_2013-10-01_2021-05-18.csv`](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/extras/BTC_USD_2013-10-01_2021-05-18-CoinDesk.csv) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/README.md#-10-time-series-fundamentals-and-milestone-project-3-bitpredict--exercises) | |
 
 ## Course structure
 
@@ -327,7 +327,7 @@ To practice what you've learned, a good idea would be to spend an hour on 3 of t
 
 ---
 
-## 🛠 10. Time series fundamentals and Milestone Project 3: BitPredict 💰📈 Exercises
+### 🛠 10. Time series fundamentals and Milestone Project 3: BitPredict 💰📈 Exercises
 
 1. Does scaling the data help for univariate/multivariate data? (e.g. getting all of the values between 0 & 1) 
   * Try doing this for a univariate model (e.g. `model_1`) and a multivariate model (e.g. `model_6`) and see if it effects model training or evaluation results.
@@ -347,7 +347,7 @@ To practice what you've learned, a good idea would be to spend an hour on 3 of t
     * [Facebook's Kats library](https://github.com/facebookresearch/Kats) - there are many models in here, remember the machine learning practioner's motto: experiment, experiment, experiment.
     * [LinkedIn's Greykite library](https://github.com/linkedin/greykite)
 
-## 📖 10. Time series fundamentals and Milestone Project 3: BitPredict 💰📈 Extra-curriculum
+### 📖 10. Time series fundamentals and Milestone Project 3: BitPredict 💰📈 Extra-curriculum
 
 We've only really scratched the surface with time series forecasting and time series modelling in general. But the good news is, you've got plenty of hands-on coding experience with it already.
 
