@@ -12,6 +12,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 * 🎥 Watch the [first 14-hours of the course on YouTube](https://dbourke.link/tfpart1part2) (notebooks 00, 01, 02)
 * 💻 [Sign up](https://dbourke.link/ZTMTFcourse) to the full course on the Zero to Mastery Academy (videos for notebooks 03-10)
 * 🤔 Got questions about the course? Check out the [livestream Q&A for the course launch](https://youtu.be/rqAqcFcfeK8)
+* ❓ Stuck? Ask a question on the [GitHub Discussions page](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) or [see the FAQ](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/127) 
 
 --- 
 
