@@ -382,10 +382,10 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 25 Jun 2021 - [time series code done](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb), images and slides done, video recording started
+As of: 26 Jun 2021 - [time series code done](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb), images and slides done, video recording started
 
 * **Currently:** making images/slides for time series videos, see the [project page](https://github.com/mrdbourke/tensorflow-deep-learning/projects/1) for what's in progress
-* **Video count:** 285/~300+, aiming to do ~10 videos per day during recording sessions
+* **Video count:** 289/~300+, aiming to do ~10 videos per day during recording sessions
 * **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
 * **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10
 * **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
@@ -405,6 +405,7 @@ As of: 25 Jun 2021 - [time series code done](https://github.com/mrdbourke/tensor
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 26 Jun 2021 - recorded 4 videos for time series section, looks like it'll be about 40 videos total
 * 25 Jun 2021 - recorded 8 videos for time series section + fixed a bunch of typos in time series notebook
 * 24 Jun 2021 - recorded 14 videos for time series section, more to come tomorrow
 * 23 Jun 2021 - finished adding images to time series notebook, now to start video recording
