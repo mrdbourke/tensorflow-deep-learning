@@ -4,9 +4,11 @@
 
 This is the online book version of the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
-For full code and resources see the [course GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
-
 This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
+
+The course is video based. However, the videos are based on the contents of this online book.
+
+For full code and resources see the [course GitHub](https://github.com/mrdbourke/tensorflow-deep-learning).
 
 ## Important links
 * 🎥 Watch the [first 14-hours of the course on YouTube](https://dbourke.link/tfpart1part2) (notebooks 00, 01, 02)
@@ -14,15 +16,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 * 🤔 Got questions about the course? Check out the [livestream Q&A for the course launch](https://youtu.be/rqAqcFcfeK8)
 * ❓ Stuck? Ask a question on the [GitHub Discussions page](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) or [see the FAQ](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/127) 
 
---- 
-
-TODO (things coming to this page):
-
- - [ ] course outline
- - [x] what this course teaches you
- - [ ] short video on how to use this page (e.g. show the link to Colab & how it works)
- - [x] links to YouTube videos of course
- - [ ] sign up button
+## Course materials
 
 | Number | Notebook | Data/Model | Exercises & Extra-curriculum | Slides |
 | ----- |  ----- |  ----- |  ----- |  ----- |
@@ -37,3 +31,52 @@ TODO (things coming to this page):
 | 08 | [TensorFlow NLP Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/08_introduction_to_nlp_in_tensorflow.ipynb) | [`diaster_or_no_diaster_tweets`](https://storage.googleapis.com/ztm_tf_course/nlp_getting_started.zip), [`USE_feature_extractor_model`](https://storage.googleapis.com/ztm_tf_course/08_model_6_USE_feature_extractor.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-08-introduction-to-nlp-natural-language-processing-in-tensorflow-exercises)  | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/08_natural_language_processing_in_tensorflow.pdf) |
 | 09 | [Milestone Project 2: SkimLit 📄🔥](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) | [`pubmed_RCT_200k_dataset`](https://github.com/Franck-Dernoncourt/pubmed-rct.git), [`skimlit_tribrid_model`](https://storage.googleapis.com/ztm_tf_course/skimlit/skimlit_tribrid_model.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-09-milestone-project-2-skimlit--exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/09_milestone_project_2_skimlit.pdf) |
 | 10 | [TensorFlow Time Series Fundamentals & Milestone Project 3: BitPredict 💰📈 (videos coming soon)](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb) | [`bitcoin_price_data_USD_2013-10-01_2021-05-18.csv`](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/extras/BTC_USD_2013-10-01_2021-05-18-CoinDesk.csv) | | |
+
+## Course structure
+
+This course is code first. The goal is to get you writing deep learning code as soon as possible.
+
+It is taught with the following mantra:
+
+```
+Code -> Concept -> Code -> Concept -> Code -> Concept
+```
+
+This means we write code first then step through the concepts behind it.
+
+If you've got 6-months experience writing Python code and a willingness to learn (most important), you'll be able to do the course.
+
+## Should you do this course?
+
+> Do you have 1+ years experience with deep learning and writing TensorFlow code?
+
+If yes, no you shouldn't, use your skills to build something. 
+
+If no, move onto the next question.
+
+> Have you done at least one beginner machine learning course and would like to learn about deep learning/pass the TensorFlow Developer Certification?
+
+If yes, this course is for you.
+
+If no, go and do a beginner machine learning course and if you decide you want to learn TensorFlow, this page will still be here.
+
+## Prerequisites
+
+> What do I need to know to go through this course?
+
+* **6+ months writing Python code.** Can you write a Python function which accepts and uses parameters? That’s good enough. If you don’t know what that means, spend another month or two writing Python code and then come back here.
+* **At least one beginner machine learning course.** Are you familiar with the idea of training, validation and test sets? Do you know what supervised learning is? Have you used pandas, NumPy or Matplotlib before? If no to any of these, I’d going through at least one machine learning course which teaches these first and then coming back. 
+* **Comfortable using Google Colab/Jupyter Notebooks.** This course uses Google Colab throughout. If you have never used Google Colab before, it works very similar to Jupyter Notebooks with a few extra features. If you’re not familiar with Google Colab notebooks, I’d suggest going through the [Introduction to Google Colab notebook](https://colab.research.google.com/notebooks/intro.ipynb).
+* **Plug:** The [Zero to Mastery beginner-friendly machine learning course](https://dbourke.link/ZTMMLcourse) (I also teach this) teaches all of the above (and this course, the one you're reading about now, is designed as a follow on).
+
+--- 
+
+TODO (things coming to this page):
+
+ - [ ] course outline (make this like the headings on the side bar & link to appropriate resources)
+ - [x] what this course teaches you
+ - [ ] short video on how to use this page (e.g. show the link to Colab & how it works)
+ - [x] links to YouTube videos of course
+ - [ ] sign up button
+ - [ ] extensions
+ - [ ] what this course is missing
