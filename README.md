@@ -382,11 +382,11 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 30 Jun 2021 - [time series code done](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb), images and slides done, video recording/editing in progress
+As of: 02 Jul 2021 - finished recording time series section videos (now editing/uploading them)
 
-* **Currently:** making images/slides for time series videos, see the [project page](https://github.com/mrdbourke/tensorflow-deep-learning/projects/1) for what's in progress
-* **Video count:** 321/~330+, aiming to do ~10 videos per day during recording sessions
-* **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
+* **Currently:** editing/uploading time series section videos + preparing final section: how to pass the TensorFlow Developer Certification
+* **Video count:** 324/~330+, aiming to do ~10 videos per day during recording sessions
+* **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10
 * **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10
 * **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * **Finished 11/11 of code notebooks**
@@ -405,6 +405,7 @@ As of: 30 Jun 2021 - [time series code done](https://github.com/mrdbourke/tensor
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 02 Jul 2021 - FINISHED RECORDING VIDEOS FOR TIME SERIES SECTION!!!!! time to upload
 * 30 Jun 2021 - recorded 12 videos for time series section, total heading past 60 (the biggest section yet), nearly done!!!
 * 29 Jun 2021 - recorded 10 videos for time series section, total heading towards 60
 * 28 Jun 2021 - recorded 10 videos for time series section, the line below says 40 videos total, actually more like 50
