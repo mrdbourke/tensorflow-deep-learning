@@ -23,7 +23,7 @@ plugins:
  - mkdocs-jupyter
  - search
 
-edit_uri: edit/main/docs/
+edit_uri: ""
 
 nav:
   - Home: 'index.md'
