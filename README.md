@@ -200,10 +200,10 @@ To prevent the course from being 100+ hours (deep learning is a broad field), va
 
 ### 🛠 05. Transfer Learning in TensorFlow Part 2: Fine-tuning Exercises
 
-1. Write a function to visualize an image from any dataset (train or test file) and any class (e.g. "steak", "pizza"... etc), visualize it and make a prediction on it using a trained model.
-2. Use feature-extraction to train a transfer learning model on 10% of the Food Vision data for 10 epochs using [`tf.keras.applications.EfficientNetB0`](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetB0) as the base model. Use the [`ModelCheckpoint`](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/ModelCheckpoint) callback to save the weights to file.
-3. Fine-tune the last 20 layers of the base model you trained in 2 for another 10 epochs. How did it go?
-4. Fine-tune the last 30 layers of the base model you trained in 2 for another 10 epochs. How did it go?
+1. Use feature-extraction to train a transfer learning model on 10% of the Food Vision data for 10 epochs using [`tf.keras.applications.EfficientNetB0`](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetB0) as the base model. Use the [`ModelCheckpoint`](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/ModelCheckpoint) callback to save the weights to file.
+2. Fine-tune the last 20 layers of the base model you trained in 2 for another 10 epochs. How did it go?
+3. Fine-tune the last 30 layers of the base model you trained in 2 for another 10 epochs. How did it go?
+4. Write a function to visualize an image from any dataset (train or test file) and any class (e.g. "steak", "pizza"... etc), visualize it and make a prediction on it using a trained model.
 
 ### 📖 05. Transfer Learning in TensorFlow Part 2: Fine-tuning Extra-curriculum
 
@@ -382,7 +382,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 02 Jul 2021 - finished recording time series section videos (now editing/uploading them)
+As of: 05 Jul 2021
 
 * **Currently:** editing/uploading time series section videos + preparing final section: how to pass the TensorFlow Developer Certification
 * **Video count:** 324/~330+, aiming to do ~10 videos per day during recording sessions
@@ -405,6 +405,7 @@ As of: 02 Jul 2021 - finished recording time series section videos (now editing/
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 05 Jul 2021 - making materials for TF certification exam (what/why/how)
 * 02 Jul 2021 - FINISHED RECORDING VIDEOS FOR TIME SERIES SECTION!!!!! time to upload
 * 30 Jun 2021 - recorded 12 videos for time series section, total heading past 60 (the biggest section yet), nearly done!!!
 * 29 Jun 2021 - recorded 10 videos for time series section, total heading towards 60
