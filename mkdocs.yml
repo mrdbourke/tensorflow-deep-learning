@@ -43,8 +43,7 @@ nav:
     - '09 Milestone Project 2: SkimLit 📄🔥': '09_SkimLit_nlp_milestone_project_2.ipynb'
   - Time Series:
     - '10 Time Series in TensorFlow + Milestone Project 3: BitPredict 💰📈': '10_time_series_forecasting_in_tensorflow.ipynb'
-  - Passing the TensorFlow Developer Certification Exam:
-    - 'Preparing to get TensorFlow Developer Certified': '11_passing_the_tensorflow_developer_certification_exam.md'
+  - Preparing for the TensorFlow Developer Certification Exam: '11_passing_the_tensorflow_developer_certification_exam.md'
 
 extra:
   social:
