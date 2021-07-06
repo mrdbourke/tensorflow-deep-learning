@@ -383,7 +383,7 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 05 Jul 2021
+As of: 06 Jul 2021
 
 * **Currently:** editing/uploading time series section videos + preparing final section: how to pass the TensorFlow Developer Certification
 * **Video count:** 324/~330+, aiming to do ~10 videos per day during recording sessions
@@ -406,6 +406,7 @@ As of: 05 Jul 2021
 * Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 06 Jul 2021 - added guide to TensorFlow Certification Exam: https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md - going to record videos for it tomorrow
 * 05 Jul 2021 - making materials for TF certification exam (what/why/how)
 * 02 Jul 2021 - FINISHED RECORDING VIDEOS FOR TIME SERIES SECTION!!!!! time to upload
 * 30 Jun 2021 - recorded 12 videos for time series section, total heading past 60 (the biggest section yet), nearly done!!!
