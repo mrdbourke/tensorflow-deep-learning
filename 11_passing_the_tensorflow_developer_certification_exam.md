@@ -8,7 +8,7 @@ If so, these steps will help you.
 
 I took and passed the TensorFlow Developer Certification exam myself shortly after it came out. After which, I wrote an article and made a YouTube video on how I did it and how you can too.
 
-Many of course materials as well as the document you're reading now, were built with the following two resources in mind:
+Many of the course materials as well as the document you're reading now, were built with the following two resources in mind:
 
 - 📄 Read: [How I got TensorFlow Developer Certified (and how you can too)](https://www.mrdbourke.com/how-i-got-tensorflow-developer-certified/)
 - 🎥 Watch: [How I passed the TensorFlow Developer Certification exam (and how you can too)](https://youtu.be/ya5NwvKafDk)
@@ -57,19 +57,19 @@ Use courses and certifications as foundational knowledge then use your own proje
 
 *Do certificates guarantee a job? [Tweet by Daniel Bourke](https://twitter.com/mrdbourke/status/1385143193918840835?s=20).*
 
-With that being said, if you did want to go for the certification, how would you do it?
+With that being said if you did want to go for the certification, how would you do it?
 
 ## How to prepare (your brain) for the TensorFlow Developer Certification
 
 First and foremost, you should have experience writing plenty of TensorFlow code.
 
-After all, a certification is a proof of skill. There's no point in going for a certification if you don't have some sort of skill at using TensorFlow (and deep learning in general).
+After all, since certification is proof of skill, there's no point in going for certification if you don't have some sort of skill at using TensorFlow (and deep learning in general).
 
 If you've gone through the Zero to Mastery TensorFlow for Deep Learning course, coded along with the videos, done the exercises, you've got plenty of skill to take on the exam.
 
 To prepare, go through the [TensorFlow Developer Certificate Candidate Handbook](https://www.tensorflow.org/extras/cert/TF_Certificate_Candidate_Handbook.pdf). Use this as your ground truth for the exam.
 
-It's a well written document so I'm not going to repeat anything from within it here, rather suggest some actions which you might want to take.
+It's a well-written document so I'm not going to repeat anything from within it here, rather suggest some actions which you might want to take.
 
 ### The Skills Checklist
 
@@ -83,13 +83,13 @@ Of course, I'm not going to tell what's actually on the exam. But looking at the
 4. Natural language processing (NLP)
 5. Time series, sequences and predictions
 
-If there's five sections, can you guess how many questions will be on the exam?
+If there are five sections, can you guess how many questions will be on the exam?
 
-Each of the questions require you to submit a trained model in `.h5` format.
+Each of the questions requires you to submit a trained model in `.h5` format.
 
 If you've been through the course materials, you know how to do this.
 
-The model you submit is graded on how well it performs. Don't overthink this. If you build a fairly well performing model, chances are it'll pass. If you think your model needs to improve its performance, go through the steps covered in the [Improving a model section](https://dev.mrdbourke.com/tensorflow-deep-learning/02_neural_network_classification_in_tensorflow/#improving-a-model) of the course. 
+The model you submit is graded on how well it performs. Don't overthink this. If you build a fairly well-performing model, chances are it'll pass. If you think your model needs to improve its performance, go through the steps covered in the [Improving a model section](https://dev.mrdbourke.com/tensorflow-deep-learning/02_neural_network_classification_in_tensorflow/#improving-a-model) of the course. 
 
 You've got 5-hours during the exam to build and train models on the datasets provided. The models will not take long to train (even on CPU). This is plenty of time.
 
@@ -111,7 +111,7 @@ Decided you're going to take on the exam?
 
 Now it's time to set your computer up.
 
-The exam takes place in PyCharm (a Python integrated developer environment or IDE). If you've never used PyCharm before, not to worry, you can get started using the [PyCharm quick start tutorial](https://www.jetbrains.com/pycharm/learn/). Plus, being able to get setup in a new developer environment is part of being a skilled developer.
+The exam takes place in PyCharm (a Python integrated developer environment or IDE). If you've never used PyCharm before, not to worry, you can get started using the [PyCharm quick start tutorial](https://www.jetbrains.com/pycharm/learn/). Plus, being able to get setup in a new development environment is part of being a skilled developer.
 
 But wait, PyCharm has a lot going on, how do I know to set it up for the TensorFlow Developer Certification Exam?
 
@@ -119,7 +119,7 @@ There's a guide for that!
 
 The TensorFlow team have written a guide (similar to the handbook above) on how to [set up your environment to take TensorFlow Developer Certification Exam](https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf).
 
-Again, I'm not going to repeat what's mentioned in the document too much because it's a well written guide (plus, if things change over time, new versions etc, best to adhere to the guide).
+Again, I'm not going to repeat what's mentioned in the document too much because it's another well-written guide (plus, if things change over time, new versions etc, best to adhere to the guide).
 
 Reading through this as well as following each of the tests it suggests will ensure your computer is ready to go.
 
@@ -137,7 +137,7 @@ Reading through this as well as following each of the tests it suggests will ens
 
 If you've been through the Zero to Mastery TensorFlow for Deep Learning course, you've had plenty of experience troubleshooting different models. 
 
-But for reference, here are some the main issues you might run into (inside and outside of the exam):
+But for reference, here are some of the main issues you might run into (inside and outside of the exam):
 
 - **Input and output shape**s — print these out if you're stuck.
 - **Input and output datatypes** — TensorFlow usually prefers float32.
