@@ -54,6 +54,7 @@ For example, if you have some ideal role you’d like to work for a company as. 
 Use courses and certifications as foundational knowledge then use your own projects to build specific knowledge (knowledge that can’t be taught).
 
 ![do certificates guarantee a job tweet](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-do-certificates-guarantee-a-job-tweet.png)
+
 *Do certificates guarantee a job? [Tweet by Daniel Bourke](https://twitter.com/mrdbourke/status/1385143193918840835?s=20).*
 
 With that being said, if you did want to go for the certification, how would you do it?
@@ -132,7 +133,7 @@ Reading through this as well as following each of the tests it suggests will ens
 ![before taking the TensorFlow Developer certification exam, make sure you can run TensorFlow code in PyCharm on your local machine](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-getting-example-script-to-run-in-pycharm.png)
 *Before taking the exam make sure you can run TensorFlow code on your local machine in PyCharm. If the [example `image_class_test.py` script](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_classification_test.py) can run completely in under 5-10 minutes on your local machine, your local machine can handle the exam (if not, you can use Google Colab to train, save and download models to submit for the exam).*
 
-## Troubleshooting Tidbits
+## Troubleshooting tidbits
 
 If you've been through the Zero to Mastery TensorFlow for Deep Learning course, you've had plenty of experience troubleshooting different models. 
 
