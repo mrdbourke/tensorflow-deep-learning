@@ -33,7 +33,7 @@ But two other valid reasons are:
 3. Get added to the [TensorFlow Certificate Network](https://developers.google.com/certification/directory/tensorflow)
 
 ![TensorFlow Certificate Network](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-daniel-bourke-tensorflow-developer-certification-network.png)
-*Once you pass the TensorFlow Developer Certification, you get added to the [TensorFlow Certificate Network](https://developers.google.com/certification/directory/tensorflow), a resource people from around the world can use to find TensorFlow Certified Developers.*
+*Once you pass the TensorFlow Developer Certification, you get added to the TensorFlow Certificate Network, a resource people from around the world can use to find TensorFlow Certified Developers.*
 
 *You can do this in a multitude of ways. For example, creating a GitHub repo where you share your code projects and a blog where you write about the things you've learned/worked on.
 
