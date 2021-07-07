@@ -383,29 +383,17 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 06 Jul 2021
+As of: 07 Jul 2021
 
-* **Currently:** editing/uploading time series section videos + preparing final section: how to pass the TensorFlow Developer Certification
-* **Video count:** 324/~330+, aiming to do ~10 videos per day during recording sessions
+* **Currently:** all videos recorded (time series and passing tensorflow developer certification) - editing and preparing for upload
+* **Video count:** 329/~330+, aiming to do ~10 videos per day during recording sessions
 * **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10
 * **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10
 * **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * **Finished 11/11 of code notebooks**
-
-## TODO
-
-* ✅ Make a GitHub Project for course (see "Projects" tab)
-* ✅ Make a [GitHub Discussions](https://github.com/vercel/vercel/discussions/3874) for course (thank you [Alvaro](https://github.com/alvarobartt))
-* ✅ Polish GitHub readme (what you're reading now) with extra resources: 
-  * data links used in course
-  * extra resources & curriculum
-* 🔜 Upload slides for each section, done for: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09 (see [course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials))
-* 🔜 Upload video notebooks for each section, done for: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09 (see [.video_notebooks/](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/video_notebooks)) 
-* Make Colab overview video (Colab is the tool we'll be using for the whole course)
-* Make course resource overview video (e.g. how to use this GitHub, Discussions page, exercises, extra-curriculum etc)
-* Upload solutions for exercises (probably livestream the creation of these after course launch)
   
 ## Log
+* 07 Jul 2021 - recorded 5 videos for passing TensorFlow Developer Certification exam section - ALL VIDEOS FOR COURSE DONE!!! time to edit/upload! 🎉
 * 06 Jul 2021 - added guide to TensorFlow Certification Exam: https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md - going to record videos for it tomorrow
 * 05 Jul 2021 - making materials for TF certification exam (what/why/how)
 * 02 Jul 2021 - FINISHED RECORDING VIDEOS FOR TIME SERIES SECTION!!!!! time to upload
