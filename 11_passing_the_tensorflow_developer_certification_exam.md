@@ -4,14 +4,16 @@ After going through the Zero to Mastery TensorFlow for Deep Learning course, you
 
 If so, these steps will help you.
 
+* 📖 **Resource:** [Get the slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf) for this section
+
 ## Preface
 
 I took and passed the TensorFlow Developer Certification exam myself shortly after it came out. After which, I wrote an article and made a YouTube video on how I did it and how you can too.
 
 Many of the course materials as well as the document you're reading now, were built with the following two resources in mind:
 
-- 📄 Read: [How I got TensorFlow Developer Certified (and how you can too)](https://www.mrdbourke.com/how-i-got-tensorflow-developer-certified/)
-- 🎥 Watch: [How I passed the TensorFlow Developer Certification exam (and how you can too)](https://youtu.be/ya5NwvKafDk)
+- 📄 **Read:** [How I got TensorFlow Developer Certified (and how you can too)](https://www.mrdbourke.com/how-i-got-tensorflow-developer-certified/)
+- 🎥 **Watch:** [How I passed the TensorFlow Developer Certification exam (and how you can too)](https://youtu.be/ya5NwvKafDk)
 
 ![Daniel Bourke's TensorFlow Developer certification](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-daniel-bourke-tensorflow-developer-certification.png)
 *My [TensorFlow Developer Certificate](https://www.credential.net/3d6eec98-5910-4546-b907-172a7d507de6#gs.53cop5) (delivered after passing the exam).*
@@ -139,7 +141,7 @@ If you've been through the Zero to Mastery TensorFlow for Deep Learning course, 
 
 But for reference, here are some of the main issues you might run into (inside and outside of the exam):
 
-- **Input and output shape**s — print these out if you're stuck.
+- **Input and output shapes** — print these out if you're stuck.
 - **Input and output datatypes** — TensorFlow usually prefers float32.
 - **Output activation functions** — for classification: `sigmoid` vs `softmax`, which one should you use?
 - **Loss functions** — for classification `sparse_categorical_crossentropy` vs `categorical_crossentropy`, which one should you use?
