@@ -17,7 +17,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 - [Prerequisites](https://github.com/mrdbourke/tensorflow-deep-learning#prerequisites) (what skills you'll need to do this course)
 - [Exercises & Extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-exercises---extra-curriculum) (challenges to practice what you've learned and resources to learn more)
 - [Ask a question](https://github.com/mrdbourke/tensorflow-deep-learning#ask-questions) (like to know more? go here)
-- [Status/TODO](https://github.com/mrdbourke/tensorflow-deep-learning#status) (there's still more to come!)
+- [Status](https://github.com/mrdbourke/tensorflow-deep-learning#status) (there's still more to come!)
 - [Log](https://github.com/mrdbourke/tensorflow-deep-learning#log) (updates, changes and progress)
 
 ## Course materials
@@ -46,7 +46,7 @@ Key:
 | 08 | [TensorFlow NLP Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/08_introduction_to_nlp_in_tensorflow.ipynb) | [`diaster_or_no_diaster_tweets`](https://storage.googleapis.com/ztm_tf_course/nlp_getting_started.zip), [`USE_feature_extractor_model`](https://storage.googleapis.com/ztm_tf_course/08_model_6_USE_feature_extractor.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-08-introduction-to-nlp-natural-language-processing-in-tensorflow-exercises)  | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/08_natural_language_processing_in_tensorflow.pdf) |
 | 09 | [Milestone Project 2: SkimLit 📄🔥](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) | [`pubmed_RCT_200k_dataset`](https://github.com/Franck-Dernoncourt/pubmed-rct.git), [`skimlit_tribrid_model`](https://storage.googleapis.com/ztm_tf_course/skimlit/skimlit_tribrid_model.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-09-milestone-project-2-skimlit--exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/09_milestone_project_2_skimlit.pdf) |
 | 10 | [TensorFlow Time Series Fundamentals & Milestone Project 3: BitPredict 💰📈 (videos coming soon)](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb) | [`bitcoin_price_data_USD_2013-10-01_2021-05-18.csv`](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/extras/BTC_USD_2013-10-01_2021-05-18-CoinDesk.csv) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/README.md#-10-time-series-fundamentals-and-milestone-project-3-bitpredict--exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/10_time_series_fundamentals_and_milestone_project_3_bitpredict.pdf) |
-| 11 | [Preparing to Pass the TensorFlow Developer Certification Exam](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md) | | | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf) |
+| 11 | [Preparing to Pass the TensorFlow Developer Certification Exam](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md) | | Go to exercises & extra-curriculum | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf) |
 
 ## Course structure
 
@@ -358,6 +358,35 @@ Jordan Kern, watching these will take you from 0 to 1 with time series problems:
   * [Time Series Analysis](https://youtu.be/Prpu_U5tKkE) - how to analyse time series data.
   * [Time Series Modelling](https://www.youtube.com/watch?v=s3XH7fTHMb4) - different techniques for modelling time series data (many of which aren't deep learning).
 
+---
+
+### 🛠 11. Passing the TensorFlow Developer Certification Exercises
+
+**Preparing your brain**
+1. Read through the [TensorFlow Developer Certificate Candidate Handbook](https://www.tensorflow.org/extras/cert/TF_Certificate_Candidate_Handbook.pdf).
+2. Go through the Skills checklist section of the TensorFlow Developer Certification Candidate Handbook and create a notebook which covers all of the skills required, write code for each of these (this notebook can be used as a point of reference during the exam).
+
+![mapping the TensorFlow Developer handbook to code in a notebook](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-map-the-skills-checklist-to-a-notebook.png)
+*Example of mapping the Skills checklist section of the TensorFlow Developer Certification Candidate handbook to a notebook.*
+
+**Prearing your computer**
+1. Go through the [PyCharm quick start](https://www.jetbrains.com/pycharm/learning-center/) tutorials to make sure you're familiar with PyCharm (the exam uses PyCharm, you can download the free version).
+2. Read through and follow the suggested steps in the [setting up for the TensorFlow Developer Certificate Exam guide](https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf).
+3. After going through (2), go into PyCharm and make sure you can train a model in TensorFlow. The model and dataset in the example `image_classification_test.py` [script on GitHub](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_classification_test.py) should be enough. If you can train and save the model in under 5-10 minutes, your computer will be powerful enough to train the models in the exam.
+    - Make sure you've got experience running models locally in PyCharm before taking the exam. Google Colab (what we used through the course) is a little different to PyCharm.
+
+![before taking the TensorFlow Developer certification exam, make sure you can run TensorFlow code in PyCharm on your local machine](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-getting-example-script-to-run-in-pycharm.png)
+*Before taking the exam make sure you can run TensorFlow code on your local machine in PyCharm. If the [example `image_class_test.py` script](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_classification_test.py) can run completely in under 5-10 minutes on your local machine, your local machine can handle the exam (if not, you can use Google Colab to train, save and download models to submit for the exam).*
+
+### 📖 11. Passing the TensorFlow Developer Certification Extra-curriculum
+
+If you'd like some extra materials to go through to further your skills with TensorFlow and deep learning in general or to prepare more for the exam, I'd highly recommend the following:
+
+* 📄 **Read:** [How I got TensorFlow Developer Certified (and how you can too)](https://www.mrdbourke.com/how-i-got-tensorflow-developer-certified/)
+* 🎥 **Watch:** [How I passed the TensorFlow Developer Certification exam (and how you can too)](https://youtu.be/ya5NwvKafDk)
+* Go through the [TensorFlow in Practice Specialization on Coursera](https://dbourke.link/tfinpractice)
+* Read through the second half of [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition](https://amzn.to/3aYexF2)
+
 ## What this course is missing
 
 Deep learning is a broad topic. So this course doesn't cover it all. 
@@ -374,6 +403,7 @@ Here are some of the main topics you might want to look into next:
 * Deeplearning.AI specializations - https://www.deeplearning.ai
 * Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow Book (especially the 2nd half) - https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
 * Full Stack Deep Learning (learn how to turn your models into machine learning-powered applications) - https://fullstackdeeplearning.com
+* Go through the free MLOps (all of the parts around machine learning models, like data collection, labelling, deployment and more) course materials by Made with ML - https://madewithml.com/#mlops 
 * fast.ai Curriculum - https://www.fast.ai
 * [Getting Experience](https://www.mrdbourke.com/how-can-a-beginner-data-scientist-like-me-gain-experience/) (read this on how to get experience for a job)
 
