@@ -400,12 +400,13 @@ Here are some of the main topics you might want to look into next:
 
 ## Extensions (possible places to go after the course)
 
-* Deeplearning.AI specializations - https://www.deeplearning.ai
-* Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow Book (especially the 2nd half) - https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
-* Full Stack Deep Learning (learn how to turn your models into machine learning-powered applications) - https://fullstackdeeplearning.com
-* Go through the free MLOps (all of the parts around machine learning models, like data collection, labelling, deployment and more) course materials by Made with ML - https://madewithml.com/#mlops 
-* fast.ai Curriculum - https://www.fast.ai
-* [Getting Experience](https://www.mrdbourke.com/how-can-a-beginner-data-scientist-like-me-gain-experience/) (read this on how to get experience for a job)
+* [Neural Networks and Deep Learning Book](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen - If the Zero to Mastery TensorFlow for Deep Learning course is top down, this book is bottom up. A fantastic resource to sandwich your knowledge. 
+* [Deeplearning.AI specializations](https://www.deeplearning.ai) - This course focuses on code-first, the deeplearning.ai specializations will teach you what's going on behind the code.
+* [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow Book](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) (especially the 2nd half) - Many of the materials in this course were inspired by and guided by the pages of this beautiful text book.
+* [Full Stack Deep Learning](https://fullstackdeeplearning.com) - Learn how to turn your models into machine learning-powered applications.
+* [Made with ML MLOps materials](https://madewithml.com/#mlops) - Similar to Full Stack Deep Learning but comprised into many small lessons around all the pieces of the puzzle (data collection, labelling, deployment and more) required to build a full-stack machine learning-powered application.
+* [fast.ai Curriculum](https://www.fast.ai) - One of the best (and free) AI/deep learning courses online. Enough said.
+* ["How does a beginner data scientist like me gain experience?"](https://www.mrdbourke.com/how-can-a-beginner-data-scientist-like-me-gain-experience/) by Daniel Bourke - Read this on how to get experience for a job after studying online/at unveristy (start the job before you have it).
 
 ## Ask questions
 
