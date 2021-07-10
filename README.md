@@ -414,16 +414,17 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 07 Jul 2021
+As of: 10 Jul 2021
 
 * **Currently:** all videos recorded (time series and passing tensorflow developer certification) - editing and preparing for upload
 * **Video count:** 329/~330+, aiming to do ~10 videos per day during recording sessions
-* **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10
-* **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10
-* **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
+* **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11
+* **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11
+* **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
 * **Finished 11/11 of code notebooks**
   
 ## Log
+* 10 Jul 2021 - added 29 edited time series videos to ZTM Academy + Udemy versions of the course, more to come soon
 * 07 Jul 2021 - recorded 5 videos for passing TensorFlow Developer Certification exam section - ALL VIDEOS FOR COURSE DONE!!! time to edit/upload! 🎉
 * 06 Jul 2021 - added guide to TensorFlow Certification Exam: https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md - going to record videos for it tomorrow
 * 05 Jul 2021 - making materials for TF certification exam (what/why/how)
