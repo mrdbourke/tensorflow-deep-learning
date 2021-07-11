@@ -77,8 +77,65 @@ def ChartMnistNetworkChanges(dfLeft, dfRight, mdlsummary, dfLtime, dfRtime,
     plt.xlabel('03steakPizzaCNN.py    epochs')
     plt.legend(loc= 'lower left')
     plt.show();
+#%%  Read aan image...
+import matplotlib.image as mpimg
+import os
+import random
+import tensorflow as tf
+def view_random_image(target_dir, target_class):
+  # Setup target directory (we'll view images from here)
+  target_folder = target_dir+target_class
+
+  # Get a random image path
+  random_image = random.sample(os.listdir(target_folder), 1)
+
+  # Read in the image and plot it using matplotlib
+  img = mpimg.imread(target_folder + "/" + random_image[0])
+  plt.imshow(img)
+  plt.title(target_class)
+  plt.axis("off");
+
+  print(f"Image shape: {img.shape}") # show the shape of the image
+
+  return img
+#%%  Get the Data
+import zipfile
+import wget
+# https://www.pair.com/support/kb/paircloud-downloading-files-with-wget/
+# Download zip file of pizza_steak images
+# # !wget https://storage.googleapis.com/ztm_tf_course/food_vision/pizza_steak.zip 
+url = 'https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_all_data.zip'
+output ='d:\\data\\udemy\\dbourkeTFcert'
+
+
+output ='d:/data/udemy/dbourkeTFcert'
+#dwnldFile = wget.download(url, out=output)  # this worked! :)
+dwnldFile = '10_Food_Classes_All_Data'
+destination = os.path.join(output, dwnldFile)  # this join gives two dif slashes :(
+source = 'C:/Users/steve/Downloads/10_Food_classes_all_data.zip'
+# Unzip the downloaded file
+zip_ref = zipfile.ZipFile(source, "r")
+#zip_ref = zipfile.ZipFile(destination, "r")
+zipfile.ZipFile.namelist('d:\\data\\udemy\\dbourkeTFcert\\pizza_steak.zip')
+zipfile.ZipInfo.filename
+zip_ref.extractall(output)
+zip_ref.close()
+
+for dirpath, dirnames, filenames in os.walk(destination):
+    print(f'There are {len(dirnames)} images and {len(filenames)} in {dirpath}')
+    
+# setup the train and test directories...
+train_dir = 'd:/data/udemy/dbourkeTFcert/10_Food_Classes_All_Data/train/'
+test_dir  = 'd:/data/udemy/dbourkeTFcert/10_Food_Classes_All_Data/test/'
+
+import pathlib
+data_dir = pathlib.Path(train_dir) # turn our training path into a Python path
+class_names = np.array(sorted([item.name for item in data_dir.glob('*')])) # created a list of class_names from the subdirectories
+print(class_names)
+
+view_random_image(train_dir, 'hamburger')
 #%%  # Define the Keras TensorBoard callback.
-logdir="d:/data/logs/TFcertUdemy/03PizzaStk/" + datetime.now().strftime("%Y%m%d_%H%M%S")
+logdir="d:/data/logs/TFcertUdemy/03food10cls/" + datetime.now().strftime("%Y%m%d_%H%M%S")
 tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir,
               histogram_freq=1,                                     
               profile_batch='500,520')  #this seemed to fix the errors noted in the opening dialog above. :) 
