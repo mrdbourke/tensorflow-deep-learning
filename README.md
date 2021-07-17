@@ -17,7 +17,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 - [Prerequisites](https://github.com/mrdbourke/tensorflow-deep-learning#prerequisites) (what skills you'll need to do this course)
 - [Exercises & Extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-exercises---extra-curriculum) (challenges to practice what you've learned and resources to learn more)
 - [Ask a question](https://github.com/mrdbourke/tensorflow-deep-learning#ask-questions) (like to know more? go here)
-- [Status](https://github.com/mrdbourke/tensorflow-deep-learning#status) (there's still more to come!)
+- [Status](https://github.com/mrdbourke/tensorflow-deep-learning#status)
 - [Log](https://github.com/mrdbourke/tensorflow-deep-learning#log) (updates, changes and progress)
 
 ## Course materials
@@ -414,16 +414,14 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 10 Jul 2021
+As of: 17 Jul 2021
 
-* **Currently:** all videos recorded (time series and passing tensorflow developer certification) - editing and preparing for upload
-* **Video count:** 329/~330+, aiming to do ~10 videos per day during recording sessions
-* **Finished videos for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11
-* **Finished slides for notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11
-* **Polished (prepared them for external use) notebooks:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11 (livestreaming lots of this on Twitch: https://www.twitch.tv/mrdbourke)
-* **Finished 11/11 of code notebooks**
+Course completed! 🕺
+
+Any further updates/changes will be added below. 
   
 ## Log
+* 16 Jul 2021 - added 35 videos to ZTM Academy + Udemy versions of the course for time series and how to pass TensorFlow Developer Certificaiton
 * 10 Jul 2021 - added 29 edited time series videos to ZTM Academy + Udemy versions of the course, more to come soon
 * 07 Jul 2021 - recorded 5 videos for passing TensorFlow Developer Certification exam section - ALL VIDEOS FOR COURSE DONE!!! time to edit/upload! 🎉
 * 06 Jul 2021 - added guide to TensorFlow Certification Exam: https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md - going to record videos for it tomorrow
