@@ -4,18 +4,22 @@ Created on Wed Jul 14 13:09:59 2021
 
 @author: steve
 """
-#%%
-import numpy as np, pandas as pd, tensorboard as tb, time, random
-import matplotlib.image as mpimg, matplotlib.pyplot as plt
+#%% tps imports
 import os
-import seaborn as sns
-from datetime import datetime
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # or any {'0', '1', '2'}
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
-from tensorflow.python.client import device_lib 
 import tensorflow as tf, sys
+import numpy as np
+#import tensorflow.experimental.numpy as np
+import pandas as pd, tensorboard as tb, time, random
+import matplotlib.image as mpimg, matplotlib.pyplot as plt
 from tensorflow import keras
 from tensorboard.plugins.hparams import api as hp
+#from tensorflow.python.client import device_lib 
+import seaborn as sns
+from datetime import datetime
+import zipfile
+import wget
 
 # %% Get GPU status
 # print(device_lib.list_local_devices())  # this puts out a lot of lines (Gibberish?)
@@ -62,7 +66,7 @@ def ChartMnistNetworkChanges(dfLeft, dfRight, mdlsummary, dfLtime, dfRtime,
     plt.title (f'{ttl2} {dfRtime:.2f} sec ')
     sns.lineplot(x='epochs', y='value', hue='variable', data = pd.melt(dfRight,['epochs']))
     plt.ylim(.3,1)
-    plt.xlabel('04transferLearning01FeatureExtraction.py    epochs')
+    plt.xlabel('05transferLearning02FineTuning.py    epochs')
     plt.legend(loc= 'lower left')
     plt.show();
 # %% func: view_random_image 
@@ -87,8 +91,6 @@ def view_random_image(target_dir, target_class):
 # Create function to unzip a zipfile into current working directory 
 # (since we're going to be downloading and unzipping a few files)
 # %% def unzip_data
-import zipfile
-import wget
 def unzip_data(zipfilepath, url ):
   """
   wgets url & Unzips the 'wgetted' file into the zipfilepath folder.
@@ -105,7 +107,7 @@ def unzip_data(zipfilepath, url ):
   zip_ref = zipfile.ZipFile(dwnldFile, "r")
   zip_ref.extractall(zipfilepath)
   zip_ref.close()
-# %%
+# %% ShowImageFolder_SetTrainTestDirs(imagelocationpath)
 def ShowImageFolder_SetTrainTestDirs(imagelocationpath):
     '''
     Parameters
@@ -119,7 +121,7 @@ def ShowImageFolder_SetTrainTestDirs(imagelocationpath):
 
     '''    
     for dirpath, dirnames, filenames in os.walk(imagelocationpath):
-        print(f'There are {len(dirnames)} images and {len(filenames)} in {dirpath}')
+        print(f'There are {len(dirnames)} folders and {len(filenames)} images in {dirpath}')
     
     # setup the train and test directories...
     train_dir = imagelocationpath + '/train/'
@@ -153,7 +155,8 @@ def create_tb_callback(topdirname, dirname, expname):
         tbcb.
 
     '''
-    log_dir = topdirname  + dirname + '\\' + expname+'_'  + datetime.now().strftime('%Y%m%d_%H%M%S')
+#    log_dir = topdirname  + dirname + '\\' + expname+'_'  + datetime.now().strftime('%Y%m%d_%H%M%S')
+    log_dir = topdirname  + dirname + '\\' + expname+'_'  + datetime.now().strftime('%d_%H%M%S')
     tensorboard_callback = keras.callbacks.TensorBoard(log_dir=log_dir,
               histogram_freq=1,                                     
               profile_batch='500,520')  #this seemed to fix the errors noted in the opening dialog above. :) 

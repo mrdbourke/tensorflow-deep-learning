@@ -35,12 +35,10 @@ pd.set_option('display.width', 1000)
 import tensorPrepStarter as tps
 
 !nvidia-smi
-
-
 # %%  Get the Data  commented out after completed
 import zipfile
 import wget # conda's python-wget
-'''
+
 url = 'https://storage.googleapis.com/ztm_tf_course/food_vision/10_food_classes_10_percent.zip'
 output ='d:/data/udemy/dbourkeTFcert'
 dwnldFile = wget.download(url, out=output)  # this worked! :)
@@ -51,7 +49,7 @@ zip_ref = zipfile.ZipFile(dwnldFile, "r")
 zipfile.ZipInfo.filename
 zip_ref.extractall(output)
 zip_ref.close()
-'''
+
 destination = 'd:\\data\\udemy\\dbourkeTFcert\\10_Food_classes_10_percent'
 for dirpath, dirnames, filenames in os.walk(destination):
     print(f'There are {len(dirnames)} images and {len(filenames)} in {dirpath}')
