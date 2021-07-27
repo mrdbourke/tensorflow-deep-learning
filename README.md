@@ -89,7 +89,7 @@ If no, go and do a beginner machine learning course and if you decide you want t
 
 To prevent the course from being 100+ hours (deep learning is a broad field), various external resources for different sections are recommended to puruse under your own discrestion.
 
-(solutions to come after the course is released... try the exercises out for yourself first!)
+You can find solutions to the exercises in [`extras/solutions/`](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main/extras/solutions), there's a notebook per set of exercises (one for 00, 01, 02... etc). Thank you to [Ashik Shafi](https://github.com/ashikshafi08) for all of the efforts creating these.
 
 ---
 
