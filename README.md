@@ -239,6 +239,7 @@ You can find solutions to the exercises in [`extras/solutions/`](https://github.
   * A graph showing the f1-scores of each class.
   * A visualization of the model making predictions on various images and comparing the predictions to the ground truth.
     * For example, plot a sample image from the test dataset and have the title of the plot show the prediction, the prediction probability and the ground truth label. 
+  * **Note:** To compare predicted labels to test labels, it might be a good idea when loading the test data to set `shuffle=False` (so the ordering of test data is preserved alongside the order of predicted labels).
 2. Take 3 of your own photos of food and use the Food Vision model to make predictions on them. How does it go? Share your images/predictions with the other students.
 3. Retrain the model (feature extraction and fine-tuning) we trained in this notebook, except this time use [`EfficientNetB4`](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetB4) as the base model instead of `EfficientNetB0`. Do you notice an improvement in performance? Does it take longer to train? Are there any tradeoffs to consider?
 4. Name one important benefit of mixed precision training, how does this benefit take place?
