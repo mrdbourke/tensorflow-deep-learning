@@ -1,10 +1,35 @@
 # -*- coding: utf-8 -*-
-"""
+'''
 Created on Mon Jul 12 11:23:45 2021
-
+Daniel Bourke's class '
+Lessons 139 thru 148.
 @author: steve
-"""
-# %% Imports...
+
+Conda Envronment:   TF25pyt39
+Gpu  Support:       True
+Cuda Support:       True
+Tensor Flow:        2.5.0
+Python version:      3.9.6.
+The numpy version:   1.21.0.
+The panda version:   1.3.0.
+Tensorboard version  2.5.0.
+Mon Jul 26 14:03:25 2021       
+
+Also:
+Conda Envronment:   Spyder
+Gpu  Support:       True
+Tensor Flow:        2.5.0
+Python version:      3.9.6.
+The numpy version:   1.21.0.
+Mon Jul 26 16:22:59 2021    
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 462.75       Driver Version: 462.75       CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+
+Downloads models (by the code). places them in:
+    C:\\Users\steve\AppData\Local\Temp\tfhub_modules
+'''
+#%% Imports...
 import numpy as np, matplotlib.pyplot as plt, os as os, pandas as pd, seaborn as sns
 # 1 July 2021... next two statements...BEFORE any tensorflow did the trick.
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # or any {'0', '1', '2'}
@@ -22,7 +47,7 @@ from tensorflow.keras.models import Model
 from tensorboard.plugins.hparams import api as hp
 
 # import pydot
-import graphviz  #for graph of 
+# import graphviz  #for graph of 
 import GPUtil
 gpus = GPUtil.getGPUs()
 import logging
@@ -34,7 +59,7 @@ pd.set_option('display.width', 1000)
 
 import tensorPrepStarter as tps
 
-!nvidia-smi
+# !nvidia-smi
 # %%  Get the Data  commented out after completed
 import zipfile
 import wget # conda's python-wget
@@ -87,7 +112,7 @@ test_10pcbatch = \
                                      batch_size=BATCH_SIZE,
                                      seed=42)
     
-# %%  # Define the Keras TensorBoard callback.
+# %% [5] # Define the Keras TensorBoard callback.
 logdir="d:/data/logs/TFcertUdemy/04food10cls/" 
 def create_tb_callback(dirname, expname):
     log_dir = logdir +dirname + '/' + expname+'_'  + datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -107,14 +132,14 @@ def create_tb_callback(dirname, expname):
 # Define the per-epoch callback. Confusion matrix
 # cm_callback = keras.callbacks.LambdaCallback(on_epoch_end=log_confusion_matrix)
 
-# %% Create model with tensorflow hub
-# pulled this down from the tensorflowhub site...using the functionalized version from Daniel instead.
+# #%% Lesson 42 Create model with tensorflow hub
+# # pulled this down from the tensorflowhub site...using the functionalized version from Daniel instead.
 # num_classes = 10
 # import tensorflow_hub as hub
 # from tensorflow.keras import layers
 # m = tf.keras.Sequential([
 #     hub.KerasLayer("https://tfhub.dev/tensorflow/efficientnet/b0/feature-vector/1",
-#                    trainable=False),  # Can be True, see below.
+#                     trainable=False),  # Can be True, see below.
 #     tf.keras.layers.Dense(num_classes, activation='softmax')
 # ])
 # # m.build([None, expect_img_size, expect_img_size, 3])  # Batch input shape.    

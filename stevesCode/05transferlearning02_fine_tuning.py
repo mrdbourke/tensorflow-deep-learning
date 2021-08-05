@@ -5,6 +5,16 @@ Most important takeaways:...
     1. image_dataset_from_directory: Faster, simpler
     2. Functional API
 @author: steve
+Conda Envronment:   MLflow
+Gpu  Support:       True
+Cuda Support:       True
+Tensor Flow:        2.4.1
+Python version:      3.8.8.
+The numpy version:   1.19.5.
+The panda version:   1.2.4.
+Tensorboard version  2.4.1.
+July 26, 2021
+
 """
 # %% Imports...
 import numpy as np, matplotlib.pyplot as plt
@@ -377,13 +387,13 @@ effnetb2histft = effnetB0_2.fit(train_batch, epochs=fine_tune_epochs,
                                 callbacks=[tbcb, checkpoint_callback])
 # %% Prepare Fine tuned model df's for the chart
 # record time data
-effnetb0_2 = round(endtime - starttime,2)
+effnetb0_2dur = round(endtime - starttime,2)
 effnetb0_3df = pd.DataFrame(effnetb2histft.history).reset_index()
 #df.drop('lr', axis=1, inplace=True)
 effnetb0_3df.rename(columns = {'index':'epochs'}, inplace=True)
 effnetb0_3df
 
-effnetb0_3 = effnetb0_2.summary()
+effnetb0_3 = effnetB0_2.summary()
 stringlist1 = []
 effnetB0_2.summary(print_fn=lambda x: stringlist1.append(x))
 effnetB0_3mdlsum = "\n".join(stringlist1)
