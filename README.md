@@ -11,6 +11,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 * 🤔 Got questions about the course? Check out the [livestream Q&A for the course launch](https://youtu.be/rqAqcFcfeK8)
 
 ## Contents of this page
+- [Fixes and updates](https://github.com/mrdbourke/tensorflow-deep-learning#fixes-and-updates
 - [Course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials) (everything you'll need for completing the course)
 - [Course structure](https://github.com/mrdbourke/tensorflow-deep-learning#course-structure) (how this course is taught)
 - [Should you do this course?](https://github.com/mrdbourke/tensorflow-deep-learning#should-you-do-this-course) (decide by answering a couple simple questions)
@@ -19,6 +20,11 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 - [Ask a question](https://github.com/mrdbourke/tensorflow-deep-learning#ask-questions) (like to know more? go here)
 - [Status](https://github.com/mrdbourke/tensorflow-deep-learning#status)
 - [Log](https://github.com/mrdbourke/tensorflow-deep-learning#log) (updates, changes and progress)
+
+## Fixes and updates 
+* 02 Dec 2021 - Added fix for TensorFlow 2.7.0+ for notebook 02, [see discussion for more](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/278)
+* 11 Nov 2021 - Added fix for TensorFlow 2.7.0+ for notebook 01,  [see discussion for more](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/256)
+* 14 Aug 2021 - Added a [discussion with TensorFlow 2.6 updates and EfficientNetV2 notes](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/166) 
 
 ## Course materials
 
@@ -422,6 +428,8 @@ Course completed! 🕺
 Any further updates/changes will be added below. 
   
 ## Log
+* 02 Dec 2021 - add fix for TensorFlow 2.7 to notebook 02
+* 11 Nov 2021 - add fix for TensorFlow 2.7 to notebook 01
 * 14 Aug 2021 - added a discussion with TensorFlow 2.6 updates and EfficientNetV2 notes: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/166
 * 16 Jul 2021 - added 35 videos to ZTM Academy + Udemy versions of the course for time series and how to pass TensorFlow Developer Certificaiton
 * 10 Jul 2021 - added 29 edited time series videos to ZTM Academy + Udemy versions of the course, more to come soon
