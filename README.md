@@ -11,7 +11,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 * 🤔 Got questions about the course? Check out the [livestream Q&A for the course launch](https://youtu.be/rqAqcFcfeK8)
 
 ## Contents of this page
-- [Fixes and updates](https://github.com/mrdbourke/tensorflow-deep-learning#fixes-and-updates
+- [Fixes and updates](https://github.com/mrdbourke/tensorflow-deep-learning#fixes-and-updates)
 - [Course materials](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials) (everything you'll need for completing the course)
 - [Course structure](https://github.com/mrdbourke/tensorflow-deep-learning#course-structure) (how this course is taught)
 - [Should you do this course?](https://github.com/mrdbourke/tensorflow-deep-learning#should-you-do-this-course) (decide by answering a couple simple questions)
