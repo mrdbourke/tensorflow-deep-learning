@@ -10,6 +10,8 @@ theme:
   favicon: assets/misc-ztm-logo.png
   features:
     - navigation.instant
+    - navigation.top
+    - toc.integrate
   palette:
     primary: black
 
