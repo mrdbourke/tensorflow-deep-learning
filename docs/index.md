@@ -85,7 +85,7 @@ You can read all of the materials but they'll be best learned if you practice wr
 
 I did, ah, me, Daniel, [Daniel Bourke](https://www.mrdbourke.com). I'm a machine learning engineer who makes YouTube videos and writes stories, pop philosophy and machine learning coding tutorials (like the ones contained in this book).
 
-Sometimes documentaiton and other resources can be a bit hard to read for certain things. So I've done my best to make this a book (and a video course, I mean, that's where this book came from) I'd like to have read when I was getting into the exciting world of deep learning.
+Sometimes documentation and other resources can be a bit hard to read for certain things. So I've done my best to make this a book (and a video course, I mean, that's where this book came from) I'd like to have read when I was getting into the exciting world of deep learning.
 
 ## Extensions 
 
