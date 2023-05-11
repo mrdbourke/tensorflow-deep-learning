@@ -9,6 +9,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 * 📖 Read the [beautiful online book version of the course](https://dev.mrdbourke.com/tensorflow-deep-learning/)
 * 💻 [Sign up](https://dbourke.link/ZTMTFcourse) to the full course on the Zero to Mastery Academy (videos for notebooks 03-10)
 * 🤔 Got questions about the course? Check out the [livestream Q&A for the course launch](https://youtu.be/rqAqcFcfeK8)
+* 📝 Get a quick overview of TensorFlow with the [TensorFlow Cheatsheet](https://zerotomastery.io/cheatsheets/tensorflow-cheat-sheet/)
 
 ## Contents of this page
 - [Fixes and updates](https://github.com/mrdbourke/tensorflow-deep-learning#fixes-and-updates)
