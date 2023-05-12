@@ -23,6 +23,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 - [Log](https://github.com/mrdbourke/tensorflow-deep-learning#log) (updates, changes and progress)
 
 ## Fixes and updates 
+* 12 May 2023 - Newer versions of TensorFlow (2.10+) use `learning_rate` instead of `lr` in `tf.keras.optimizers` (e.g. `tf.keras.optimizers.Adam(learning_rate=0.001)`, old `lr` still works but is deprecated
 * 02 Dec 2021 - Added fix for TensorFlow 2.7.0+ for notebook 02, [see discussion for more](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/278)
 * 11 Nov 2021 - Added fix for TensorFlow 2.7.0+ for notebook 01,  [see discussion for more](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/256)
 * 14 Aug 2021 - Added a [discussion with TensorFlow 2.6 updates and EfficientNetV2 notes](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/166) 
