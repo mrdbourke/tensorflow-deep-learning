@@ -23,10 +23,11 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 - [Log](https://github.com/mrdbourke/tensorflow-deep-learning#log) (updates, changes and progress)
 
 ## Fixes and updates 
+
+* 12 May 2023 - Notebook 05 new namespaces added for `tf.keras.layers`, see https://github.com/mrdbourke/tensorflow-deep-learning/discussions/547, also add fix for issue with `model.load_weights()` in Notebook 05, see https://github.com/mrdbourke/tensorflow-deep-learning/issues/544 
 * 12 May 2023 - Newer versions of TensorFlow (2.10+) use `learning_rate` instead of `lr` in `tf.keras.optimizers` (e.g. `tf.keras.optimizers.Adam(learning_rate=0.001)`, old `lr` still works but is deprecated
 * 02 Dec 2021 - Added fix for TensorFlow 2.7.0+ for notebook 02, [see discussion for more](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/278)
 * 11 Nov 2021 - Added fix for TensorFlow 2.7.0+ for notebook 01,  [see discussion for more](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/256)
-* 14 Aug 2021 - Added a [discussion with TensorFlow 2.6 updates and EfficientNetV2 notes](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/166) 
 
 ## Course materials
 
@@ -410,7 +411,7 @@ Here are some of the main topics you might want to look into next:
 ## Extensions (possible places to go after the course)
 
 * [Neural Networks and Deep Learning Book](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen - If the Zero to Mastery TensorFlow for Deep Learning course is top down, this book is bottom up. A fantastic resource to sandwich your knowledge. 
-* [Deeplearning.AI specializations](https://www.deeplearning.ai) - This course focuses on code-first, the deeplearning.ai specializations will teach you what's going on behind the code.
+* [Deeplearning.AI specializations](https://www.deeplearning.ai) - The ZTM TensorFLow course focuses on code-first, the deeplearning.ai specializations will teach you what's going on behind the code.
 * [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow Book](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) (especially the 2nd half) - Many of the materials in this course were inspired by and guided by the pages of this beautiful text book.
 * [Full Stack Deep Learning](https://fullstackdeeplearning.com) - Learn how to turn your models into machine learning-powered applications.
 * [Made with ML MLOps materials](https://madewithml.com/#mlops) - Similar to Full Stack Deep Learning but comprised into many small lessons around all the pieces of the puzzle (data collection, labelling, deployment and more) required to build a full-stack machine learning-powered application.
@@ -423,13 +424,15 @@ Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https
 
 ## Status
 
-As of: 14 Aug 2021
+As of: 12 May 2023
 
 Course completed! 🕺
 
 Any further updates/changes will be added below. 
   
 ## Log
+
+* 12 May 2023 - update several course notebooks for latest version of TensorFlow, several API updates for Notebook 05 here: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/547
 * 02 Dec 2021 - add fix for TensorFlow 2.7 to notebook 02
 * 11 Nov 2021 - add fix for TensorFlow 2.7 to notebook 01
 * 14 Aug 2021 - added a discussion with TensorFlow 2.6 updates and EfficientNetV2 notes: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/166
