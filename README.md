@@ -24,6 +24,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 
 ## Fixes and updates 
 
+* 18 May 2023 - Update notebook 06 for new TensorFlow namespaces (no major functionality change, just different imports), see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/549 
 * 12 May 2023 - Notebook 05 new namespaces added for `tf.keras.layers`, see https://github.com/mrdbourke/tensorflow-deep-learning/discussions/547, also add fix for issue with `model.load_weights()` in Notebook 05, see https://github.com/mrdbourke/tensorflow-deep-learning/issues/544 
 * 12 May 2023 - Newer versions of TensorFlow (2.10+) use `learning_rate` instead of `lr` in `tf.keras.optimizers` (e.g. `tf.keras.optimizers.Adam(learning_rate=0.001)`, old `lr` still works but is deprecated
 * 02 Dec 2021 - Added fix for TensorFlow 2.7.0+ for notebook 02, [see discussion for more](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/278)
