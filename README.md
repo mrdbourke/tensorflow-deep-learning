@@ -24,6 +24,7 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 
 ## Fixes and updates 
 
+* 26 May 2023 - Update [Notebook 08](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/08_introduction_to_nlp_in_tensorflow.ipynb) for new version of TensorFlow + update [Notebook 09](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) for new version of TensorFlow & spaCy, see update notes for 09: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/557 
 * 19 May 2023 - Update [Notebook 07](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/07_food_vision_milestone_project_1.ipynb) for new version of TensorFlow + fix model loading errors (TensorFlow 2.13+ required), see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/550
 * 18 May 2023 - Update Notebook 06 for new TensorFlow namespaces (no major functionality change, just different imports), see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/549 
 * 12 May 2023 - Notebook 05 new namespaces added for `tf.keras.layers`, see https://github.com/mrdbourke/tensorflow-deep-learning/discussions/547, also add fix for issue with `model.load_weights()` in Notebook 05, see https://github.com/mrdbourke/tensorflow-deep-learning/issues/544, if you're having trouble saving/loading the model weights, also see https://github.com/mrdbourke/tensorflow-deep-learning/issues/553 
