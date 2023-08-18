@@ -2,7 +2,7 @@
 
 All of the course materials for the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
-This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
+This course will teach you the foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
 
 ## Important links
 * 🎥 Watch the [first 14-hours of the course on YouTube](https://dbourke.link/tfpart1part2) (notebooks 00, 01, 02)
@@ -24,6 +24,8 @@ This course will teach you foundations of deep learning and TensorFlow as well a
 
 ## Fixes and updates 
 
+* 18 Aug 2023 - Update [Notebook 05](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb) to fix [#544](https://github.com/mrdbourke/tensorflow-deep-learning/issues/544) and [#553](https://github.com/mrdbourke/tensorflow-deep-learning/issues/553), see https://github.com/mrdbourke/tensorflow-deep-learning/discussions/575 for full notes
+     * In short, if you're using `tf.keras.applications.EfficientNetB0` and facing errors, swap to [`tf.keras.applications.efficientnet_v2.EfficientNetV2B0`](https://www.tensorflow.org/api_docs/python/tf/keras/applications/efficientnet_v2/EfficientNetV2B0)
 * 26 May 2023 - Update [Notebook 08](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/08_introduction_to_nlp_in_tensorflow.ipynb) for new version of TensorFlow + update [Notebook 09](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) for new version of TensorFlow & spaCy, see update notes for 09: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/557 
 * 19 May 2023 - Update [Notebook 07](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/07_food_vision_milestone_project_1.ipynb) for new version of TensorFlow + fix model loading errors (TensorFlow 2.13+ required), see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/550
 * 18 May 2023 - Update Notebook 06 for new TensorFlow namespaces (no major functionality change, just different imports), see: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/549 
