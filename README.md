@@ -2,7 +2,7 @@
 
 All of the course materials for the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
-This course will teach you the foundations of deep learning and TensorFlow.
+This course will teach you the foundations of deep learning and how to build and train neural networks for various problem types with TensorFlow/Keras.
 
 ## Important links
 * 🎥 Watch the [first 14-hours of the course on YouTube](https://dbourke.link/tfpart1part2) (notebooks 00, 01, 02)
