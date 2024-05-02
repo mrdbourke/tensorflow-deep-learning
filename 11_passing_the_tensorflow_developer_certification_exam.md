@@ -1,4 +1,14 @@
-# Preparing for the TensorFlow Developer Certification
+# Preparing for the TensorFlow Developer Certification (archive)
+
+> **Note:** As of 1 May 2024, the TensorFlow Developer Certification is no longer available for purchase. After being in contact with the TensorFlow Certification team, they stated they were closing the program with no official next steps (see email below).
+>
+> With this in mind, the details on this page are for archive reasons only. The materials in the course are still valid to learn TensorFlow/Deep Learning in general. The TensorFlow Developer Certificate was always an optional extension to the course.
+>
+> See [#645](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/645) on GitHub for more.
+
+<img src="images/misc-tensorflow-developer-certificate-closing.png" width=750 alt="The image shows a split screen with two browser windows. On the left, a webpage titled 'Updates to the TensorFlow Developer Certificate' provides details about the closing of the TensorFlow Developer Certificate exam, highlighting that the last day to register for the exam is April 30, 2024, and the final day to take it is May 31, 2024. On the right, an email from the TensorFlow Certificate Support to a person named Daniel states that the certificate program is being evaluated for future steps and reiterates that the last day to purchase the exam is May 31, 2024, with the final exam date as April 30, 2024."/>
+
+---
 
 After going through the Zero to Mastery TensorFlow for Deep Learning course, you might be interested in taking the TensorFlow Developer Certification exam.
 
