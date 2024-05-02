@@ -1,0 +1,1076 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://dev.mrdbourke.com/tensorflow-deep-learning/11_passing_the_tensorflow_developer_certification_exam/">
+      
+      
+        <link rel="prev" href="../10_time_series_forecasting_in_tensorflow/">
+      
+      
+      
+      <link rel="icon" href="../assets/misc-ztm-logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
+    
+    
+      
+        <title>Preparing for the TensorFlow Developer Certification Exam (archive) - Zero to Mastery TensorFlow for Deep Learning</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#preparing-for-the-tensorflow-developer-certification-archive" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Zero to Mastery TensorFlow for Deep Learning" class="md-header__button md-logo" aria-label="Zero to Mastery TensorFlow for Deep Learning" data-md-component="logo">
+      
+  <img src="../assets/misc-ztm-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Zero to Mastery TensorFlow for Deep Learning
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Preparing for the TensorFlow Developer Certification Exam (archive)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mrdbourke/tensorflow-deep-learning/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mrdbourke/tensorflow_deep_learning
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Zero to Mastery TensorFlow for Deep Learning" class="md-nav__button md-logo" aria-label="Zero to Mastery TensorFlow for Deep Learning" data-md-component="logo">
+      
+  <img src="../assets/misc-ztm-logo.png" alt="logo">
+
+    </a>
+    Zero to Mastery TensorFlow for Deep Learning
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mrdbourke/tensorflow-deep-learning/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mrdbourke/tensorflow_deep_learning
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Fundamentals
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Fundamentals
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_tensorflow_fundamentals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    00. Getting started with TensorFlow: A guide to the fundamentals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_neural_network_regression_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    01. Neural Network Regression with TensorFlow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_neural_network_classification_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    02. Neural Network Classification with TensorFlow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Computer Vision
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Computer Vision
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_convolutional_neural_networks_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    03. Convolutional Neural Networks and Computer Vision with TensorFlow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Transfer Learning
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Transfer Learning
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_transfer_learning_in_tensorflow_part_1_feature_extraction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    04. Transfer Learning with TensorFlow Part 1: Feature Extraction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_transfer_learning_in_tensorflow_part_2_fine_tuning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    05. Transfer Learning with TensorFlow Part 2: Fine-tuning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_transfer_learning_in_tensorflow_part_3_scaling_up/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06. Transfer Learning with TensorFlow Part 3: Scaling up (🍔👁 Food Vision mini)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_food_vision_milestone_project_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    07 Milestone Project 1: 🍔👁 Food Vision Big™
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Natural Language Processing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Natural Language Processing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_introduction_to_nlp_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    08. Natural Language Processing with TensorFlow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_SkimLit_nlp_milestone_project_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    09. Milestone Project 2: SkimLit 📄🔥
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Time Series
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Time Series
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_time_series_forecasting_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Milestone Project 3: Time series forecasting in TensorFlow (BitPredict 💰📈)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Preparing for the TensorFlow Developer Certification Exam (archive)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Preparing for the TensorFlow Developer Certification Exam (archive)
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-tensorflow-developer-certification" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is the TensorFlow Developer Certification?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-the-tensorflow-developer-certification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the TensorFlow Developer Certification?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why the TensorFlow Developer Certification?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#certificates-are-nice-to-have-not-need-to-have" class="md-nav__link">
+    <span class="md-ellipsis">
+      Certificates are nice to have not need to have
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-prepare-your-brain-for-the-tensorflow-developer-certification" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to prepare (your brain) for the TensorFlow Developer Certification
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to prepare (your brain) for the TensorFlow Developer Certification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-skills-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Skills Checklist
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-prepare-your-computer-for-the-tensorflow-developer-certification" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to prepare (your computer) for the TensorFlow Developer Certification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting-tidbits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting tidbits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Questions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-curriculum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extra-curriculum
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="preparing-for-the-tensorflow-developer-certification-archive">Preparing for the TensorFlow Developer Certification (archive)</h1>
+<blockquote>
+<p><strong>Note:</strong> As of 1 May 2024, the TensorFlow Developer Certification is no longer available for purchase. After being in contact with the TensorFlow Certification team, they stated they were closing the program with no official next steps (see email below).</p>
+<p>With this in mind, the details on this page are for archive reasons only. The materials in the course are still valid to learn TensorFlow/Deep Learning in general. The TensorFlow Developer Certificate was always an optional extension to the course.</p>
+<p>See <a href="https://github.com/mrdbourke/tensorflow-deep-learning/discussions/645">#645</a> on GitHub for more.</p>
+</blockquote>
+<p><img src="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/images/misc-tensorflow-developer-certificate-closing.png?raw=true" width=900 alt="The image shows a split screen with two browser windows. On the left, a webpage titled 'Updates to the TensorFlow Developer Certificate' provides details about the closing of the TensorFlow Developer Certificate exam, highlighting that the last day to register for the exam is April 30, 2024, and the final day to take it is May 31, 2024. On the right, an email from the TensorFlow Certificate Support to a person named Daniel states that the certificate program is being evaluated for future steps and reiterates that the last day to purchase the exam is May 31, 2024, with the final exam date as April 30, 2024."/></p>
+<hr />
+<p>After going through the Zero to Mastery TensorFlow for Deep Learning course, you might be interested in taking the TensorFlow Developer Certification exam.</p>
+<p>If so, these steps will help you.</p>
+<ul>
+<li>📖 <strong>Resource:</strong> <a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf">Get the slides</a> for this section</li>
+</ul>
+<h2 id="preface">Preface</h2>
+<p>I took and passed the TensorFlow Developer Certification exam myself shortly after it came out. After which, I wrote an article and made a YouTube video on how I did it and how you can too.</p>
+<p>Many of the course materials as well as the document you're reading now, were built with the following two resources in mind:</p>
+<ul>
+<li>📄 <strong>Read:</strong> <a href="https://www.mrdbourke.com/how-i-got-tensorflow-developer-certified/">How I got TensorFlow Developer Certified (and how you can too)</a></li>
+<li>🎥 <strong>Watch:</strong> <a href="https://youtu.be/ya5NwvKafDk">How I passed the TensorFlow Developer Certification exam (and how you can too)</a></li>
+</ul>
+<p><img alt="Daniel Bourke's TensorFlow Developer certification" src="https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-daniel-bourke-tensorflow-developer-certification.png" />
+<em>My <a href="https://www.credential.net/3d6eec98-5910-4546-b907-172a7d507de6#gs.53cop5">TensorFlow Developer Certificate</a> (delivered after passing the exam).</em></p>
+<h2 id="what-is-the-tensorflow-developer-certification">What is the TensorFlow Developer Certification?</h2>
+<p><a href="https://www.tensorflow.org/certificate">The TensorFlow Developer Certification</a>, as you might’ve guessed, is a way to showcase your ability to use TensorFlow.</p>
+<p>More specifically, your ability to use TensorFlow (the Python version) to build deep learning models for a range of tasks such as regression, computer vision classification (finding patterns in images), natural language processing (finding patterns in text) and time series forecasting (predicting future trends given a range of past events).</p>
+<h2 id="why-the-tensorflow-developer-certification">Why the TensorFlow Developer Certification?</h2>
+<p>My first reason was fun. I wanted to give myself a little challenge to work towards and a reason to read a new book I’d purchased (Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow 2.0).</p>
+<p>But two other valid reasons are:</p>
+<ol>
+<li>To acquire the foundational skills required to build machine learning powered applications (you've already done this with the rest of the course)</li>
+<li>Showcasing your skill competency to a future employer*</li>
+<li>Get added to the <a href="https://developers.google.com/certification/directory/tensorflow">TensorFlow Certificate Network</a></li>
+</ol>
+<p><img alt="TensorFlow Certificate Network" src="https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-daniel-bourke-tensorflow-developer-certification-network.png" />
+<em>Once you pass the TensorFlow Developer Certification, you get added to the TensorFlow Certificate Network, a resource people from around the world can use to find TensorFlow Certified Developers.</em></p>
+<p>*You can do this in a multitude of ways. For example, creating a GitHub repo where you share your code projects and a blog where you write about the things you've learned/worked on.</p>
+<h3 id="certificates-are-nice-to-have-not-need-to-have">Certificates are <em>nice</em> to have not <em>need</em> to have</h3>
+<p>I got asked whether the certification is necessary in a <a href="https://youtu.be/rqAqcFcfeK8">livestream Q&amp;A about this course</a>.</p>
+<p>It’s not.</p>
+<p>In the tech field, no certification is <em>needed</em>. If you have skills and demonstrate those skills (through a blog, projects of your own, a nice-looking GitHub), that is a certification in itself.</p>
+<p>A certification is only one form of proof of skill.</p>
+<p>Rather than an official certification, I’m a big fan of starting the job before you have it.</p>
+<p>For example, if you have some ideal role you’d like to work for a company as. Say, a machine learning engineer. Use your research skills to figure out what a machine learning engineer would do day to day and then start doing those things.</p>
+<p>Use courses and certifications as foundational knowledge then use your own projects to build specific knowledge (knowledge that can’t be taught).</p>
+<p><img alt="do certificates guarantee a job tweet" src="https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-do-certificates-guarantee-a-job-tweet.png" /></p>
+<p><em>Do certificates guarantee a job? <a href="https://twitter.com/mrdbourke/status/1385143193918840835?s=20">Tweet by Daniel Bourke</a>.</em></p>
+<p>With that being said if you did want to go for the certification, how would you do it?</p>
+<h2 id="how-to-prepare-your-brain-for-the-tensorflow-developer-certification">How to prepare (your brain) for the TensorFlow Developer Certification</h2>
+<p>First and foremost, you should have experience writing plenty of TensorFlow code.</p>
+<p>After all, since certification is proof of skill, there's no point in going for certification if you don't have some sort of skill at using TensorFlow (and deep learning in general).</p>
+<p>If you've gone through the Zero to Mastery TensorFlow for Deep Learning course, coded along with the videos, done the exercises, you've got plenty of skill to take on the exam.</p>
+<p>To prepare, go through the <a href="https://www.tensorflow.org/extras/cert/TF_Certificate_Candidate_Handbook.pdf">TensorFlow Developer Certificate Candidate Handbook</a>. Use this as your ground truth for the exam.</p>
+<p>It's a well-written document so I'm not going to repeat anything from within it here, rather suggest some actions which you might want to take.</p>
+<h3 id="the-skills-checklist">The Skills Checklist</h3>
+<p>Going through the handbook, you'll come across a section named the Skills checklist. It is what it says it is.</p>
+<p>Of course, I'm not going to tell what's actually on the exam. But looking at the skills checklist, you'll find sections on:</p>
+<ol>
+<li>TensorFlow Developer Skills (TensorFlow fundamentals)</li>
+<li>Building and training neural networks using TensorFlow 2.x</li>
+<li>Image classification</li>
+<li>Natural language processing (NLP)</li>
+<li>Time series, sequences and predictions</li>
+</ol>
+<p>If there are five sections, can you guess how many questions will be on the exam?</p>
+<p>Each of the questions requires you to submit a trained model in <code>.h5</code> format.</p>
+<p>If you've been through the course materials, you know how to do this.</p>
+<p>The model you submit is graded on how well it performs. Don't overthink this. If you build a fairly well-performing model, chances are it'll pass. If you think your model needs to improve its performance, go through the steps covered in the <a href="https://dev.mrdbourke.com/tensorflow-deep-learning/02_neural_network_classification_in_tensorflow/#improving-a-model">Improving a model section</a> of the course. </p>
+<p>You've got 5-hours during the exam to build and train models on the datasets provided. The models will not take long to train (even on CPU). This is plenty of time.</p>
+<p>🛠 <strong>Exercises</strong></p>
+<ol>
+<li>Read through the TensorFlow Developer Certification Candidate Handbook.</li>
+<li>Go through the Skills checklist section of the TensorFlow Developer Certification Candidate Handbook and create a notebook which covers all of the skills required, write code for each of these (this notebook can be used as a point of reference during the exam).</li>
+</ol>
+<p><img alt="mapping the TensorFlow Developer handbook to code in a notebook" src="https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-map-the-skills-checklist-to-a-notebook.png" />
+<em>Example of mapping the Skills checklist section of the TensorFlow Developer Certification Candidate handbook to a notebook.</em></p>
+<h2 id="how-to-prepare-your-computer-for-the-tensorflow-developer-certification">How to prepare (your computer) for the TensorFlow Developer Certification</h2>
+<p>Got TensorFlow skills? </p>
+<p>Been through the TensorFlow Developer Certification Candidate Handbook? </p>
+<p>Decided you're going to take on the exam?</p>
+<p>Now it's time to set your computer up.</p>
+<p>The exam takes place in PyCharm (a Python integrated developer environment or IDE). If you've never used PyCharm before, not to worry, you can get started using the <a href="https://www.jetbrains.com/pycharm/learn/">PyCharm quick start tutorial</a>. Plus, being able to get setup in a new development environment is part of being a skilled developer.</p>
+<p>But wait, PyCharm has a lot going on, how do I know to set it up for the TensorFlow Developer Certification Exam?</p>
+<p>There's a guide for that!</p>
+<p>The TensorFlow team have written a guide (similar to the handbook above) on how to <a href="https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf">set up your environment to take TensorFlow Developer Certification Exam</a>.</p>
+<p>Again, I'm not going to repeat what's mentioned in the document too much because it's another well-written guide (plus, if things change over time, new versions etc, best to adhere to the guide).</p>
+<p>Reading through this as well as following each of the tests it suggests will ensure your computer is ready to go.</p>
+<p>🛠 <strong>Exercises</strong></p>
+<ol>
+<li>Go through the <a href="https://www.jetbrains.com/pycharm/learning-center/">PyCharm quick start</a> tutorials to make sure you're familiar with PyCharm (the exam uses PyCharm, you can download the free version).</li>
+<li>Read through and follow the suggested steps in the <a href="https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf">setting up for the TensorFlow Developer Certificate Exam guide</a>.</li>
+<li>After going through (2), go into PyCharm and make sure you can train a model in TensorFlow. The model and dataset in the example <code>image_classification_test.py</code> <a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_classification_test.py">script on GitHub</a> should be enough. If you can train and save the model in under 5-10 minutes, your computer will be powerful enough to train the models in the exam.<ul>
+<li>Make sure you've got experience running models locally in PyCharm before taking the exam. Google Colab (what we used through the course) is a little different to PyCharm.</li>
+</ul>
+</li>
+</ol>
+<p><img alt="before taking the TensorFlow Developer certification exam, make sure you can run TensorFlow code in PyCharm on your local machine" src="https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-getting-example-script-to-run-in-pycharm.png" />
+<em>Before taking the exam make sure you can run TensorFlow code on your local machine in PyCharm. If the <a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_classification_test.py">example <code>image_class_test.py</code> script</a> can run completely in under 5-10 minutes on your local machine, your local machine can handle the exam (if not, you can use Google Colab to train, save and download models to submit for the exam).</em></p>
+<h2 id="troubleshooting-tidbits">Troubleshooting tidbits</h2>
+<p>If you've been through the Zero to Mastery TensorFlow for Deep Learning course, you've had plenty of experience troubleshooting different models. </p>
+<p>But for reference, here are some of the main issues you might run into (inside and outside of the exam):</p>
+<ul>
+<li><strong>Input and output shapes</strong> — print these out if you're stuck.</li>
+<li><strong>Input and output datatypes</strong> — TensorFlow usually prefers float32.</li>
+<li><strong>Output activation functions</strong> — for classification: <code>sigmoid</code> vs <code>softmax</code>, which one should you use?</li>
+<li><strong>Loss functions</strong> — for classification <code>sparse_categorical_crossentropy</code> vs <code>categorical_crossentropy</code>, which one should you use?</li>
+<li><strong>Ways to improve a model</strong> — if your model isn't performing as well as it should, what can you do?</li>
+</ul>
+<h2 id="questions">Questions</h2>
+<p><strong>Can I use external resources (Google, Stack Overflow, TensorFlow documentation, previous code) during the exam?</strong></p>
+<p>Yes. The exam is open book. You will have access to all of the resources you would usually have access to whilst writing TensorFlow code outside of the exam.</p>
+<p><strong>Do I need a GPU?</strong></p>
+<p>No. The models built in the exam aren't extremely large. So you can train them on CPU. I'd advise trying out to see if you can run one of the example models and if you can train in under 5-10 minutes (without GPU), you can proceed with the exam. If you need access to a GPU, you can always train a model on Google Colab and download it in <code>.h5</code> and then submit it during the exam.</p>
+<p><strong>Can I just do the courses, read the book(s) and practice myself, do I really need the certificate?</strong></p>
+<p>Of course. At the end of the day, skills are what you should be after, not certificates. Certificates are <em>nice</em> to haves not <em>need</em> to haves.</p>
+<p><strong>If you say certificates aren’t needed, why’d you get it?</strong></p>
+<p>I like having a challenge to work towards. Setting a date for myself, as in, “I’m taking the exam on June 3rd”, gave me no choice but to study.</p>
+<h2 id="extra-curriculum">Extra-curriculum</h2>
+<p>If you'd like some extra materials to go through to further your skills with TensorFlow and deep learning in general or to prepare more for the exam, I'd highly recommend the following:</p>
+<ul>
+<li><a href="https://dbourke.link/tfinpractice">TensorFlow in Practice Specialization on Coursera</a></li>
+<li><a href="https://amzn.to/3aYexF2">Hands-On Machine Learning with Scikit-Learn, Keras &amp; TensorFlow 2nd Edition</a></li>
+<li><a href="http://introtodeeplearning.com/">MIT Introduction to Deep Learning</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/mrdbourke" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/mrdbourke" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCr8O8l5cCX85Oem1d18EezQ" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "toc.integrate"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.dd8806f2.min.js"></script>
+      
+    
+  </body>
+</html>

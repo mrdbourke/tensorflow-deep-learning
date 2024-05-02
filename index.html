@@ -1,0 +1,1072 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://dev.mrdbourke.com/tensorflow-deep-learning/">
+      
+      
+      
+        <link rel="next" href="00_tensorflow_fundamentals/">
+      
+      
+      <link rel="icon" href="assets/misc-ztm-logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
+    
+    
+      
+        <title>Zero to Mastery TensorFlow for Deep Learning</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-the-zero-to-mastery-tensorflow-for-deep-learning-book" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Zero to Mastery TensorFlow for Deep Learning" class="md-header__button md-logo" aria-label="Zero to Mastery TensorFlow for Deep Learning" data-md-component="logo">
+      
+  <img src="assets/misc-ztm-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Zero to Mastery TensorFlow for Deep Learning
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mrdbourke/tensorflow-deep-learning/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mrdbourke/tensorflow_deep_learning
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Zero to Mastery TensorFlow for Deep Learning" class="md-nav__button md-logo" aria-label="Zero to Mastery TensorFlow for Deep Learning" data-md-component="logo">
+      
+  <img src="assets/misc-ztm-logo.png" alt="logo">
+
+    </a>
+    Zero to Mastery TensorFlow for Deep Learning
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mrdbourke/tensorflow-deep-learning/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mrdbourke/tensorflow_deep_learning
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#important-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course materials
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#should-you-do-this-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      Should you do this course?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-this-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to use this book
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#who-made-this-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      Who made this book?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extensions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Fundamentals
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Fundamentals
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="00_tensorflow_fundamentals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    00. Getting started with TensorFlow: A guide to the fundamentals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="01_neural_network_regression_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    01. Neural Network Regression with TensorFlow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="02_neural_network_classification_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    02. Neural Network Classification with TensorFlow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Computer Vision
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Computer Vision
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="03_convolutional_neural_networks_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    03. Convolutional Neural Networks and Computer Vision with TensorFlow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Transfer Learning
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Transfer Learning
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="04_transfer_learning_in_tensorflow_part_1_feature_extraction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    04. Transfer Learning with TensorFlow Part 1: Feature Extraction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="05_transfer_learning_in_tensorflow_part_2_fine_tuning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    05. Transfer Learning with TensorFlow Part 2: Fine-tuning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="06_transfer_learning_in_tensorflow_part_3_scaling_up/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06. Transfer Learning with TensorFlow Part 3: Scaling up (🍔👁 Food Vision mini)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="07_food_vision_milestone_project_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    07 Milestone Project 1: 🍔👁 Food Vision Big™
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Natural Language Processing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Natural Language Processing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="08_introduction_to_nlp_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    08. Natural Language Processing with TensorFlow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="09_SkimLit_nlp_milestone_project_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    09. Milestone Project 2: SkimLit 📄🔥
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Time Series
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Time Series
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="10_time_series_forecasting_in_tensorflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Milestone Project 3: Time series forecasting in TensorFlow (BitPredict 💰📈)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="11_passing_the_tensorflow_developer_certification_exam/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preparing for the TensorFlow Developer Certification Exam (archive)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="welcome-to-the-zero-to-mastery-tensorflow-for-deep-learning-book">Welcome to the Zero to Mastery TensorFlow for Deep Learning Book</h1>
+<p><img alt="Zero to Mastery TensorFlow for Deep Learning cover" src="https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-tensorflow-deep-learning-outline.png" /></p>
+<p>This is the online book version of the <a href="https://dbourke.link/ZTMTFcourse">Zero to Mastery Deep Learning with TensorFlow course</a>.</p>
+<p>This course will teach you foundations of deep learning and TensorFlow.</p>
+<p>The course is video based. However, the videos are based on the contents of this online book.</p>
+<p>For full code and resources see the <a href="https://github.com/mrdbourke/tensorflow-deep-learning">course GitHub</a>.</p>
+<h2 id="important-links">Important links</h2>
+<ul>
+<li>🎥 Watch the <a href="https://dbourke.link/tfpart1part2">first 14-hours of the course on YouTube</a> (notebooks 00, 01, 02)</li>
+<li>💻 <a href="https://dbourke.link/ZTMTFcourse">Sign up</a> to the full course on the Zero to Mastery Academy (videos for notebooks 03-10)</li>
+<li>🤔 Got questions about the course? Check out the <a href="https://youtu.be/rqAqcFcfeK8">livestream Q&amp;A for the course launch</a></li>
+<li>❓ Stuck? Ask a question on the <a href="https://github.com/mrdbourke/tensorflow-deep-learning/discussions">GitHub Discussions page</a> or <a href="https://github.com/mrdbourke/tensorflow-deep-learning/discussions/127">see the FAQ</a> </li>
+</ul>
+<h2 id="course-materials">Course materials</h2>
+<p>The following table represents contents of the book (each notebook is a chapter) with extra links to slides, exercises and extra-curriculum.</p>
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Notebook</th>
+<th>Exercises &amp; Extra-curriculum</th>
+<th>Slides</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>00</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/00_tensorflow_fundamentals/">TensorFlow Fundamentals</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/00_introduction_to_tensorflow_and_deep_learning.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>01</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/01_neural_network_regression_in_tensorflow/">TensorFlow Regression</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-01-neural-network-regression-with-tensorflow-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/01_neural_network_regression_with_tensorflow.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>02</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/02_neural_network_classification_in_tensorflow/">TensorFlow Classification</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-02-neural-network-classification-with-tensorflow-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/02_neural_network_classification_with_tensorflow.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>03</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/03_convolutional_neural_networks_in_tensorflow/">TensorFlow Computer Vision</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-03-computer-vision--convolutional-neural-networks-in-tensorflow-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/03_convolution_neural_networks_and_computer_vision_with_tensorflow.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>04</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/04_transfer_learning_in_tensorflow_part_1_feature_extraction/">Transfer Learning Part 1: Feature extraction</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-04-transfer-learning-in-tensorflow-part-1-feature-extraction-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/04_transfer_learning_with_tensorflow_part_1_feature_extraction.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>05</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/05_transfer_learning_in_tensorflow_part_2_fine_tuning/">Transfer Learning Part 2: Fine-tuning</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-05-transfer-learning-in-tensorflow-part-2-fine-tuning-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/05_transfer_learning_with_tensorflow_part_2_fine_tuning.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>06</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/06_transfer_learning_in_tensorflow_part_3_scaling_up/">Transfer Learning Part 3: Scaling up</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-06-transfer-learning-in-tensorflow-part-3-scaling-up-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/06_transfer_learning_with_tensorflow_part_3_scaling_up.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>07</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/07_food_vision_milestone_project_1/">Milestone Project 1: Food Vision 🍔👁</a>, <a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/TEMPLATE_07_food_vision_milestone_project_1.ipynb">Template (your challenge)</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-07-milestone-project-1--food-vision-big-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/07_milestone_project_1_food_vision.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>08</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/08_introduction_to_nlp_in_tensorflow/">TensorFlow NLP Fundamentals</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-08-introduction-to-nlp-natural-language-processing-in-tensorflow-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/08_natural_language_processing_in_tensorflow.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>09</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/09_SkimLit_nlp_milestone_project_2/">Milestone Project 2: SkimLit 📄🔥</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning#-09-milestone-project-2-skimlit--exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/09_milestone_project_2_skimlit.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/10_time_series_forecasting_in_tensorflow/">TensorFlow Time Series Fundamentals &amp; Milestone Project 3: BitPredict 💰📈</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/README.md#-10-time-series-fundamentals-and-milestone-project-3-bitpredict--exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/10_time_series_fundamentals_and_milestone_project_3_bitpredict.pdf">Go to slides</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://dev.mrdbourke.com/tensorflow-deep-learning/11_passing_the_tensorflow_developer_certification_exam/">Preparing to Pass the TensorFlow Developer Certification Exam (archive)</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/README.md#-11-passing-the-tensorflow-developer-certification-exercises">Go to exercises &amp; extra-curriculum</a></td>
+<td><a href="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf">Go to slides</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="course-structure">Course structure</h2>
+<p>This course is code first. The goal is to get you writing deep learning code as soon as possible.</p>
+<p>It is taught with the following mantra:</p>
+<div class="highlight"><pre><span></span><code>Code -&gt; Concept -&gt; Code -&gt; Concept -&gt; Code -&gt; Concept
+</code></pre></div>
+<p>This means we write code first then step through the concepts behind it.</p>
+<p>If you've got 6-months experience writing Python code and a willingness to learn (most important), you'll be able to do the course.</p>
+<h2 id="should-you-do-this-course">Should you do this course?</h2>
+<blockquote>
+<p>Do you have 1+ years experience with deep learning and writing TensorFlow code?</p>
+</blockquote>
+<p>If yes, no you shouldn't, use your skills to build something. </p>
+<p>If no, move onto the next question.</p>
+<blockquote>
+<p>Have you done at least one beginner machine learning course and would like to learn about deep learning/TensorFlow?</p>
+</blockquote>
+<p>If yes, this course is for you.</p>
+<p>If no, go and do a beginner machine learning course and if you decide you want to learn TensorFlow, this page will still be here.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<blockquote>
+<p>What do I need to know to go through this course?</p>
+</blockquote>
+<ul>
+<li><strong>6+ months writing Python code.</strong> Can you write a Python function which accepts and uses parameters? That’s good enough. If you don’t know what that means, spend another month or two writing Python code and then come back here.</li>
+<li><strong>At least one beginner machine learning course.</strong> Are you familiar with the idea of training, validation and test sets? Do you know what supervised learning is? Have you used pandas, NumPy or Matplotlib before? If no to any of these, I’d going through at least one machine learning course which teaches these first and then coming back. </li>
+<li><strong>Comfortable using Google Colab/Jupyter Notebooks.</strong> This course uses Google Colab throughout. If you have never used Google Colab before, it works very similar to Jupyter Notebooks with a few extra features. If you’re not familiar with Google Colab notebooks, I’d suggest going through the <a href="https://colab.research.google.com/notebooks/intro.ipynb">Introduction to Google Colab notebook</a>.</li>
+<li><strong>Plug:</strong> The <a href="https://dbourke.link/ZTMMLcourse">Zero to Mastery beginner-friendly machine learning course</a> (I also teach this) teaches all of the above (and this course, the one you're reading about now, is designed as a follow on).</li>
+</ul>
+<h2 id="how-to-use-this-book">How to use this book</h2>
+<p>All of the materials are taught code-first. The chapters are Jupyter Notebooks (also Google Colab notebooks) which can be run interactively.</p>
+<p>You can read all of the materials but they'll be best learned if you practice writing the code yourself.</p>
+<p><img alt="running a notebook chapter in Google Colab" src="https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-run-notebook-in-google-colab.png" />
+<em>To start running a notebook interactively, click the "Open in Colab" button at the top of each chapter.</em> </p>
+<h2 id="who-made-this-book">Who made this book?</h2>
+<p>I did, ah, me, Daniel, <a href="https://www.mrdbourke.com">Daniel Bourke</a>. I'm a machine learning engineer who makes YouTube videos and writes stories, pop philosophy and machine learning coding tutorials (like the ones contained in this book).</p>
+<p>Sometimes documentation and other resources can be a bit hard to read for certain things. So I've done my best to make this a book (and a video course, I mean, that's where this book came from) I'd like to have read when I was getting into the exciting world of deep learning.</p>
+<h2 id="extensions">Extensions</h2>
+<p>Enjoyed this book/course?</p>
+<p>I'd also recommend the following:</p>
+<ul>
+<li><a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning Book</a> by Michael Nielsen - If the Zero to Mastery TensorFlow for Deep Learning book is top down, this book is bottom up. A fantastic resource to sandwich your knowledge. </li>
+<li><a href="https://www.deeplearning.ai">Deeplearning.AI specializations</a> - This course focuses on code-first, the deeplearning.ai specializations will teach you what's going on behind the code.</li>
+<li><a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/">Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow Book</a> (especially the 2nd half) - Many of the materials in this course were inspired by and guided by the pages of this beautiful text book.</li>
+<li><a href="https://fullstackdeeplearning.com">Full Stack Deep Learning</a> - Learn how to turn your models into machine learning-powered applications.</li>
+<li><a href="https://madewithml.com/#mlops">Made with ML MLOps materials</a> - Similar to Full Stack Deep Learning but comprised into many small lessons around all the pieces of the puzzle (data collection, labelling, deployment and more) required to build a full-stack machine learning-powered application.</li>
+<li><a href="https://www.fast.ai">fast.ai Curriculum</a> - One of the best (and free) AI/deep learning courses online. Enough said.</li>
+<li><a href="https://www.mrdbourke.com/how-can-a-beginner-data-scientist-like-me-gain-experience/">"How does a beginner data scientist like me gain experience?"</a> by Daniel Bourke - Read this on how to get experience for a job after studying online/at unveristy (start the job before you have it).</li>
+</ul>
+<p>Get ready to dream in tensors!</p>
+<p>Onward.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/mrdbourke" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/mrdbourke" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCr8O8l5cCX85Oem1d18EezQ" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.top", "toc.integrate"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.dd8806f2.min.js"></script>
+      
+    
+  </body>
+</html>
