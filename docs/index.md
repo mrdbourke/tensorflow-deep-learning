@@ -4,7 +4,7 @@
 
 This is the online book version of the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
-This course will teach you foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
+This course will teach you foundations of deep learning and TensorFlow.
 
 The course is video based. However, the videos are based on the contents of this online book.
 
@@ -33,7 +33,7 @@ The following table represents contents of the book (each notebook is a chapter)
 | 08 | [TensorFlow NLP Fundamentals](https://dev.mrdbourke.com/tensorflow-deep-learning/08_introduction_to_nlp_in_tensorflow/) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-08-introduction-to-nlp-natural-language-processing-in-tensorflow-exercises)  | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/08_natural_language_processing_in_tensorflow.pdf) |
 | 09 | [Milestone Project 2: SkimLit 📄🔥](https://dev.mrdbourke.com/tensorflow-deep-learning/09_SkimLit_nlp_milestone_project_2/) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-09-milestone-project-2-skimlit--exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/09_milestone_project_2_skimlit.pdf) |
 | 10 | [TensorFlow Time Series Fundamentals & Milestone Project 3: BitPredict 💰📈](https://dev.mrdbourke.com/tensorflow-deep-learning/10_time_series_forecasting_in_tensorflow/) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/README.md#-10-time-series-fundamentals-and-milestone-project-3-bitpredict--exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/10_time_series_fundamentals_and_milestone_project_3_bitpredict.pdf) |
-| 11 | [Preparing to Pass the TensorFlow Developer Certification Exam](https://dev.mrdbourke.com/tensorflow-deep-learning/11_passing_the_tensorflow_developer_certification_exam/) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/README.md#-11-passing-the-tensorflow-developer-certification-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf) |
+| 11 | [Preparing to Pass the TensorFlow Developer Certification Exam (archive)](https://dev.mrdbourke.com/tensorflow-deep-learning/11_passing_the_tensorflow_developer_certification_exam/) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/README.md#-11-passing-the-tensorflow-developer-certification-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf) |
 
 ## Course structure
 
@@ -57,7 +57,7 @@ If yes, no you shouldn't, use your skills to build something.
 
 If no, move onto the next question.
 
-> Have you done at least one beginner machine learning course and would like to learn about deep learning/pass the TensorFlow Developer Certification?
+> Have you done at least one beginner machine learning course and would like to learn about deep learning/TensorFlow?
 
 If yes, this course is for you.
 

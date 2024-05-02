@@ -2,7 +2,7 @@
 
 All of the course materials for the [Zero to Mastery Deep Learning with TensorFlow course](https://dbourke.link/ZTMTFcourse).
 
-This course will teach you the foundations of deep learning and TensorFlow as well as prepare you to pass the TensorFlow Developer Certification exam (optional).
+This course will teach you the foundations of deep learning and how to build and train neural networks for various problem types with TensorFlow/Keras.
 
 ## Important links
 * 🎥 Watch the [first 14-hours of the course on YouTube](https://dbourke.link/tfpart1part2) (notebooks 00, 01, 02)
@@ -24,6 +24,7 @@ This course will teach you the foundations of deep learning and TensorFlow as we
 
 ## Fixes and updates 
 
+* 2 May 2024 - Update section 11 to reflect closing of TensorFlow Developer Certification program by Google (see [#645](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/645) for more)
 * 18 Aug 2023 - Update [Notebook 05](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb) to fix [#544](https://github.com/mrdbourke/tensorflow-deep-learning/issues/544) and [#553](https://github.com/mrdbourke/tensorflow-deep-learning/issues/553), see https://github.com/mrdbourke/tensorflow-deep-learning/discussions/575 for full notes
      * In short, if you're using `tf.keras.applications.EfficientNetB0` and facing errors, swap to [`tf.keras.applications.efficientnet_v2.EfficientNetV2B0`](https://www.tensorflow.org/api_docs/python/tf/keras/applications/efficientnet_v2/EfficientNetV2B0)
 * 26 May 2023 - Update [Notebook 08](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/08_introduction_to_nlp_in_tensorflow.ipynb) for new version of TensorFlow + update [Notebook 09](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) for new version of TensorFlow & spaCy, see update notes for 09: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/557 
@@ -60,7 +61,7 @@ Key:
 | 08 | [TensorFlow NLP Fundamentals](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/08_introduction_to_nlp_in_tensorflow.ipynb) | [`diaster_or_no_diaster_tweets`](https://storage.googleapis.com/ztm_tf_course/nlp_getting_started.zip), [`USE_feature_extractor_model`](https://storage.googleapis.com/ztm_tf_course/08_model_6_USE_feature_extractor.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-08-introduction-to-nlp-natural-language-processing-in-tensorflow-exercises)  | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/08_natural_language_processing_in_tensorflow.pdf) |
 | 09 | [Milestone Project 2: SkimLit 📄🔥](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb) | [`pubmed_RCT_200k_dataset`](https://github.com/Franck-Dernoncourt/pubmed-rct.git), [`skimlit_tribrid_model`](https://storage.googleapis.com/ztm_tf_course/skimlit/skimlit_tribrid_model.zip) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-09-milestone-project-2-skimlit--exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/09_milestone_project_2_skimlit.pdf) |
 | 10 | [TensorFlow Time Series Fundamentals & Milestone Project 3: BitPredict 💰📈](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/10_time_series_forecasting_in_tensorflow.ipynb) | [`bitcoin_price_data_USD_2013-10-01_2021-05-18.csv`](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/extras/BTC_USD_2013-10-01_2021-05-18-CoinDesk.csv) | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-10-time-series-fundamentals-and-milestone-project-3-bitpredict--exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/10_time_series_fundamentals_and_milestone_project_3_bitpredict.pdf) |
-| 11 | [Preparing to Pass the TensorFlow Developer Certification Exam](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md) | | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-11-passing-the-tensorflow-developer-certification-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf) |
+| 11 | [Preparing to Pass the TensorFlow Developer Certification Exam (archive)](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md) | | [Go to exercises & extra-curriculum](https://github.com/mrdbourke/tensorflow-deep-learning#-11-passing-the-tensorflow-developer-certification-exercises) | [Go to slides](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/slides/11_passing_the_tensorflow_developer_certification_exam.pdf) |
 
 ## Course structure
 
@@ -84,7 +85,7 @@ If yes, no you shouldn't, use your skills to build something.
 
 If no, move onto the next question.
 
-> Have you done at least one beginner machine learning course and would like to learn about deep learning/pass the TensorFlow Developer Certification?
+> Have you done at least one beginner machine learning course and would like to learn about deep learning/how to build neural networks with TensorFlow?
 
 If yes, this course is for you.
 
@@ -375,7 +376,13 @@ Jordan Kern, watching these will take you from 0 to 1 with time series problems:
 
 ---
 
-### 🛠 11. Passing the TensorFlow Developer Certification Exercises
+## TensorFlow Developer Certificate (archive)
+
+> **Note:** As of 1 May 2024, the TensorFlow Developer Certification is no longer available for purchase. After being in contact with the TensorFlow Certification team, they stated they were closing the program with no official next steps (see [#645](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/645) for more).
+>
+> With this in mind, the exercises/extra-curriculum below are for archive purposes only. The rest of the course materials are still valid.
+
+### 🛠 11. Passing the TensorFlow Developer Certification Exercises (archive)
 
 **Preparing your brain**
 1. Read through the [TensorFlow Developer Certificate Candidate Handbook](https://www.tensorflow.org/extras/cert/TF_Certificate_Candidate_Handbook.pdf).
@@ -393,7 +400,7 @@ Jordan Kern, watching these will take you from 0 to 1 with time series problems:
 ![before taking the TensorFlow Developer certification exam, make sure you can run TensorFlow code in PyCharm on your local machine](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/11-getting-example-script-to-run-in-pycharm.png)
 *Before taking the exam make sure you can run TensorFlow code on your local machine in PyCharm. If the [example `image_class_test.py` script](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_classification_test.py) can run completely in under 5-10 minutes on your local machine, your local machine can handle the exam (if not, you can use Google Colab to train, save and download models to submit for the exam).*
 
-### 📖 11. Passing the TensorFlow Developer Certification Extra-curriculum
+### 📖 11. Passing the TensorFlow Developer Certification Extra-curriculum (archive)
 
 If you'd like some extra materials to go through to further your skills with TensorFlow and deep learning in general or to prepare more for the exam, I'd highly recommend the following:
 
@@ -401,6 +408,8 @@ If you'd like some extra materials to go through to further your skills with Ten
 * 🎥 **Watch:** [How I passed the TensorFlow Developer Certification exam (and how you can too)](https://youtu.be/ya5NwvKafDk)
 * Go through the [TensorFlow in Practice Specialization on Coursera](https://dbourke.link/tfinpractice)
 * Read through the second half of [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition](https://amzn.to/3aYexF2)
+
+---
 
 ## What this course is missing
 
@@ -427,16 +436,10 @@ Here are some of the main topics you might want to look into next:
 
 Contact [Daniel Bourke](mailto:daniel@mrdbourke.com) or [add a discussion](https://github.com/mrdbourke/tensorflow-deep-learning/discussions) (preferred).
 
-## Status
-
-As of: 12 May 2023
-
-Course completed! 🕺
-
-Any further updates/changes will be added below. 
   
 ## Log
 
+* 2 May 2024 - update materials to reflect closing of TensorFlow Developer Certification exam by Google (see [#645](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/645) for more)
 * 12 May 2023 - update several course notebooks for latest version of TensorFlow, several API updates for Notebook 05 here: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/547
 * 02 Dec 2021 - add fix for TensorFlow 2.7 to notebook 02
 * 11 Nov 2021 - add fix for TensorFlow 2.7 to notebook 01
@@ -444,7 +447,7 @@ Any further updates/changes will be added below.
 * 16 Jul 2021 - added 35 videos to ZTM Academy + Udemy versions of the course for time series and how to pass TensorFlow Developer Certification
 * 10 Jul 2021 - added 29 edited time series videos to ZTM Academy + Udemy versions of the course, more to come soon
 * 07 Jul 2021 - recorded 5 videos for passing TensorFlow Developer Certification exam section - ALL VIDEOS FOR COURSE DONE!!! time to edit/upload! 🎉
-* 06 Jul 2021 - added guide to TensorFlow Certification Exam: https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md - going to record videos for it tomorrow
+* 06 Jul 2021 - (archived) added guide to TensorFlow Certification Exam: https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md - going to record videos for it tomorrow
 * 05 Jul 2021 - making materials for TF certification exam (what/why/how)
 * 02 Jul 2021 - FINISHED RECORDING VIDEOS FOR TIME SERIES SECTION!!!!! time to upload
 * 30 Jun 2021 - recorded 12 videos for time series section, total heading past 60 (the biggest section yet), nearly done!!!
