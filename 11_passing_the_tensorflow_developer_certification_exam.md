@@ -6,7 +6,7 @@
 >
 > See [#645](https://github.com/mrdbourke/tensorflow-deep-learning/discussions/645) on GitHub for more.
 
-<img src="images/misc-tensorflow-developer-certificate-closing.png" width=750 alt="The image shows a split screen with two browser windows. On the left, a webpage titled 'Updates to the TensorFlow Developer Certificate' provides details about the closing of the TensorFlow Developer Certificate exam, highlighting that the last day to register for the exam is April 30, 2024, and the final day to take it is May 31, 2024. On the right, an email from the TensorFlow Certificate Support to a person named Daniel states that the certificate program is being evaluated for future steps and reiterates that the last day to purchase the exam is May 31, 2024, with the final exam date as April 30, 2024."/>
+<img src="https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/images/misc-tensorflow-developer-certificate-closing.png?raw=true" width=900 alt="The image shows a split screen with two browser windows. On the left, a webpage titled 'Updates to the TensorFlow Developer Certificate' provides details about the closing of the TensorFlow Developer Certificate exam, highlighting that the last day to register for the exam is April 30, 2024, and the final day to take it is May 31, 2024. On the right, an email from the TensorFlow Certificate Support to a person named Daniel states that the certificate program is being evaluated for future steps and reiterates that the last day to purchase the exam is May 31, 2024, with the final exam date as April 30, 2024."/>
 
 ---
 
