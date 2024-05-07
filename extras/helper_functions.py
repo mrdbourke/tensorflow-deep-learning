@@ -2,6 +2,8 @@
 ### Storing them here so they're easily accessible.
 
 import tensorflow as tf
+import datetime
+import os
 
 # Create a function to import an image and resize it to be able to be used with our model
 def load_and_prep_image(filename, img_shape=224, scale=True):
@@ -131,26 +133,27 @@ def pred_and_plot(model, filename, class_names):
   plt.imshow(img)
   plt.title(f"Prediction: {pred_class}")
   plt.axis(False);
-  
-import datetime
 
-def create_tensorboard_callback(dir_name, experiment_name):
+
+def create_tensorboard_callback(experiment_name):
   """
-  Creates a TensorBoard callback instand to store log files.
+      Creates a TensorBoard callback instand to store log files.
 
-  Stores log files with the filepath:
-    "dir_name/experiment_name/current_datetime/"
+      Stores log files with the filepath:
+        "dir_name/experiment_name/current_datetime/"
 
-  Args:
-    dir_name: target directory to store TensorBoard log files
-    experiment_name: name of experiment directory (e.g. efficientnet_model_1)
+      Args:
+        dir_name: target directory to store TensorBoard log files
+        experiment_name: name of experiment directory (e.g. efficientnet_model_1)
   """
-  log_dir = dir_name + "/" + experiment_name + "/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+  logfit_dir = "logs/fit/"
+  path_experiment = (os.path.join(logfit_dir, experiment_name, datetime.datetime.now().strftime("%Y%m%d-%H%M%S")))
   tensorboard_callback = tf.keras.callbacks.TensorBoard(
-      log_dir=log_dir
+      log_dir=path_experiment
   )
-  print(f"Saving TensorBoard log files to: {log_dir}")
+  print(f"Saving TensorBoard log files to: {logfit_dir}")
   return tensorboard_callback
+
 
 # Plot the validation and training data separately
 import matplotlib.pyplot as plt
