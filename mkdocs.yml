@@ -1,0 +1,57 @@
+site_name: Zero to Mastery TensorFlow for Deep Learning
+site_url: http://dev.mrdbourke.com/tensorflow-deep-learning/
+
+repo_url: https://github.com/mrdbourke/tensorflow-deep-learning/
+repo_name: mrdbourke/tensorflow_deep_learning
+
+theme:
+  name: material
+  logo: assets/misc-ztm-logo.png
+  favicon: assets/misc-ztm-logo.png
+  features:
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
+  palette:
+    primary: black
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+ - mkdocs-jupyter
+ - search
+
+edit_uri: ""
+
+nav:
+  - Home: 'index.md'
+  - Fundamentals:
+    - '00 Getting started with TensorFlow': '00_tensorflow_fundamentals.ipynb'
+    - '01 Neural Network Regression with TensorFlow': '01_neural_network_regression_in_tensorflow.ipynb'
+    - '02 Neural Network Classification with TensorFlow': '02_neural_network_classification_in_tensorflow.ipynb'
+  - Computer Vision:
+    - '03 Convolutional Neural Networks and Computer Vision with TensorFlow': '03_convolutional_neural_networks_in_tensorflow.ipynb'
+  - Transfer Learning:
+    - '04 Transfer Learning with TensorFlow Part 1: Feature Extraction': '04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb'
+    - '05 Transfer Learning with TensorFlow Part 2: Fine-tuning': '05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb'
+    - '06 Transfer Learning with TensorFlow Part 3: Scaling up': '06_transfer_learning_in_tensorflow_part_3_scaling_up.ipynb'
+    - '07 Milestone Project 1: 🍔👁 Food Vision Big™': '07_food_vision_milestone_project_1.ipynb'
+  - Natural Language Processing:
+    - '08 Natural Language Processing with in TensorFlow': '08_introduction_to_nlp_in_tensorflow.ipynb' 
+    - '09 Milestone Project 2: SkimLit 📄🔥': '09_SkimLit_nlp_milestone_project_2.ipynb'
+  - Time Series:
+    - '10 Time Series in TensorFlow + Milestone Project 3: BitPredict 💰📈': '10_time_series_forecasting_in_tensorflow.ipynb'
+  - Preparing for the TensorFlow Developer Certification Exam (archive): '11_passing_the_tensorflow_developer_certification_exam.md'
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mrdbourke
+    - icon: fontawesome/brands/github
+      link: https://github.com/mrdbourke
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCr8O8l5cCX85Oem1d18EezQ
